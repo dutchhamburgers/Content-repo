@@ -35,6 +35,8 @@ jobs:
       - name: Validate news.json
         run: |
           npx ajv validate \
+            --spec=draft2020 \
+            -c ajv-formats \
             -s news.schema.json \
             -d news.json \
             --all-errors
