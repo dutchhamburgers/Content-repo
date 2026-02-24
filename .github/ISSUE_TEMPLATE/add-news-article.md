@@ -1,3 +1,11 @@
+---
+name: ➕ Add new news article
+about: Add a new curated article to news.json
+title: "Add news article: "
+labels: ["news"]
+assignees: []
+---
+
 ## Description
 
 Add a new curated news article to `news.json` in the Content-repo.
