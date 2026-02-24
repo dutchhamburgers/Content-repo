@@ -1,0 +1,40 @@
+name: Validate news.json
+
+on:
+  pull_request:
+    paths:
+      - "news.json"
+      - "news.schema.json"
+  push:
+    branches:
+      - main
+    paths:
+      - "news.json"
+      - "news.schema.json"
+  workflow_dispatch: {}
+
+jobs:
+  validate:
+    name: Validate news.json against schema
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install validator (ajv-cli)
+        run: |
+          npm init -y >/dev/null 2>&1
+          npm install --silent ajv-cli ajv-formats
+
+      - name: Validate news.json
+        run: |
+          npx ajv validate \
+            -s news.schema.json \
+            -d news.json \
+            --all-errors
