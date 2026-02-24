@@ -1,5 +1,19 @@
 [
   {
+    "slug": "employees-bring-own-ai-to-work-without-it-oversight",
+    "title": "Employees are bringing their own AI tools to work — and IT doesn't know",
+    "publishedAt": "2026-01-15",
+    "source": "TechCrunch",
+    "originalUrl": "https://techcrunch.com/2026/01/15/employees-bring-own-ai-to-work/",
+    "quote": "Over 70% of employees say they use generative AI tools at work without involving IT or security teams.",
+    "summary": "This article reveals that a large proportion of employees globally are using AI tools at work without notifying IT departments, creating significant blind spots for governance and security. It highlights that this unmanaged AI usage increases risks around data leakage, compliance gaps, and inconsistent tool policies. IT teams often lack visibility, and many organizations have no formal procedures to manage this trend.",
+    "relevanceBullets": [
+      "Demonstrates the shadow AI problem where employees bypass IT, exposing organizations to unmanaged data flow.",
+      "Underlines the need for controlled AI access with clear governance, which pseudoAI aims to solve."
+    ],
+    "tags": ["shadow-ai", "governance", "byoai"]
+  },
+  {
     "slug": "in-from-the-shadows-ais-uncontrolled-growth-itpro",
     "title": "In from the shadows: AI’s uncontrolled growth",
     "publishedAt": "2026-02-20",
