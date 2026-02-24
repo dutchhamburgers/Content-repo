@@ -3,11 +3,11 @@
     "slug": "in-from-the-shadows-ais-uncontrolled-growth-itpro",
     "title": "In from the shadows: AI’s uncontrolled growth",
     "publishedAt": "2026-02-20",
-    "sourceName": "ITPro",
-    "sourceUrl": "https://www.itpro.com/technology/artificial-intelligence/in-from-the-shadows-ais-uncontrolled-growth",
+    "source": "ITPro",
+    "originalUrl": "https://www.itpro.com/technology/artificial-intelligence/in-from-the-shadows-ais-uncontrolled-growth",
     "quote": "Generatieve AI groeit razendsnel buiten het zicht van corporate IT om.",
     "summary": "Het artikel beschrijft hoe medewerkers steeds vaker generatieve AI-tools gebruiken zonder formele IT-governance. Daardoor ontstaat ‘shadow AI’: innovatie versnelt, maar risico’s rond datalekken, compliance en controle nemen toe. Organisaties zoeken naar manieren om AI wél toe te staan, maar met duidelijke kaders.",
-    "relevance": [
+    "relevanceBullets": [
       "Onderbouwt het probleem ‘shadow AI’: medewerkers gebruiken AI buiten IT om, waardoor gevoelige data ongecontroleerd kan wegstromen.",
       "Laat zien waarom een gecontroleerde AI-werkwijze nodig is: wel productiviteitswinst, maar met governance en dataminimalisatie."
     ],
@@ -17,11 +17,11 @@
     "slug": "ai-expanding-attack-surfaces-shadow-ai-itpro",
     "title": "AI is expanding attack surfaces – and hackers are looking to reap the same rewards as enterprises",
     "publishedAt": "2026-02-16",
-    "sourceName": "ITPro",
-    "sourceUrl": "https://www.itpro.com/security/they-are-able-to-move-fast-now-ai-is-expanding-attack-surfaces-and-hackers-are-looking-to-reap-the-same-rewards-as-enterprises-with-the-technology",
+    "source": "ITPro",
+    "originalUrl": "https://www.itpro.com/security/they-are-able-to-move-fast-now-ai-is-expanding-attack-surfaces-and-hackers-are-looking-to-reap-the-same-rewards-as-enterprises-with-the-technology",
     "quote": "Onbeheerd AI-gebruik creëert blind spots voor securityteams en verhoogt datalekrisico’s.",
     "summary": "Dit stuk koppelt de snelle opkomst van AI aan een groter digitaal aanvalsoppervlak. Niet alleen gebruiken organisaties AI op steeds meer plekken, ook aanvallers zetten AI in om sneller te schalen. Zonder overzicht en beleid ontstaan ‘blind spots’ waar securityteams geen grip op hebben.",
-    "relevance": [
+    "relevanceBullets": [
       "Maakt concreet dat ‘AI overal’ ook ‘risico overal’ betekent: onbeheerde tooling kan datalekken en incidenten veroorzaken.",
       "Versterkt de businesscase voor een managed/guarded AI-route zodat medewerkers niet uitwijken naar risicovolle tools."
     ],
@@ -31,11 +31,11 @@
     "slug": "microsoft-waarschuwt-voor-gevaarlijke-shadow-ai-datanews",
     "title": "Microsoft waarschuwt voor gevaarlijke shadow AI",
     "publishedAt": "2026-02-12",
-    "sourceName": "DataNews / Knack",
-    "sourceUrl": "https://datanews.knack.be/nieuws/security/microsoft-waarschuwt-voor-gevaarlijke-shadow-ai/",
+    "source": "DataNews / Knack",
+    "originalUrl": "https://datanews.knack.be/nieuws/security/microsoft-waarschuwt-voor-gevaarlijke-shadow-ai/",
     "quote": "Shadow AI creëert blinde vlekken in de bedrijfsveiligheid.",
     "summary": "Het artikel beschrijft hoe ongeautoriseerd AI-gebruik door medewerkers leidt tot verlies van overzicht en controle. Als IT en security niet weten welke tools worden gebruikt en welke data daarin terechtkomt, ontstaan nieuwe kwetsbaarheden en compliance-risico’s. De boodschap: organisaties moeten AI-gebruik kanaliseren met beleid en tooling.",
-    "relevance": [
+    "relevanceBullets": [
       "Geeft autoriteit aan het probleem: zelfs grote spelers waarschuwen dat shadow AI security ‘blind spots’ creëert.",
       "Sluit direct aan op pseudoAI: een veilige workflow waarmee medewerkers AI kunnen gebruiken zonder gevoelige gegevens te lekken."
     ],
@@ -45,11 +45,11 @@
     "slug": "snelle-ai-adoptie-vergroot-risico-op-shadow-it-techzine",
     "title": "Snelle AI-adoptie vergroot risico op shadow IT",
     "publishedAt": "2026-02-11",
-    "sourceName": "Techzine",
-    "sourceUrl": "https://www.techzine.nl/nieuws/privacy-compliance/574938/snelle-ai-adoptie-vergroot-risico-op-shadow-it/",
+    "source": "Techzine",
+    "originalUrl": "https://www.techzine.nl/nieuws/privacy-compliance/574938/snelle-ai-adoptie-vergroot-risico-op-shadow-it/",
     "quote": "AI-adoptie groeit sneller dan governance en securitycontrole kunnen bijbenen.",
     "summary": "Techzine beschrijft hoe AI in korte tijd breed wordt ingezet, terwijl beleid, toezicht en controles vaak achterlopen. Daardoor ontstaat een nieuwe variant van shadow IT: teams gebruiken AI-tooling buiten de standaard processen om. Dit vergroot risico’s op datalekken, inconsistent beleid en compliance-problemen.",
-    "relevance": [
+    "relevanceBullets": [
       "Onderstreept de governance-gap: organisaties zetten AI in, maar missen vaak centrale controle over datastromen en tooling.",
       "Rechtvaardigt een ‘approved path’ zoals pseudoAI: medewerkers krijgen snelheid, organisatie behoudt controle."
     ],
@@ -59,11 +59,11 @@
     "slug": "shadow-ai-80-procent-eigen-ai-tools-universalcloud",
     "title": "Shadow AI: Waarom 80% van medewerkers eigen AI-tools meebrengt naar het werk",
     "publishedAt": "2026-01-22",
-    "sourceName": "Universal.cloud",
-    "sourceUrl": "https://universal.cloud/nl/blog/byoai-shadow-ai-security-risk/",
+    "source": "Universal.cloud",
+    "originalUrl": "https://universal.cloud/nl/blog/byoai-shadow-ai-security-risk/",
     "quote": "BYOAI groeit: medewerkers nemen eigen AI-tools mee naar het werk.",
     "summary": "Dit artikel beschrijft waarom medewerkers zelf AI-tools kiezen: snelheid, gemak en directe productiviteitswinst. Tegelijk introduceert BYOAI risico’s omdat bedrijfsinformatie in externe tools kan belanden zonder overzicht, beleid of contractuele waarborgen. De kern: als je geen veilige standaard biedt, ontstaat shadow AI vanzelf.",
-    "relevance": [
+    "relevanceBullets": [
       "Laat de oorzaak zien: medewerkers willen snelheid en gaan zelf tooling gebruiken als er geen veilige, officiële optie is.",
       "Onderbouwt de oplossing: pseudoAI biedt een gecontroleerde route die shadow AI ontmoedigt zonder innovatie te blokkeren."
     ],
