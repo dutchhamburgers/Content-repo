@@ -1,5 +1,5 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://pseudoai.news/schema/news.schema.json",
   "title": "PseudoAI News Feed",
   "description": "Schema for curated news items used in the PseudoAI Sales website.",
@@ -7,22 +7,23 @@
   "minItems": 1,
   "items": {
     "type": "object",
+    "additionalProperties": false,
     "required": [
       "slug",
       "title",
       "publishedAt",
       "source",
+      "language",
       "originalUrl",
       "quote",
       "summary",
       "relevanceBullets"
     ],
-    "additionalProperties": false,
     "properties": {
       "slug": {
         "type": "string",
         "pattern": "^[a-z0-9-]+$",
-        "description": "URL-safe unique identifier (kebab-case)."
+        "description": "URL-safe unique identifier in kebab-case."
       },
       "title": {
         "type": "string",
@@ -39,6 +40,11 @@
         "minLength": 2,
         "description": "Name of the publication."
       },
+      "language": {
+        "type": "string",
+        "enum": ["nl", "en"],
+        "description": "Language of the original article. Only Dutch (nl) or English (en) allowed."
+      },
       "originalUrl": {
         "type": "string",
         "format": "uri",
@@ -47,7 +53,7 @@
       "quote": {
         "type": "string",
         "maxLength": 200,
-        "description": "Short quote or excerpt (max ~200 characters)."
+        "description": "Short quote or excerpt (max 200 characters)."
       },
       "summary": {
         "type": "string",
