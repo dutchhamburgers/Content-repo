@@ -35,84 +35,288 @@ Requirements:
 
 ---
 
-## 🧾 JSON Schema
+# Canvas: Ontwerp voor Weekly Article Selection
 
-Each item must follow this structure:
+---
 
-```json
+## 🎯 Strategisch Doel
+
+Voor de pseudoAI sales website bouwen we een wekelijkse, gecureerde selectie van maximaal **3 recente persartikelen (≤ 3 maanden oud)** die aantonen waarom gecontroleerde AI noodzakelijk is.
+
+Focus:
+- Shadow AI (medewerkers omzeilen IT)
+- Data leakage via ongecontroleerde AI-tools
+- Governance gaps
+- Compliance risico’s
+- Security blind spots
+
+Kwaliteit boven kwantiteit.
+
+---
+
+## 🧠 Thematic Clusters
+
+Artikelen moeten aantoonbaar binnen één of meer van deze clusters vallen:
+
+### 1) Shadow AI & IT Bypass
+- Employees bypassing IT
+- Unauthorized AI tools
+- BYOAI
+- Rogue AI adoption
+
+### 2) Data Leakage & Security
+- Confidential data exposure via AI
+- AI expanding attack surfaces
+- Security blind spots
+
+### 3) Governance & Compliance Gap
+- AI governance failures
+- Missing AI policy
+- Regulatory exposure
+- Uncontrolled AI adoption
+
+---
+
+## 📋 Selectieproces (3-Fasen Model)
+
+### Fase 1 — Brede Discovery
+- Identificeer 10–20 artikelen ≤ 3 maanden oud
+- Gebruik meerdere betrouwbare bronnen
+- Filter op organisatorisch risico (geen productlanceringen of investeringsnieuws)
+
+### Fase 2 — Interne Scoring (niet zichtbaar in output)
+Elk artikel wordt intern beoordeeld op:
+- Governance urgency
+- Concrete data risk
+- Organizational impact
+- Sales narrative strength
+
+### Fase 3 — Diversiteitsfilter
+- Maximaal 1 artikel per bron
+- Voorkeur voor spreiding over clusters
+- Selecteer de beste 3 op totaalscore
+
+---
+
+## 📦 Output Contract (Schema Conform)
+
+De wekelijkse output bevat maximaal 3 artikelen in dit exacte JSON-schema:
+
 {
-  "slug": "unique-slug",
-  "title": "Article title",
+  "slug": "...",
+  "title": "...",
   "publishedAt": "YYYY-MM-DD",
-  "sourceName": "Source name",
-  "sourceUrl": "https://original-article-url",
-  "quote": "Short quote (max ~180 characters).",
-  "summary": "2–4 sentence summary in our own words.",
-  "relevance": [
-    "Relevance bullet 1 (why this matters for pseudoAI).",
-    "Relevance bullet 2 (concrete risk or implication)."
+  "source": "...",
+  "originalUrl": "...",
+  "quote": "...",
+  "summary": "...",
+  "relevanceBullets": [
+    "...",
+    "..."
   ],
-  "tags": ["shadow-ai", "governance"]
+  "tags": ["shadow-ai", "..."]
 }
-✍ Editorial Guidelines
 
-To ensure consistency and legal safety:
+Regels:
+- Slug in kebab-case
+- Quote max 200 karakters
+- Summary 2–4 zinnen, neutraal
+- Exact 2 relevanceBullets
+- Geen extra velden
+- Alleen geldige JSON-array als output
 
-Quote
+---
 
-Keep short (max ~180 characters)
+## 🔁 Definitieve Weekly Prompt (met language support)
 
-Do NOT copy full paragraphs
+You are acting as a strategic analyst for pseudoAI.
 
-Avoid copyrighted large excerpts
+Your task is NOT to return the first 3 recent articles.
 
-Summary
+Your task is to:
 
-2–4 sentences
+1. Identify 10–20 recent press articles (≤ 3 months old) that discuss:
+   - Shadow AI
+   - Employees bypassing IT
+   - Unmanaged AI adoption
+   - Data leakage from AI tools
+   - AI governance failures
+   - Compliance or regulatory exposure
 
-Neutral tone
+2. Only consider articles written in:
+   - Dutch (nl)
+   - English (en)
 
-Written in our own words
+   Explicitly exclude:
+   - French
+   - Spanish
+   - German
+   - Czech
+   - Any other language
 
-No marketing language
+3. Score each candidate internally (do NOT show scoring in output) on:
+   - Governance urgency
+   - Concrete data risk
+   - Organizational impact
+   - Sales narrative strength
 
-Relevance
+4. Select the BEST 3 articles based on:
+   - Highest total score
+   - Different sources (no more than one per publication)
+   - Prefer diversity across thematic clusters
+   - Prefer not repeating the same source used last week (if alternatives exist)
 
-Exactly 2 bullet points
+5. Return ONLY the final 3 articles as a JSON array.
 
-Concrete
+Each article must strictly follow this schema:
 
-Directly linked to:
+{
+  "slug": "...",
+  "title": "...",
+  "publishedAt": "YYYY-MM-DD",
+  "source": "...",
+  "language": "nl" or "en",
+  "originalUrl": "...",
+  "quote": "...",
+  "summary": "...",
+  "relevanceBullets": [
+    "...",
+    "..."
+  ],
+  "tags": ["shadow-ai", "..."]
+}
 
-Shadow AI
+Rules:
 
-Data leakage risks
+- Maximum 3 articles
+- Exactly 2 relevanceBullets
+- Quote max 200 characters
+- Summary 2–4 sentences
+- Slug must be kebab-case
+- language must be either "nl" or "en"
+- Sources must not be identical
+- No explanations
+- No markdown
+- Return only valid JSON array
 
-Governance gaps
+---
 
-Compliance
+## 🚀 Strategisch Resultaat
 
-Need for controlled AI usage
+Dit systeem bouwt geen nieuwsfeed, maar een doorlopend bewijsdossier dat:
+- Shadow AI structureel is
+- Governance achterloopt
+- Data leakage risico reëel is
+- Organisaties gecontroleerde AI nodig hebben
 
-Tags
+Dit versterkt sales messaging, homepage positioning en thought leadership op lange termijn.
 
-Use consistent taxonomy:
+---
 
-shadow-ai
+## 📅 Toekomstige Automatisering (Optioneel)
 
-governance
+- Wekelijkse scheduled run
+- PR-only voorstel naar content-repo
+- Schema-validatie via GitHub Action
+- Brondiversiteit per week bewaken
 
-security
+---
 
-privacy
+---
 
-compliance
+## 📤 Weekly Output Afspraken (Definitief)
 
-data-leakage
+Vanaf nu levert iedere wekelijkse run altijd twee onderdelen, in vaste volgorde:
 
-byoai
+```
+=== news.json ===
+<Schema-valide JSON array>
 
-attack-surface
+=== news-preview.html ===
+<Eenvoudige leesbare HTML preview>
+```
+
+### 1️⃣ news.json
+- Is de enige ‘source of truth’
+- 100% conform `news.schema.json`
+- Bevat verplicht veld: `language` ("nl" of "en")
+- Maximaal 3 artikelen
+- Exact 2 `relevanceBullets`
+- Alleen geldige JSON array (geen uitleg, geen markdown)
+
+### 2️⃣ news-preview.html
+- Bevat exact dezelfde inhoud als de JSON
+- Geen styling of design complexiteit
+- Alleen:
+  - Titel
+  - Taalindicatie (NL / EN)
+  - Datum
+  - Bron
+  - Quote
+  - Samenvatting
+  - 2 relevance bullets
+  - Klikbare link naar originele bron
+- Link opent in nieuw tabblad
+- Indien `language = "en"`:
+  - Linktekst: “Lees het originele artikel (Engels)”
+- Indien `language = "nl"`:
+  - Linktekst: “Lees het originele artikel”
+
+Doel van HTML-preview:
+- Snel leesbaar
+- Intern reviewbaar
+- Direct deelbaar
+- Geen afhankelijkheid van JSON-weergave
+
+---
+
+## 🌍 Taalbeleid
+
+- Alleen artikelen in Nederlands (nl) of Engels (en)
+- Andere talen worden uitgesloten
+- `language` is verplicht veld in schema
+- Sales-website toont taalbadge op basis van dit veld
+
+---
+
+## 🏁 Kwaliteitsprincipes
+
+Iedere week gelden de volgende vaste regels:
+
+- Maximaal 3 artikelen
+- Niet de eerste 3, maar de BESTE 3
+- Interne scoring (niet zichtbaar in output)
+- Maximaal 1 artikel per bron
+- Voorkeur voor thematische spreiding
+- Geen herhaling van dezelfde bron als alternatieven beschikbaar zijn
+- Alleen pers / redactionele bronnen
+- Geen productlanceringen of investeringsnieuws
+
+---
+
+## 🎯 Strategische Positionering
+
+De nieuwssectie is geen algemene AI-nieuwsfeed.
+
+Het is een structureel bewijsdossier dat aantoont:
+
+- Shadow AI is reëel
+- Governance loopt achter
+- Data leakage risico is concreet
+- Compliance exposure neemt toe
+- Organisaties gecontroleerde AI nodig hebben
+
+Dit ondersteunt:
+- Salesgesprekken
+- Homepage messaging
+- Thought leadership
+- Positionering van pseudoAI
+
+---
+
+Einde Canvas.
+
+
 
 🔄 Update Process
 Manual update
@@ -160,3 +364,5 @@ That unmanaged AI use creates compliance and data risks
 That organizations need a controlled AI workflow
 
 Maintained by: PseudoAI
+
+
