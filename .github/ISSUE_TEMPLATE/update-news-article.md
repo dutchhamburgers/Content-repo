@@ -1,3 +1,11 @@
+---
+name: 🔁 Update existing news article
+about: Modify an existing article in news.json
+title: "Update news article: "
+labels: ["news"]
+assignees: []
+---
+
 ## Description
 
 Update an existing news article in `news.json`.
