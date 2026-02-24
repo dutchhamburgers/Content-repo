@@ -4,6 +4,7 @@
     "title": "In from the shadows: AI’s uncontrolled growth",
     "publishedAt": "2026-02-20",
     "source": "ITPro",
+    "language": "en",
     "originalUrl": "https://www.itpro.com/technology/artificial-intelligence/in-from-the-shadows-ais-uncontrolled-growth",
     "quote": "Generatieve AI groeit razendsnel buiten het zicht van corporate IT om.",
     "summary": "Het artikel beschrijft hoe medewerkers steeds vaker generatieve AI-tools gebruiken zonder formele IT-governance. Daardoor ontstaat ‘shadow AI’: innovatie versnelt, maar risico’s rond datalekken, compliance en controle nemen toe. Organisaties zoeken naar manieren om AI wél toe te staan, maar met duidelijke kaders.",
@@ -18,6 +19,7 @@
     "title": "AI is expanding attack surfaces – and hackers are looking to reap the same rewards as enterprises",
     "publishedAt": "2026-02-16",
     "source": "ITPro",
+    "language": "en",
     "originalUrl": "https://www.itpro.com/security/they-are-able-to-move-fast-now-ai-is-expanding-attack-surfaces-and-hackers-are-looking-to-reap-the-same-rewards-as-enterprises-with-the-technology",
     "quote": "Onbeheerd AI-gebruik creëert blind spots voor securityteams en verhoogt datalekrisico’s.",
     "summary": "Dit stuk koppelt de snelle opkomst van AI aan een groter digitaal aanvalsoppervlak. Niet alleen gebruiken organisaties AI op steeds meer plekken, ook aanvallers zetten AI in om sneller te schalen. Zonder overzicht en beleid ontstaan ‘blind spots’ waar securityteams geen grip op hebben.",
@@ -32,6 +34,7 @@
     "title": "Microsoft waarschuwt voor gevaarlijke shadow AI",
     "publishedAt": "2026-02-12",
     "source": "DataNews / Knack",
+    "language": "nl",
     "originalUrl": "https://datanews.knack.be/nieuws/security/microsoft-waarschuwt-voor-gevaarlijke-shadow-ai/",
     "quote": "Shadow AI creëert blinde vlekken in de bedrijfsveiligheid.",
     "summary": "Het artikel beschrijft hoe ongeautoriseerd AI-gebruik door medewerkers leidt tot verlies van overzicht en controle. Als IT en security niet weten welke tools worden gebruikt en welke data daarin terechtkomt, ontstaan nieuwe kwetsbaarheden en compliance-risico’s. De boodschap: organisaties moeten AI-gebruik kanaliseren met beleid en tooling.",
@@ -46,6 +49,7 @@
     "title": "Snelle AI-adoptie vergroot risico op shadow IT",
     "publishedAt": "2026-02-11",
     "source": "Techzine",
+    "language": "nl",
     "originalUrl": "https://www.techzine.nl/nieuws/privacy-compliance/574938/snelle-ai-adoptie-vergroot-risico-op-shadow-it/",
     "quote": "AI-adoptie groeit sneller dan governance en securitycontrole kunnen bijbenen.",
     "summary": "Techzine beschrijft hoe AI in korte tijd breed wordt ingezet, terwijl beleid, toezicht en controles vaak achterlopen. Daardoor ontstaat een nieuwe variant van shadow IT: teams gebruiken AI-tooling buiten de standaard processen om. Dit vergroot risico’s op datalekken, inconsistent beleid en compliance-problemen.",
@@ -56,52 +60,11 @@
     "tags": ["governance", "shadow-it", "privacy"]
   },
   {
-    "slug": "employees-bring-own-ai-to-work-without-it-oversight",
-    "title": "Employees are bringing their own AI tools to work — and IT doesn't know",
-    "publishedAt": "2026-01-15",
-    "source": "TechCrunch",
-    "originalUrl": "https://techcrunch.com/2026/01/15/employees-bring-own-ai-to-work/",
-    "quote": "Over 70% of employees say they use generative AI tools at work without involving IT or security teams.",
-    "summary": "This article reveals that a large proportion of employees globally are using AI tools at work without notifying IT departments, creating significant blind spots for governance and security. It highlights that this unmanaged AI usage increases risks around data leakage, compliance gaps, and inconsistent tool policies. IT teams often lack visibility, and many organizations have no formal procedures to manage this trend.",
-    "relevanceBullets": [
-      "Demonstrates the shadow AI problem where employees bypass IT, exposing organizations to unmanaged data flow.",
-      "Underlines the need for controlled AI access with clear governance, which pseudoAI aims to solve."
-    ],
-    "tags": ["shadow-ai", "governance", "byoai"]
-  },
-  {
-    "slug": "ai-causes-data-leakage-in-enterprises-security-warn",
-    "title": "Security teams warn generative AI is causing data leakage in enterprises",
-    "publishedAt": "2026-02-10",
-    "source": "CSO Online",
-    "originalUrl": "https://www.csoonline.com/article/xyz123-ai-causing-data-leakage.html",
-    "quote": "Security teams are increasingly seeing incidents where employees upload confidential documents into generative AI tools.",
-    "summary": "The article discusses rising cases reported by enterprise security teams where employees inadvertently or intentionally upload sensitive documents to generative AI tools outside of sanctioned IT systems. This behavior has resulted in real data leakage incidents and regulatory exposure. The piece calls on organizations to adopt stringent governance and oversight for AI usage.",
-    "relevanceBullets": [
-      "Provides concrete examples of data leakage through unmanaged AI, showing tangible risks.",
-      "Supports the need for a managed AI platform like pseudoAI to prevent unsanctioned data exposure."
-    ],
-    "tags": ["security", "data-leakage", "compliance"]
-  },
-  {
-    "slug": "ai-governance-gap-as-tool-adoption-outpaces-policy",
-    "title": "AI adoption outpaces corporate governance policies — leaders warn of compliance risk",
-    "publishedAt": "2026-02-02",
-    "source": "ZDNet",
-    "originalUrl": "https://www.zdnet.com/article/ai-adoption-outpaces-corporate-governance/",
-    "quote": "Research shows corporate AI adoption is accelerating faster than companies can implement governance frameworks.",
-    "summary": "This article highlights how corporate AI adoption, especially generative AI tools, is growing rapidly while governance frameworks lag behind. It details warnings from analysts and executives about compliance risks, regulatory exposures, and lack of oversight. The piece positions this governance gap as a systemic risk that needs strategic solutions.",
-    "relevanceBullets": [
-      "Shows that AI governance frameworks are lagging behind adoption, creating compliance and oversight issues.",
-      "Illustrates the larger structural need for controlled AI environments like pseudoAI to offer secure, governed access."
-    ],
-    "tags": ["governance", "compliance", "shadow-it"]
-  },
-  {
     "slug": "shadow-ai-80-procent-eigen-ai-tools-universalcloud",
     "title": "Shadow AI: Waarom 80% van medewerkers eigen AI-tools meebrengt naar het werk",
     "publishedAt": "2026-01-22",
     "source": "Universal.cloud",
+    "language": "nl",
     "originalUrl": "https://universal.cloud/nl/blog/byoai-shadow-ai-security-risk/",
     "quote": "BYOAI groeit: medewerkers nemen eigen AI-tools mee naar het werk.",
     "summary": "Dit artikel beschrijft waarom medewerkers zelf AI-tools kiezen: snelheid, gemak en directe productiviteitswinst. Tegelijk introduceert BYOAI risico’s omdat bedrijfsinformatie in externe tools kan belanden zonder overzicht, beleid of contractuele waarborgen. De kern: als je geen veilige standaard biedt, ontstaat shadow AI vanzelf.",
