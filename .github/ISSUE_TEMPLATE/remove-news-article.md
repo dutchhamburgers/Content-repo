@@ -1,3 +1,11 @@
+---
+name: 🗑 Remove outdated news article
+about: Remove an article from news.json
+title: "Remove news article: "
+labels: ["news"]
+assignees: []
+---
+
 ## Description
 
 Remove an outdated or no-longer-relevant article from `news.json`.
