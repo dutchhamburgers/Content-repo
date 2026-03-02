@@ -1,24 +1,5 @@
 [
   {
-    "slug": "ai-deepfakes-security-nightmare-businesses-techradar",
-    "title": "AI and deepfakes are proving to be a security nightmare for businesses everywhere",
-    "publishedAt": "2026-02-25",
-    "source": "TechRadar",
-    "language": "en",
-    "originalUrl": "https://www.techradar.com/pro/security/ai-and-deepfakes-are-proving-to-be-a-security-nightmare-for-businesses-everywhere",
-    "quote": "61% of organisations see AI as a top security risk, particularly because AI tools often have greater trust privileges than humans.",
-    "summary": "The Thales 2026 Data Threat Report reveals that 61% of organisations now identify AI as their foremost security concern. AI tools are routinely granted elevated trust privileges exceeding those of human users, expanding governance blind spots and increasing internal misuse risk. Deepfakes are highlighted as a growing attack vector used for identity fraud and social engineering that is increasingly difficult for organisations to detect.",
-    "relevanceBullets": [
-      "Demonstrates that AI governance gaps are widely recognised: over 60% of organisations consider AI their top security risk.",
-      "Highlights that AI tools with elevated privileges expand the attack surface, making controlled AI usage — as offered by pseudoAI — a business necessity."
-    ],
-    "tags": [
-      "security",
-      "shadow-ai",
-      "compliance"
-    ]
-  },
-  {
     "slug": "ai-regulatory-risk-eu-companies",
     "title": "EU regulators warn companies about unmanaged AI risks",
     "publishedAt": "2026-02-20",
