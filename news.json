@@ -1,5 +1,41 @@
 [
   {
+    "slug": "cios-ai-adoption-outpaces-governance-2026",
+    "title": "CIOs say AI adoption is moving faster than they can manage",
+    "publishedAt": "2026-03-03",
+    "source": "The Register",
+    "language": "en",
+    "originalUrl": "https://www.theregister.com/2026/03/03/cios_say_ai_adoption_too_fast/",
+    "quote": "Organizations are investing in AI faster than they can manage it.",
+    "summary": "The Logicalis Global CIO Report 2026, based on a survey of 1,000 technology leaders worldwide, shows that AI investment and deployment are outpacing the governance, skills, and operating models needed to manage them safely. CIOs report a widening gap between AI adoption ambition and the organizational readiness required to execute responsibly.",
+    "relevanceBullets": [
+      "Bevestigt vanuit CIO-perspectief dat AI-adoptie structureel sneller gaat dan governance, waardoor organisaties kwetsbaar blijven.",
+      "Ondersteunt de positionering van pseudoAI als noodzakelijke governancelaag voor organisaties die AI veilig en beheersbaar willen inzetten."
+    ],
+    "tags": [
+      "governance"
+    ]
+  },
+  {
+    "slug": "techradar-shadow-ai-unmanaged-accounts",
+    "title": "Your employees are using AI, whether you like it or not - but are they using AI securely?",
+    "publishedAt": "2026-03-01",
+    "source": "TechRadar Pro",
+    "language": "en",
+    "originalUrl": "https://www.techradar.com/pro/your-employees-are-using-ai-whether-you-like-it-or-not-but-are-they-using-ai-securely",
+    "quote": "Nearly half of GenAI users still access tools through personal or unmanaged accounts, linking shadow AI directly to data leakage and compliance risk.",
+    "summary": "A new report reveals that 83% of UK employees regularly use generative AI for work tasks, with 78% introducing their own AI tools without employer oversight. Nearly half still access these tools through personal or unmanaged accounts, creating direct exposure to data leakage, IP loss, and violations of regulations such as GDPR and HIPAA.",
+    "relevanceBullets": [
+      "Toont aan dat de meerderheid van medewerkers al buiten officiële IT-kanalen om AI inzet, wat databeheersing en compliance actief bedreigt.",
+      "Benadrukt dat shadow AI via persoonlijke accounts een concrete governance-blinde vlek creëert die organisaties direct raakt."
+    ],
+    "tags": [
+      "shadow-ai",
+      "compliance",
+      "data-leakage"
+    ]
+  },
+  {
     "slug": "ai-regulatory-risk-eu-companies",
     "title": "EU regulators warn companies about unmanaged AI risks",
     "publishedAt": "2026-02-20",
@@ -14,6 +50,24 @@
     ],
     "tags": [
       "compliance",
+      "governance"
+    ]
+  },
+  {
+    "slug": "register-ai-roi-workers-governance-gap",
+    "title": "CIOs told: Prove your AI pays off – or pay the price",
+    "publishedAt": "2026-02-17",
+    "source": "The Register",
+    "language": "en",
+    "originalUrl": "https://www.theregister.com/2026/02/17/no_roi_no_ai/",
+    "quote": "82% of CIOs say employees are creating AI agents and apps faster than IT can govern them.",
+    "summary": "A report shows that 82% of CIOs say employees are building AI agents and applications faster than IT departments can govern them, while the same proportion express concern about sensitive company data exposure from worker-built AI. Organizations are under increasing pressure to demonstrate measurable return on investment from enterprise AI spending while simultaneously closing governance gaps.",
+    "relevanceBullets": [
+      "Laat zien dat medewerkers actief AI-agenten bouwen buiten IT-toezicht, wat het risico op blootstelling van gevoelige bedrijfsdata vergroot.",
+      "Onderstreept dat gecontroleerde AI-inzet, zoals pseudoAI biedt, essentieel is om de kloof tussen adoptie en governance te dichten."
+    ],
+    "tags": [
+      "shadow-ai",
       "governance"
     ]
   },
