@@ -1,5 +1,61 @@
 [
   {
+    "slug": "navigating-ai-adoption-risks-untrained-users",
+    "title": "Navigating AI Adoption: Mitigating The Risks Posed By Untrained Users",
+    "publishedAt": "2026-03-06",
+    "source": "Forbes",
+    "language": "en",
+    "originalUrl": "https://www.forbes.com/councils/forbeshumanresourcescouncil/2026/03/06/navigating-ai-adoption-mitigating-the-risks-posed-by-untrained-users/",
+    "quote": "Organizations adopting generative AI face growing risk from employees using AI tools without training, policies, or oversight.",
+    "summary": "Organizations adopting generative AI are increasingly exposed to risk created by employees who use AI tools without proper training, policies, or oversight. This uncontrolled usage creates serious data protection and compliance concerns. The article argues that structured AI policies and governed enterprise AI environments are essential to mitigate these risks.",
+    "relevanceBullets": [
+      "Ongetrainde werknemers die AI-tools gebruiken vergroten de kans op datalekken en compliance‑problemen binnen organisaties.",
+      "Het artikel onderstreept het belang van governance, beleid en gecontroleerde enterprise‑AI om ongecontroleerd gebruik te voorkomen."
+    ],
+    "tags": [
+      "governance",
+      "compliance",
+      "shadow-ai"
+    ]
+  },
+  {
+    "slug": "ey-survey-autonomous-ai-adoption-surges-oversight-falls-behind",
+    "title": "EY survey: autonomous AI adoption surges at tech companies as oversight falls behind",
+    "publishedAt": "2026-03-05",
+    "source": "MarketWatch",
+    "language": "en",
+    "originalUrl": "https://www.marketwatch.com/press-release/ey-survey-autonomous-ai-adoption-surges-at-tech-companies-as-oversight-falls-behind-2c5463a7",
+    "quote": "Companies accelerate adoption of autonomous AI systems even as governance frameworks, oversight, and risk controls struggle to keep pace.",
+    "summary": "An EY technology poll reveals that companies are rapidly accelerating their adoption of autonomous AI systems. However, governance frameworks, oversight mechanisms, and risk controls are struggling to keep pace with this rapid deployment. The growing gap between adoption speed and organizational readiness creates significant compliance and security exposure for enterprises.",
+    "relevanceBullets": [
+      "Bedrijven versnellen de inzet van autonome AI terwijl governance‑ en controlemechanismen achterblijven.",
+      "Dit illustreert het groeiende risico dat AI‑implementaties sneller gaan dan beleid, compliance en toezicht binnen organisaties."
+    ],
+    "tags": [
+      "governance",
+      "compliance"
+    ]
+  },
+  {
+    "slug": "manifest-report-ai-readiness-gap-enterprise-security",
+    "title": "Manifest report reveals AI readiness gap as enterprise security teams struggle with visibility and governance",
+    "publishedAt": "2026-03-04",
+    "source": "Unite.AI",
+    "language": "en",
+    "originalUrl": "https://www.unite.ai/manifest-report-reveals-ai-readiness-gap-as-enterprise-security-teams-struggle-with-visibility-and-governance/",
+    "quote": "Executives believe their organizations are prepared for AI risks, but security teams report major governance gaps, shadow AI usage, and limited visibility.",
+    "summary": "A new Manifest survey of security leaders reveals a significant disconnect between executive confidence and operational reality in AI risk management. While senior leadership believes their organizations are well-prepared for AI risks, security teams report major governance gaps, widespread shadow AI usage, and limited visibility into AI components embedded in enterprise software.",
+    "relevanceBullets": [
+      "Onderzoek laat zien dat 'shadow AI' al in veel organisaties aanwezig is en vaak buiten zicht van security- en governance‑teams wordt gebruikt.",
+      "Het verschil tussen managementvertrouwen en operationele realiteit benadrukt de noodzaak van controleerbare en governable enterprise‑AI oplossingen."
+    ],
+    "tags": [
+      "shadow-ai",
+      "governance",
+      "security"
+    ]
+  },
+  {
     "slug": "cios-ai-adoption-outpaces-governance-2026",
     "title": "CIOs say AI adoption is moving faster than they can manage",
     "publishedAt": "2026-03-03",
