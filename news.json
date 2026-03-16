@@ -1,5 +1,43 @@
 [
   {
+    "slug": "smb-ai-risk-invisible-workflow-change",
+    "title": "The risk for SMBs is not reckless use of AI, but invisible workflow change",
+    "publishedAt": "2026-03-14",
+    "source": "TechRadar Pro",
+    "language": "en",
+    "originalUrl": "https://www.techradar.com/pro/the-risk-for-smbs-is-not-reckless-use-of-ai-but-invisible-workflow-change-legal-firms-are-falling-behind-when-it-comes-to-setting-rules-for-ai-use",
+    "quote": "Many legal professionals use AI tools while organizations lack formal policies, raising the risk that sensitive data is entered into public AI systems.",
+    "summary": "A new report highlights that the primary AI-related risk for small and medium-sized businesses is not deliberate misuse, but the gradual and invisible integration of AI tools into daily workflows. Many professionals, particularly in legal services, already use AI tools while their organizations still lack formal AI policies. This creates significant data leakage and compliance risks, as sensitive client information can inadvertently be entered into public AI systems without institutional oversight.",
+    "relevanceBullets": [
+      "Veel professionals gebruiken AI‑tools terwijl hun organisaties nog geen formeel AI‑beleid of governance hebben.",
+      "Het invoeren van gevoelige informatie in publieke AI‑systemen vergroot risico's rond datalekken, privacy en compliance."
+    ],
+    "tags": [
+      "shadow-ai",
+      "governance",
+      "compliance",
+      "data-leakage"
+    ]
+  },
+  {
+    "slug": "shadow-ai-rises-leaders-choose-speed-over-governance",
+    "title": "Shadow AI rises as leaders choose speed over governance",
+    "publishedAt": "2026-03-09",
+    "source": "CIO Dive",
+    "language": "en",
+    "originalUrl": "https://www.ciodive.com/news/shadow-AI-CIOs-governance-security-EY/813999/",
+    "quote": "Most AI initiatives at a department level are going live without formal company oversight even as risks mount, according to an EY survey of technology leaders.",
+    "summary": "An EY survey of technology leaders reveals that most AI initiatives at the departmental level are deployed without formal company oversight, even as associated risks continue to grow. Leaders are choosing speed of AI adoption over governance and risk controls, leaving a significant gap in enterprise AI management. Security and IT teams report struggling to maintain visibility into departmental AI usage, raising concerns about data exposure and regulatory compliance.",
+    "relevanceBullets": [
+      "Veel AI‑initiatieven binnen afdelingen worden zonder formele governance of goedkeuring gelanceerd, wat het risico op ongecontroleerde 'shadow AI' vergroot.",
+      "Het artikel laat zien dat snelheid van AI‑adoptie vaak belangrijker wordt gevonden dan governance en compliance, precies het probleem dat enterprise‑AI‑controle moet oplossen."
+    ],
+    "tags": [
+      "shadow-ai",
+      "governance"
+    ]
+  },
+  {
     "slug": "navigating-ai-adoption-risks-untrained-users",
     "title": "Navigating AI Adoption: Mitigating The Risks Posed By Untrained Users",
     "publishedAt": "2026-03-06",
