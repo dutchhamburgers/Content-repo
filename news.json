@@ -1,5 +1,61 @@
 [
   {
+    "slug": "shadow-ai-double-agents-security-visibility",
+    "title": "Shadow AI 'double agents' are outpacing security visibility - and that's a serious concern for UK businesses",
+    "publishedAt": "2026-03-21",
+    "source": "TechRadar Pro",
+    "language": "en",
+    "originalUrl": "https://www.techradar.com/pro/security/shadow-ai-double-agents-are-outpacing-security-visibility-and-thats-a-serious-concern-for-uk-businesses",
+    "quote": "Unmanaged AI agents are creating major visibility gaps and security blind spots as adoption accelerates across enterprises.",
+    "summary": "Microsoft warns that unmanaged and unauthorised AI agents are rapidly outpacing the ability of security teams to monitor and govern them. As enterprise AI adoption accelerates, these so-called shadow AI agents create significant blind spots in security visibility and governance. The growing lack of central oversight over AI agent identities and actions poses a serious and growing risk for UK organisations.",
+    "relevanceBullets": [
+      "Ongeautoriseerde en slecht gemonitorde AI‑agents ('shadow AI') creëren blinde vlekken in security en governance binnen organisaties.",
+      "Onderstreept de noodzaak van centrale controle, identity management en auditability voor enterprise‑AI gebruik."
+    ],
+    "tags": [
+      "shadow-ai",
+      "governance",
+      "security"
+    ]
+  },
+  {
+    "slug": "meta-ai-agent-data-leak-employees",
+    "title": "Meta AI agent's instruction causes large sensitive data leak to employees",
+    "publishedAt": "2026-03-20",
+    "source": "The Guardian",
+    "language": "en",
+    "originalUrl": "https://www.theguardian.com/technology/2026/mar/20/meta-ai-agents-instruction-causes-large-sensitive-data-leak-to-employees",
+    "quote": "An AI agent at Meta suggested actions that unintentionally exposed sensitive employee data, highlighting governance risks of autonomous AI systems.",
+    "summary": "Meta faced a significant internal data exposure incident after an AI agent recommended actions that inadvertently revealed sensitive information to employees. The incident highlights how autonomous AI systems operating without sufficient governance controls can directly cause internal data leaks and compliance failures. It raises urgent questions about the need for human oversight, monitoring, and robust guardrails when deploying AI agents in enterprise environments.",
+    "relevanceBullets": [
+      "Incident toont hoe autonome AI‑agents zonder voldoende governance direct kunnen leiden tot interne datalekken en compliance‑risico's.",
+      "Benadrukt het risico van AI‑adoptie zonder voldoende controlemechanismen, monitoring en menselijke oversight binnen enterprise omgevingen."
+    ],
+    "tags": [
+      "data-leakage",
+      "governance",
+      "security"
+    ]
+  },
+  {
+    "slug": "okta-framework-secure-enterprise-ai-agents",
+    "title": "Okta unveils new framework to secure and protect enterprise AI agents",
+    "publishedAt": "2026-03-18",
+    "source": "TechRadar Pro",
+    "language": "en",
+    "originalUrl": "https://www.techradar.com/pro/security/okta-unveils-new-framework-to-secure-and-protect-enterprise-ai-agents",
+    "quote": "Okta introduces a framework to manage AI agents as identities, addressing growing risks from rogue or unmanaged agents in enterprise environments.",
+    "summary": "Okta has introduced a new security framework that treats AI agents as managed identities, aiming to close the governance gap created by the proliferation of unmanaged and rogue AI agents in enterprise environments. The framework provides organisations with structured mechanisms for access control, auditability, and oversight of AI agent activity. The initiative reflects a broader industry recognition that AI agents must be governed with the same rigour as human identities.",
+    "relevanceBullets": [
+      "Het feit dat organisaties AI‑agents nog niet als identiteiten beheren laat een duidelijke governance‑gap en security‑risico zien.",
+      "De opkomst van 'rogue' en shadow AI‑agents benadrukt de noodzaak van gecontroleerde, enterprise‑grade AI governance en toegangsbeheer."
+    ],
+    "tags": [
+      "governance",
+      "security"
+    ]
+  },
+  {
     "slug": "smb-ai-risk-invisible-workflow-change",
     "title": "The risk for SMBs is not reckless use of AI, but invisible workflow change",
     "publishedAt": "2026-03-14",
