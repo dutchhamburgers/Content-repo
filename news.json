@@ -7,27 +7,12 @@
     "language": "nl",
     "originalUrl": "https://www.deondernemer.nl/innovatie/ai-datalekken-chatgpt-tools-gevoelige-informatie-privacywaakhond-geletterdheid~ffe332a",
     "quote": "De Autoriteit Persoonsgegevens waarschuwt dat werknemers gevoelige informatie invoeren in AI-tools zoals ChatGPT, wat leidt tot datalekken.",
-    "summary": "De Autoriteit Persoonsgegevens heeft tientallen meldingen ontvangen van datalekken als gevolg van AI-chatgebruik door werknemers. Medewerkers voeren zonder controle persoonsgegevens en bedrijfsinformatie in AI-tools zoals ChatGPT in. Organisaties zijn verantwoordelijk voor governance en dataminimalisatie bij het gebruik van AI-chats onder de AVG.",
+    "summary": "De Autoriteit Persoonsgegevens (AP) waarschuwt bedrijven dat medewerkers onbewust persoonsgegevens invoeren in AI-chattools zoals ChatGPT. Dit kan leiden tot ongewilde datalekken en schending van de AVG. Organisaties zijn verantwoordelijk voor het borgen van dataminimalisatie en governance rondom AI-gebruik.",
     "relevanceBullets": [
       "Werknemers voeren zonder controle persoonsgegevens en bedrijfsinformatie in AI-chattools in, wat direct leidt tot datalekken.",
-      "Benadrukt dat organisaties verantwoordelijk zijn voor governance en dataminimalisatie bij gebruik van AI-chats onder de AVG."
+      "Benadrukt dat organisaties verantwoordelijkheid dragen voor governance en dataminimalisatie bij AI-chatgebruik onder de AVG."
     ],
     "tags": ["privacy", "data-leakage", "governance", "compliance"]
-  },
-  {
-    "slug": "privacywaakhond-tientallen-meldingen-datalekken-ai",
-    "title": "Privacywaakhond krijgt tientallen meldingen over datalekken door AI-gebruik",
-    "publishedAt": "2025-12-28",
-    "source": "RTL Z",
-    "language": "nl",
-    "originalUrl": "https://www.rtl.nl/nieuws/economie/artikel/5549037/tientallen-meldingen-over-datalekken-door-ai-gebruik",
-    "quote": "Medewerkers delen persoonsgegevens via AI-chatbots, wat leidt tot meldingen bij de Autoriteit Persoonsgegevens.",
-    "summary": "De Autoriteit Persoonsgegevens heeft tientallen meldingen ontvangen van datalekken veroorzaakt door AI-chatgebruik van medewerkers. Werknemers deelden klant- en persoonsgegevens via AI-chatbots, wat directe privacy- en compliancerisico's met zich meebracht. Het gebrek aan beleid rondom AI-chatbots leidt tot concrete datalekrapportage bij toezichthouders.",
-    "relevanceBullets": [
-      "Toont dat medewerkers klant- en persoonsgegevens invoeren in AI-chatbots, met directe privacy- en compliance risico's.",
-      "Laat zien dat gebrek aan beleid rond AI-chats leidt tot concrete datalekmeldingen bij toezichthouders."
-    ],
-    "tags": ["privacy", "data-leakage", "compliance"]
   },
   {
     "slug": "gemeente-eindhoven-persoonsgegevens-openbare-ai-tools",
@@ -37,57 +22,42 @@
     "language": "nl",
     "originalUrl": "https://tweakers.net/nieuws/242822/gemeente-eindhoven-stuurde-persoonsgegevens-naar-openbare-ai-tools.html",
     "quote": "Medewerkers uploaden duizenden documenten met persoonsgegevens naar AI-tools zoals ChatGPT en Claude.",
-    "summary": "Medewerkers van gemeente Eindhoven hebben duizenden documenten met persoonsgegevens geüpload naar openbare AI-tools zoals ChatGPT en Claude. Dit leidde tot een datalek waarbij gevoelige informatie buiten de beveiligde organisatieomgeving terechtkwam. Het incident illustreert hoe onvoldoende AI-governance binnen organisaties kan leiden tot grootschalige datalekken.",
+    "summary": "Medewerkers van de gemeente Eindhoven hebben duizenden documenten met persoonsgegevens geüpload naar openbare AI-tools zoals ChatGPT en Claude. Het incident resulteerde in een datalek waarbij gevoelige informatie de beveiligde organisatieomgeving verliet. De casus illustreert hoe onvoldoende AI-governance binnen organisaties kan leiden tot grootschalige datalekken.",
     "relevanceBullets": [
-      "Concrete casus waarin medewerkers gevoelige documenten en persoonsgegevens in AI-tools uploaden.",
-      "Laat zien dat zonder governance AI-chatgebruik leidt tot grootschalige datalekken binnen organisaties."
+      "Concrete casus waarin medewerkers gevoelige documenten en persoonsgegevens in AI-chattools invoeren.",
+      "Laat zien dat gebrek aan governance bij AI-chatgebruik leidt tot grootschalige datalekken binnen organisaties."
     ],
     "tags": ["data-leakage", "privacy", "governance"]
   },
   {
-    "slug": "datalek-gemeente-eindhoven-persoonsgegevens-ai-websites",
-    "title": "Datalek: gemeente Eindhoven deelt persoonsgegevens met AI-websites",
-    "publishedAt": "2025-12-30",
-    "source": "Omroep Brabant",
-    "language": "nl",
-    "originalUrl": "https://www.omroepbrabant.nl/nieuws/6001041/datalek-gemeente-eindhoven-deelt-persoonsgegevens-met-openbare-ai-websites",
-    "quote": "Interne documenten, cv's en Jeugdwetgegevens zijn gedeeld via AI-tools.",
-    "summary": "De gemeente Eindhoven heeft een datalek gemeld nadat medewerkers interne documenten, cv's en gegevens onder de Jeugdwet via openbare AI-websites hadden gedeeld. De gevoelige informatie, waaronder privacygevoelige persoonsgegevens, is hierdoor buiten de organisatie terechtgekomen. Het incident onderstreept de risico's van ongecontroleerd AI-gebruik voor vertrouwelijkheid en compliance.",
-    "relevanceBullets": [
-      "Medewerkers delen interne en privacygevoelige gegevens via AI-chattools zonder controle.",
-      "Benadrukt risico's voor vertrouwelijkheid en compliance door ongecontroleerd AI-gebruik."
-    ],
-    "tags": ["data-leakage", "privacy", "compliance", "governance"]
-  },
-  {
-    "slug": "eindhoven-blokkeert-chatgpt-na-datalek",
-    "title": "Eindhoven blokkeert ChatGPT na datalek",
-    "publishedAt": "2025-12-31",
-    "source": "Binnenlands Bestuur",
-    "language": "nl",
-    "originalUrl": "https://www.binnenlandsbestuur.nl/digitaal/gemeente-eindhoven-blokkeert-chatgpt-na-datalek",
-    "quote": "De gemeente grijpt in nadat medewerkers persoonsgegevens in AI-tools invoerden.",
-    "summary": "De gemeente Eindhoven heeft besloten ChatGPT te blokkeren nadat medewerkers persoonsgegevens hadden ingevoerd in AI-tools. Het reactieve optreden toont aan dat organisaties vaak pas ingrijpen nadat een datalek al heeft plaatsgevonden. Dit benadrukt de noodzaak van preventieve AI-governance in plaats van reactieve maatregelen.",
-    "relevanceBullets": [
-      "Toont dat organisaties pas ingrijpen nadat medewerkers gevoelige data in AI-chats invoeren.",
-      "Onderstreept noodzaak van preventieve governance in plaats van reactieve maatregelen."
-    ],
-    "tags": ["governance", "data-leakage", "shadow-ai", "compliance"]
-  },
-  {
     "slug": "average-organization-200-genai-data-policy-violations-monthly",
-    "title": "Average organization reporting 200+ GenAI data policy violations monthly",
+    "title": "Average organization reporting over 200 GenAI data policy violations each month",
     "publishedAt": "2026-02-10",
     "source": "TechRadar",
     "language": "en",
     "originalUrl": "https://www.techradar.com/pro/security/average-organization-now-reporting-over-200-genai-related-data-policy-violations-each-month",
-    "quote": "The average organization now reports over 200 GenAI-related data policy violations each month, exposing deep AI governance gaps.",
-    "summary": "A new report reveals that the average organization now reports more than 200 GenAI-related data policy violations every month. Employees regularly enter sensitive data including source code and credentials into AI tools without organizational oversight. The findings highlight a structural lack of AI governance and chat controls within organizations.",
+    "quote": "Organizations report hundreds of incidents where employees input sensitive data into AI tools without approval.",
+    "summary": "A new report reveals that the average organization now experiences more than 200 GenAI-related data policy violations per month. Employees regularly enter sensitive data including source code and credentials into AI tools without organizational oversight. The findings expose a structural lack of governance and supervision around AI chat usage in enterprises.",
     "relevanceBullets": [
-      "Werknemers voeren gevoelige data zoals broncode en credentials in AI-tools in zonder controle.",
-      "Toont structureel gebrek aan governance rond AI-chats binnen organisaties."
+      "Werknemers voeren gevoelige data zoals broncode en credentials in AI-chattools in zonder controle.",
+      "Toont structureel gebrek aan governance en toezicht bij AI-chatgebruik binnen organisaties."
     ],
     "tags": ["governance", "data-leakage", "shadow-ai"]
+  },
+  {
+    "slug": "microsoft-office-bug-confidential-emails-copilot-ai",
+    "title": "Microsoft says Office bug exposed customers' confidential emails to Copilot AI",
+    "publishedAt": "2026-02-18",
+    "source": "TechCrunch",
+    "language": "en",
+    "originalUrl": "https://techcrunch.com/2026/02/18/microsoft-says-office-bug-exposed-customers-confidential-emails-to-copilot-ai/",
+    "quote": "A bug allowed Copilot to access and summarize confidential emails despite security controls.",
+    "summary": "A software bug in Microsoft Office caused Copilot AI to inadvertently access and summarize confidential customer emails, bypassing existing security controls. The incident demonstrates that even enterprise-grade AI integrations can expose sensitive business information when technical safeguards fail. It underscores the need for robust governance and continuous monitoring, even for officially approved AI tools.",
+    "relevanceBullets": [
+      "Laat zien dat AI-chatinterfaces zoals Copilot gevoelige bedrijfsinformatie kunnen verwerken ondanks bestaande beveiligingsmaatregelen.",
+      "Benadrukt dat zelfs gecontroleerde AI-tools risico vormen wanneer governance en technische beperkingen falen."
+    ],
+    "tags": ["security", "data-leakage", "governance"]
   },
   {
     "slug": "chatbot-data-harvesting-sensitive-personal-info",
@@ -96,11 +66,11 @@
     "source": "The Register",
     "language": "en",
     "originalUrl": "https://www.theregister.com/2026/03/03/chatbot_data_harvesting_personal_info/",
-    "quote": "Healthcare professionals share sensitive patient data with AI chatbots, creating serious privacy and compliance risks.",
-    "summary": "Research shows that professionals including healthcare workers are sharing sensitive and confidential data with AI chatbots without adequate governance controls. The unregulated use of AI chat tools in these settings poses direct risks to patient privacy and organizational compliance. This highlights the broader challenge of managing confidential data flows when employees use consumer AI tools without oversight.",
+    "quote": "Sensitive personal and professional information is being extracted from chatbot interactions.",
+    "summary": "Research shows that sensitive personal and professional information is being extracted from AI chatbot interactions and can be harvested or misused. Users entering confidential data into AI tools may be unaware that their inputs can be retained or exposed beyond the intended session. This raises significant concerns about privacy, confidentiality, and the governance of AI chat tool usage in professional settings.",
     "relevanceBullets": [
-      "Professionals delen vertrouwelijke en medische gegevens via AI-chattools, wat leidt tot ernstige privacyrisico's.",
-      "Benadrukt dat AI-chatgebruik zonder governance directe impact heeft op vertrouwelijkheid en compliance."
+      "Gevoelige informatie uit AI-chatgesprekken wordt verzameld en hergebruikt, wat risico's creëert voor vertrouwelijkheid.",
+      "Onderstreept dat invoer van data in AI-chattools kan leiden tot ongecontroleerde verspreiding van gevoelige informatie."
     ],
     "tags": ["privacy", "data-leakage", "compliance", "security"]
   },
@@ -111,11 +81,11 @@
     "source": "TechRadar",
     "language": "en",
     "originalUrl": "https://www.techradar.com/pro/the-risk-for-smbs-is-not-reckless-use-of-ai-but-invisible-workflow-change-legal-firms-are-falling-behind-when-it-comes-to-setting-rules-for-ai-use",
-    "quote": "The greatest AI risk for SMBs is not deliberate misuse but invisible workflow changes where confidential documents are shared without oversight.",
-    "summary": "The main AI risk for small and medium-sized businesses is not intentional misuse but invisible changes to workflows where employees share contracts and confidential business information through AI tools without supervision. Legal firms in particular are lagging behind in establishing AI usage rules. The absence of AI policy creates significant compliance and data leakage risks for SMBs.",
+    "quote": "Employees are entering contracts and confidential data into AI tools without clear policies.",
+    "summary": "The primary AI risk for small and medium-sized businesses is not deliberate misuse but invisible workflow changes that occur when employees handle contracts and confidential business data via AI tools without oversight. Legal firms in particular are lagging behind in establishing clear AI usage rules. The absence of an AI usage policy creates direct compliance and data leakage risks for these organizations.",
     "relevanceBullets": [
-      "Werknemers voeren vertrouwelijke contracten en bedrijfsinformatie in AI-chats in zonder toezicht.",
-      "Laat zien dat gebrek aan AI-beleid leidt tot compliance- en datalekrisico's."
+      "Werknemers voeren vertrouwelijke contracten en bedrijfsinformatie in AI-chattools in zonder toezicht.",
+      "Laat zien dat gebrek aan beleid rond AI-chatgebruik direct leidt tot compliance- en datalekrisico's."
     ],
     "tags": ["shadow-ai", "governance", "compliance", "data-leakage"]
   }
