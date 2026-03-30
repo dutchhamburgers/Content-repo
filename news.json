@@ -312,5 +312,63 @@
       "governance",
       "byoai"
     ]
+  },
+  {
+    "slug": "ap-waarschuwt-gevoelige-data-ai-tools",
+    "title": "Privacywaakhond waarschuwt voor delen gevoelige informatie via AI-tools zoals ChatGPT",
+    "publishedAt": "2026-03-26",
+    "source": "De Ondernemer",
+    "language": "nl",
+    "originalUrl": "https://www.deondernemer.nl/innovatie/ai-datalekken-chatgpt-tools-gevoelige-informatie-privacywaakhond-geletterdheid~ffe332a",
+    "quote": "De Autoriteit Persoonsgegevens waarschuwt dat medewerkers onbewust gevoelige informatie invoeren in AI-tools zoals ChatGPT.",
+    "summary": "De Autoriteit Persoonsgegevens (AP) waarschuwt bedrijven dat medewerkers onbewust persoonsgegevens invoeren in AI-chattools zoals ChatGPT. Dit kan leiden tot ongewilde datalekken en schending van de AVG. Organisaties zijn verantwoordelijk voor het borgen van dataminimalisatie en governance rondom AI-gebruik.",
+    "relevanceBullets": [
+      "Laat zien dat medewerkers actief gevoelige bedrijfs- en persoonsgegevens invoeren in AI-chattools zoals ChatGPT zonder voldoende bewustzijn of controle.",
+      "Onderstreept dat organisaties verantwoordelijkheid dragen voor governance en dataminimalisatie bij AI-gebruik om AVG-risico's en datalekken te voorkomen."
+    ],
+    "tags": [
+      "privacy",
+      "data-leakage",
+      "governance",
+      "compliance"
+    ]
+  },
+  {
+    "slug": "employees-company-data-chatgpt-without-approval",
+    "title": "Employees are putting company data into ChatGPT without approval, study finds",
+    "publishedAt": "2026-03-28",
+    "source": "TechRadar Pro",
+    "language": "en",
+    "originalUrl": "https://www.techradar.com/pro/employees-are-putting-company-data-into-chatgpt-without-approval-study-finds",
+    "quote": "A growing number of employees are entering sensitive company data into AI chatbots without employer approval, raising concerns about data leakage and compliance.",
+    "summary": "A new study reveals that employees frequently enter sensitive company data into AI chatbots such as ChatGPT without prior employer approval. This unmanaged behavior creates significant data leakage risks and compliance exposures. Security experts emphasize the need for clear organizational policies and approved tools to manage AI usage.",
+    "relevanceBullets": [
+      "Bevestigt dat medewerkers zonder toestemming bedrijfsgevoelige informatie invoeren in AI-chattools, wat leidt tot shadow AI en datalekrisico's.",
+      "Toont aan dat gebrek aan controle en beleid rondom AI-chats directe compliance- en securityproblemen veroorzaakt binnen organisaties."
+    ],
+    "tags": [
+      "shadow-ai",
+      "data-leakage",
+      "compliance"
+    ]
+  },
+  {
+    "slug": "legal-professionals-confidentiality-generative-ai",
+    "title": "Legal professionals risk breaching confidentiality by using generative AI tools",
+    "publishedAt": "2026-03-27",
+    "source": "The Register",
+    "language": "en",
+    "originalUrl": "https://www.theregister.com/2026/03/27/legal_ai_confidentiality_risks/",
+    "quote": "Experts warn that professionals are inadvertently exposing confidential client data by entering it into generative AI systems without proper safeguards.",
+    "summary": "Legal professionals are increasingly using generative AI tools to process work, inadvertently exposing confidential client information in the process. Experts warn that entering sensitive data into AI systems without appropriate safeguards constitutes a serious confidentiality risk. The trend highlights the urgent need for governance frameworks and approved AI tooling across professional sectors.",
+    "relevanceBullets": [
+      "Professionals delen vertrouwelijke klantinformatie in AI-tools, wat direct leidt tot schending van vertrouwelijkheid en mogelijke datalekken.",
+      "Benadrukt dat zonder duidelijke governance en tooling AI-chatgebruik een structureel risico vormt voor compliance en vertrouwelijke data."
+    ],
+    "tags": [
+      "data-leakage",
+      "compliance",
+      "governance"
+    ]
   }
 ]
