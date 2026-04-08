@@ -56,7 +56,7 @@ before(
 
           // /login?... – served after the login redirect
           default:
-            if (req.url && req.url.startsWith('/login')) {
+            if (req.url.startsWith('/login')) {
               res.writeHead(200, { 'Content-Type': 'text/html' });
               res.end('<html><body><form>Login required</form></body></html>');
             }

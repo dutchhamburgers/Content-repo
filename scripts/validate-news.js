@@ -103,7 +103,7 @@ function fetchUrl(url, options = {}, redirectCount = 0) {
 
       res.on('data', (chunk) => {
         bodySize += chunk.length;
-        if (bodySize < MAX_BODY_BYTES) {
+        if (bodySize <= MAX_BODY_BYTES) {
           body += chunk.toString('utf8');
         } else if (!res.destroyed) {
           res.destroy();
@@ -251,8 +251,9 @@ async function main() {
         : result.validationStatus === 'warning'
           ? '⚠️'
           : '❌';
+    const statusDisplay = result.httpStatus != null ? result.httpStatus : 'N/A';
     console.log(
-      `    ${icon} Status: HTTP ${result.httpStatus != null ? result.httpStatus : 'N/A'} | ${result.validationStatus.toUpperCase()}`,
+      `    ${icon} Status: HTTP ${statusDisplay} | ${result.validationStatus.toUpperCase()}`,
     );
     if (result.validationNotes) {
       console.log(`    📝 ${result.validationNotes}`);
