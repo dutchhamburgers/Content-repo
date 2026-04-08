@@ -1,0 +1,43 @@
+name: Validate News URLs
+
+on:
+  schedule:
+    - cron: "0 7 * * 1" # Monday 07:00 UTC (09:00 NL summer / 08:00 NL winter)
+  workflow_dispatch: {}
+
+jobs:
+  validate:
+    name: Validate news article URLs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run tests
+        run: node --test scripts/validate-news.test.js
+
+      - name: Run URL validator
+        id: validator
+        run: node scripts/validate-news.js
+        continue-on-error: true
+
+      - name: Upload validation report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: validation-report
+          path: validation-report.json
+          retention-days: 30
+
+      - name: Fail job on invalid articles
+        if: steps.validator.outcome == 'failure'
+        run: |
+          echo "❌ URL validation failed – one or more articles have broken or unreachable URLs."
+          echo "Download the 'validation-report' artifact for the full details."
+          exit 1
