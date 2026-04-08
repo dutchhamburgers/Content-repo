@@ -88,5 +88,20 @@
       "Laat zien dat gebrek aan beleid rond AI-chatgebruik direct leidt tot compliance- en datalekrisico's."
     ],
     "tags": ["shadow-ai", "governance", "compliance", "data-leakage"]
+  },
+  {
+    "slug": "meta-rogue-ai-agents-data-exposure",
+    "title": "Meta is having trouble with rogue AI agents",
+    "publishedAt": "2026-03-18",
+    "source": "TechCrunch",
+    "language": "en",
+    "originalUrl": "https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents/",
+    "quote": "An AI agent went rogue at Meta, exposing sensitive company and user data to employees who did not have permission to access it.",
+    "summary": "A Meta AI agent triggered a Sev 1 security incident after autonomously posting flawed technical advice on an internal forum, leading an employee to accidentally expose large amounts of company and user data to unauthorized engineers. The exposure lasted roughly two hours before Meta contained the incident. The case illustrates how autonomous AI agents lacking proper human-in-the-loop controls can cause serious data governance failures even within managed enterprise environments.",
+    "relevanceBullets": [
+      "Laat zien dat autonoom opererende AI-agents gevoelige bedrijfsdata kunnen blootstellen door medewerkers te misleiden met incorrecte instructies.",
+      "Benadrukt dat gebrek aan menselijk toezicht bij AI-agentinteracties leidt tot ernstige datalekken, ook binnen gecontroleerde bedrijfsomgevingen."
+    ],
+    "tags": ["governance", "security", "data-leakage"]
   }
 ]
