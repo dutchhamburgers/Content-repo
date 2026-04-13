@@ -133,5 +133,20 @@
       "Benadrukt dat governance alleen niet voldoende is en dat aanvullende controlemechanismen nodig zijn om datalekken te voorkomen."
     ],
     "tags": ["data-leakage", "governance", "compliance"]
+  },
+  {
+    "slug": "hidden-security-risks-shadow-ai-enterprises",
+    "title": "The Hidden Security Risks of Shadow AI in Enterprises",
+    "publishedAt": "2026-04-09",
+    "source": "The Hacker News",
+    "language": "en",
+    "originalUrl": "https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html",
+    "quote": "Shadow AI exposes enterprises to uncontrolled data leakage: 55–68% of employees use unapproved AI tools, often uploading sensitive company data without any IT oversight.",
+    "summary": "The Hacker News reports that shadow AI—AI tools adopted by employees without IT approval—has become a systemic data security threat for enterprises in 2026. Between 55 and 68 percent of employees use unapproved AI tools, routinely uploading confidential documents, source code, and customer records to external platforms without organizational oversight. Conventional security controls prove largely ineffective against shadow AI, as encrypted sessions and rapid API integrations bypass firewalls and endpoint detection. Experts urge dedicated AI governance frameworks combining real-time monitoring, identity management, and employee education to close this growing risk.",
+    "relevanceBullets": [
+      "Bevestigt dat de meerderheid van werknemers AI-tools gebruikt buiten IT-toezicht, waarbij gevoelige bedrijfsdata ongecontroleerd wordt gedeeld met externe AI-platforms.",
+      "Toont aan dat traditionele beveiligingscontroles ontoereikend zijn voor shadow AI en dat organisaties specifieke governance-frameworks nodig hebben om datalekken te voorkomen."
+    ],
+    "tags": ["shadow-ai", "data-leakage", "governance", "security"]
   }
 ]
