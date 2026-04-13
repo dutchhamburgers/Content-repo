@@ -148,5 +148,35 @@
       "Toont aan dat traditionele beveiligingscontroles ontoereikend zijn voor shadow AI en dat organisaties specifieke governance-frameworks nodig hebben om datalekken te voorkomen."
     ],
     "tags": ["shadow-ai", "data-leakage", "governance", "security"]
+  },
+  {
+    "slug": "threat-actor-abuse-ai-accelerates-cyberattack-surface",
+    "title": "Threat Actor Abuse of AI Accelerates from Tool to Cyberattack Surface",
+    "publishedAt": "2026-04-02",
+    "source": "Microsoft Security Blog",
+    "language": "en",
+    "originalUrl": "https://www.microsoft.com/en-us/security/blog/2026/04/02/threat-actor-abuse-of-ai-accelerates-from-tool-to-cyberattack-surface/",
+    "quote": "AI is reducing friction across the attack lifecycle; helping threat actors research faster, write better lures, vibe code malware, and triage stolen data.",
+    "summary": "Microsoft's security team reports that threat actors—from nation-states to cybercrime groups—are now embedding generative AI throughout the full cyberattack lifecycle, from reconnaissance and phishing to malware development and post-compromise operations. AI-assisted phishing campaigns achieve click-through rates of 54%, a 450% increase over traditional approaches, by enabling precise personalization of lures. The Tycoon2FA subscription platform illustrates how AI lowers the barrier to entry for sophisticated identity theft at industrial scale. Microsoft warns that while attacks are not yet fully autonomous, the tempo, iteration speed, and scale of AI-enabled attacks have fundamentally upgraded the threat landscape.",
+    "relevanceBullets": [
+      "Toont aan dat AI door kwaadwillenden wordt ingezet om phishing en malware op te schalen, wat de aanvalsoppervlakte voor organisaties die AI-chattools gebruiken direct vergroot.",
+      "Benadrukt dat AI-gerelateerde dreigingen de noodzaak voor governance en bewaking van AI-gebruik binnen organisaties verder versterken om dataverlies en identiteitsdiefstal te voorkomen."
+    ],
+    "tags": ["security", "attack-surface", "governance"]
+  },
+  {
+    "slug": "unpacking-ai-security-2026-agentic-era",
+    "title": "Unpacking AI Security in 2026: From Experimentation to the Agentic Era",
+    "publishedAt": "2026-04-10",
+    "source": "The Register",
+    "language": "en",
+    "originalUrl": "https://www.theregister.com/2026/04/10/unpacking_ai_security_2026/",
+    "quote": "A single vulnerability in an AI pipeline can now lead to automated data exfiltration, systemic reputational damage, and heavy regulatory penalties.",
+    "summary": "The Register examines how enterprise AI has shifted from isolated pilots in 2025 to large-scale autonomous deployment in 2026, dramatically expanding the security attack surface. Agentic AI systems—which execute tasks independently rather than merely advising—introduce new vulnerability categories that conventional security frameworks are ill-equipped to address. The article highlights risks from AI supply chains including external plugins and datasets, alongside a global regulatory pivot from voluntary guidelines to enforceable compliance laws. Security leaders are urged to adopt trust-by-design governance and proactive anomaly detection before a single vulnerability in an AI pipeline triggers cascading data and regulatory consequences.",
+    "relevanceBullets": [
+      "Laat zien dat autonoom handelende AI-agents een nieuw aanvalsoppervlak creëren waarbij één kwetsbaarheid kan leiden tot geautomatiseerde data-exfiltratie en zware boetes.",
+      "Onderstreept dat organisaties AI-governance moeten verankeren in hun beveiligingsstrategie nu regelgeving wereldwijd afdwingbaar wordt."
+    ],
+    "tags": ["security", "governance", "attack-surface", "compliance"]
   }
 ]
