@@ -88,6 +88,41 @@
           ]
         },
         "description": "Optional taxonomy tags."
+      },
+      "lastCheckedAt": {
+        "type": "string",
+        "format": "date-time",
+        "description": "ISO 8601 timestamp of the last URL validation check."
+      },
+      "httpStatus": {
+        "type": ["integer", "null"],
+        "description": "HTTP status code returned during the last validation check."
+      },
+      "finalUrl": {
+        "type": "string",
+        "format": "uri",
+        "description": "Final URL after following all redirects."
+      },
+      "isReachable": {
+        "type": "boolean",
+        "description": "Whether the URL was reachable (HTTP 2xx) during the last check."
+      },
+      "paywallSuspected": {
+        "type": "boolean",
+        "description": "Whether a paywall was detected heuristically during the last check."
+      },
+      "loginRequiredSuspected": {
+        "type": "boolean",
+        "description": "Whether a login requirement was detected during the last check."
+      },
+      "validationStatus": {
+        "type": "string",
+        "enum": ["ok", "warning", "invalid"],
+        "description": "Overall validation outcome: ok, warning (paywall/redirect), or invalid (unreachable)."
+      },
+      "validationNotes": {
+        "type": "string",
+        "description": "Human-readable notes from the last validation run."
       }
     }
   }
