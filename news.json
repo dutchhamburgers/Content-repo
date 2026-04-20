@@ -163,5 +163,50 @@
       "Onderstreept dat organisaties AI-governance moeten verankeren in hun beveiligingsstrategie nu regelgeving wereldwijd afdwingbaar wordt."
     ],
     "tags": ["security", "governance", "attack-surface", "compliance"]
+  },
+  {
+    "slug": "tipping-point-ai-work-gallup-survey-us-employees",
+    "title": "Is this the tipping point for AI at work? New Gallup survey finds half of all US employees now use it",
+    "publishedAt": "2026-04-16",
+    "source": "TechRadar Pro",
+    "language": "en",
+    "originalUrl": "https://www.techradar.com/pro/is-this-the-tipping-point-for-ai-at-work-new-gallup-survey-finds-half-of-all-us-employees-now-use-it-in-some-way",
+    "quote": "A new Gallup survey reports that half of US employees now use AI in some form at work, signaling a major shift in day-to-day workplace behavior.",
+    "summary": "A Gallup survey, covered by TechRadar Pro, indicates that AI usage has reached mainstream adoption in US workplaces, with about half of employees now using it in some way. The article also points to unresolved concerns around uneven adoption, job security, and unclear organizational outcomes. This combination of rapid uptake and limited oversight highlights the governance pressure organizations face as AI use scales.",
+    "relevanceBullets": [
+      "De snelle, brede adoptie van AI-tools door medewerkers loopt vooruit op duidelijke governancekaders binnen organisaties.",
+      "Toont dat organisaties naast productiviteitswinst ook risico's rond toezicht, beleid en verantwoord gebruik moeten beheersen."
+    ],
+    "tags": ["shadow-ai", "governance", "compliance"]
+  },
+  {
+    "slug": "tech-layoffs-ai-work-reliability-governance-risks",
+    "title": "Tech companies are cutting jobs and betting on AI — but risks remain",
+    "publishedAt": "2026-04-17",
+    "source": "The Guardian",
+    "language": "en",
+    "originalUrl": "https://www.theguardian.com/technology/2026/apr/06/tech-layoffs-ai-work",
+    "quote": "Companies are accelerating AI use in daily work, while concerns persist about reliability and replacing human judgment too quickly.",
+    "summary": "The Guardian describes how organizations are increasing AI use in everyday workflows while still facing unresolved concerns about output quality and overreliance. The article highlights that employees can be pushed to depend on tools that remain imperfect or insufficiently understood. This creates governance and accountability risks when human review and policy controls are not consistently applied.",
+    "relevanceBullets": [
+      "Laat zien dat druk op medewerkers om AI-output te gebruiken zonder voldoende menselijke controle kan leiden tot kwaliteits- en beslisrisico's.",
+      "Onderstreept dat organisaties governance en duidelijke werkafspraken nodig hebben om overmatig vertrouwen op AI-tools te beperken."
+    ],
+    "tags": ["governance", "shadow-ai", "compliance"]
+  },
+  {
+    "slug": "wall-street-banks-roll-out-ai-tools-safety-pressure",
+    "title": "Wall Street banks are rapidly rolling out AI tools to employees — and facing pressure to prove they are safe and effective",
+    "publishedAt": "2026-04-19",
+    "source": "Business Insider",
+    "language": "en",
+    "originalUrl": "https://www.businessinsider.com/wall-street-banks-ai-strategy-jpmorgan-goldman-citi-bofa-2026",
+    "quote": "Major banks are scaling AI tools across their workforce while scrutiny rises around safety, oversight, and compliance.",
+    "summary": "Business Insider reports that large banks are deploying AI tools broadly to employees and are under pressure to demonstrate safe and effective operation. The rollout raises concerns about whether governance and control mechanisms can keep pace with adoption at enterprise scale. In regulated sectors, weak oversight of internal AI use can quickly become an operational and compliance risk.",
+    "relevanceBullets": [
+      "Toont dat grootschalige inzet van AI-tools door medewerkers directe eisen stelt aan toezicht, validatie en risicobeheersing.",
+      "Voor gereguleerde organisaties benadrukt dit dat onvoldoende AI-governance kan uitmonden in compliance- en auditproblemen."
+    ],
+    "tags": ["governance", "compliance", "shadow-ai"]
   }
 ]
