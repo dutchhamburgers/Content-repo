@@ -163,5 +163,20 @@
       "Onderstreept dat organisaties AI-governance moeten verankeren in hun beveiligingsstrategie nu regelgeving wereldwijd afdwingbaar wordt."
     ],
     "tags": ["security", "governance", "attack-surface", "compliance"]
+  },
+  {
+    "slug": "tipping-point-ai-work-gallup-survey-us-employees",
+    "title": "Is this the tipping point for AI at work? New Gallup survey finds half of all US employees now use it",
+    "publishedAt": "2026-04-16",
+    "source": "TechRadar Pro",
+    "language": "en",
+    "originalUrl": "https://www.techradar.com/pro/is-this-the-tipping-point-for-ai-at-work-new-gallup-survey-finds-half-of-all-us-employees-now-use-it-in-some-way",
+    "quote": "A new Gallup survey reports that half of US employees now use AI in some form at work, signaling a major shift in day-to-day workplace behavior.",
+    "summary": "A Gallup survey, covered by TechRadar Pro, indicates that AI usage has reached mainstream adoption in US workplaces, with about half of employees now using it in some way. The article also points to unresolved concerns around uneven adoption, job security, and unclear organizational outcomes. This combination of rapid uptake and limited oversight highlights the governance pressure organizations face as AI use scales.",
+    "relevanceBullets": [
+      "De snelle, brede adoptie van AI-tools door medewerkers loopt vooruit op duidelijke governancekaders binnen organisaties.",
+      "Toont dat organisaties naast productiviteitswinst ook risico's rond toezicht, beleid en verantwoord gebruik moeten beheersen."
+    ],
+    "tags": ["shadow-ai", "governance", "compliance"]
   }
 ]
