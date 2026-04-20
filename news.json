@@ -178,5 +178,35 @@
       "Toont dat organisaties naast productiviteitswinst ook risico's rond toezicht, beleid en verantwoord gebruik moeten beheersen."
     ],
     "tags": ["shadow-ai", "governance", "compliance"]
+  },
+  {
+    "slug": "tech-layoffs-ai-work-reliability-governance-risks",
+    "title": "Tech companies are cutting jobs and betting on AI — but risks remain",
+    "publishedAt": "2026-04-17",
+    "source": "The Guardian",
+    "language": "en",
+    "originalUrl": "https://www.theguardian.com/technology/2026/apr/06/tech-layoffs-ai-work",
+    "quote": "Companies are accelerating AI use in daily work, while concerns persist about reliability and replacing human judgment too quickly.",
+    "summary": "The Guardian describes how organizations are increasing AI use in everyday workflows while still facing unresolved concerns about output quality and overreliance. The article highlights that employees can be pushed to depend on tools that remain imperfect or insufficiently understood. This creates governance and accountability risks when human review and policy controls are not consistently applied.",
+    "relevanceBullets": [
+      "Laat zien dat druk op medewerkers om AI-output te gebruiken zonder voldoende menselijke controle kan leiden tot kwaliteits- en beslisrisico's.",
+      "Onderstreept dat organisaties governance en duidelijke werkafspraken nodig hebben om overmatig vertrouwen op AI-tools te beperken."
+    ],
+    "tags": ["governance", "shadow-ai", "compliance"]
+  },
+  {
+    "slug": "wall-street-banks-roll-out-ai-tools-safety-pressure",
+    "title": "Wall Street banks are rapidly rolling out AI tools to employees — and facing pressure to prove they are safe and effective",
+    "publishedAt": "2026-04-19",
+    "source": "Business Insider",
+    "language": "en",
+    "originalUrl": "https://www.businessinsider.com/wall-street-banks-ai-strategy-jpmorgan-goldman-citi-bofa-2026",
+    "quote": "Major banks are scaling AI tools across their workforce while scrutiny rises around safety, oversight, and compliance.",
+    "summary": "Business Insider reports that large banks are deploying AI tools broadly to employees and are under pressure to demonstrate safe and effective operation. The rollout raises concerns about whether governance and control mechanisms can keep pace with adoption at enterprise scale. In regulated sectors, weak oversight of internal AI use can quickly become an operational and compliance risk.",
+    "relevanceBullets": [
+      "Toont dat grootschalige inzet van AI-tools door medewerkers directe eisen stelt aan toezicht, validatie en risicobeheersing.",
+      "Voor gereguleerde organisaties benadrukt dit dat onvoldoende AI-governance kan uitmonden in compliance- en auditproblemen."
+    ],
+    "tags": ["governance", "compliance", "shadow-ai"]
   }
 ]
