@@ -208,5 +208,20 @@
       "Voor gereguleerde organisaties benadrukt dit dat onvoldoende AI-governance kan uitmonden in compliance- en auditproblemen."
     ],
     "tags": ["governance", "compliance", "shadow-ai"]
+  },
+  {
+    "slug": "shadow-ai-agent-problem-enterprise-environments",
+    "title": "The Shadow AI Agent Problem in Enterprise Environments",
+    "publishedAt": "2026-04-28",
+    "source": "Cloud Security Alliance",
+    "language": "en",
+    "originalUrl": "https://cloudsecurityalliance.org/blog/2026/04/28/the-shadow-ai-agent-problem-in-enterprise-environments",
+    "quote": "Although 68% of enterprises claim high AI agent visibility, 82% discovered at least one unknown shadow AI agent in their environment last year.",
+    "summary": "The Cloud Security Alliance reports that despite most enterprises claiming high visibility into their AI agents, 82% discovered at least one unknown or shadow AI agent in their environment over the past year. This gap between perceived and actual control shows that operational visibility falls short of the governance assurance needed to manage autonomous agents safely. Shadow AI agents often lack documentation, permission reviews, and defined access boundaries, allowing them to interact with enterprise systems and bypass established security controls. CSA urges organizations to shift from informal oversight to assurance-grade governance that accounts for every agent deployed.",
+    "relevanceBullets": [
+      "Toont aan dat de meerderheid van organisaties onbekende AI-agents heeft draaien die buiten governance en toezicht vallen, met risico op ongecontroleerde datatoegang en datalekken.",
+      "Benadrukt dat operationele zichtbaarheid niet volstaat en dat organisaties assurance-niveau governance nodig hebben om shadow AI-agents en bijbehorende veiligheidsrisico's te beheersen."
+    ],
+    "tags": ["shadow-ai", "governance", "security"]
   }
 ]
