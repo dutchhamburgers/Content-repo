@@ -223,5 +223,20 @@
       "Benadrukt dat operationele zichtbaarheid niet volstaat en dat organisaties assurance-niveau governance nodig hebben om shadow AI-agents en bijbehorende veiligheidsrisico's te beheersen."
     ],
     "tags": ["shadow-ai", "governance", "security"]
+  },
+  {
+    "slug": "shadow-ai-openclaw-corporate-data-risk",
+    "title": "Shadow AI and agents like OpenClaw are hijacking corporate data too easily",
+    "publishedAt": "2026-04-27",
+    "source": "TechRadar",
+    "language": "en",
+    "originalUrl": "https://www.techradar.com/pro/shadow-ai-and-agents-like-openclaw-are-hijacking-corporate-data-too-easily",
+    "quote": "When someone pastes a customer list into a free-tier chatbot or feeds proprietary code into an LLM to debug it faster, that data enters a system the organization has no control over.",
+    "summary": "Het artikel beschrijft hoe medewerkers binnen organisaties AI-chattools gebruiken zonder toezicht en daarbij gevoelige bedrijfsdata invoeren, zoals klantlijsten en broncode. Dit leidt tot verlies van controle over data, compliance-risico's en mogelijke datalekken doordat data buiten de organisatieomgeving terechtkomt.",
+    "relevanceBullets": [
+      "Medewerkers voeren klantgegevens en broncode in AI-chattools in, waardoor gevoelige data buiten de organisatie terechtkomt.",
+      "Toont dat gebrek aan controle op AI-chatgebruik direct leidt tot datalek- en compliance-risico's, wat PseudoAI adresseert."
+    ],
+    "tags": ["shadow-ai", "data-leakage", "governance", "compliance"]
   }
 ]
