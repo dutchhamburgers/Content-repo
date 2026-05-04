@@ -238,5 +238,20 @@
       "Toont dat gebrek aan controle op AI-chatgebruik direct leidt tot datalek- en compliance-risico's, wat PseudoAI adresseert."
     ],
     "tags": ["shadow-ai", "data-leakage", "governance", "compliance"]
+  },
+  {
+    "slug": "uk-firms-left-in-the-dark-workers-sharing-ai",
+    "title": "UK firms left in the dark over what workers are sharing with AI",
+    "publishedAt": "2026-05-01",
+    "source": "ITPro",
+    "language": "en",
+    "originalUrl": "https://www.itpro.com/security/data-protection/uk-firms-left-in-the-dark-over-what-workers-are-sharing-with-ai",
+    "quote": "About 67% of organizations cannot track the information their staff shares with AI, and 35% of employees use unauthorized external platforms.",
+    "summary": "A recent survey shows that most organizations lack visibility into what employees share with AI tools like ChatGPT. The rise of shadow AI—unauthorized use of AI chat tools—creates significant risks for data leakage and compliance, with many companies unable to monitor or control sensitive information being exposed.",
+    "relevanceBullets": [
+      "Medewerkers gebruiken AI-tools buiten zicht van IT, waardoor gevoelige data ongemerkt wordt gedeeld.",
+      "Gebrek aan governance rond AI-chatgebruik leidt direct tot datalek- en compliance-risico's."
+    ],
+    "tags": ["shadow-ai", "governance", "data-leakage", "compliance"]
   }
 ]
