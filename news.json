@@ -1,213 +1,43 @@
 [
   {
-    "slug": "tientallen-datalekken-ai-gebruik-werknemers",
-    "title": "Tientallen datalekken door AI-gebruik werknemers",
-    "publishedAt": "2025-12-27",
-    "source": "De Ondernemer",
-    "language": "nl",
-    "originalUrl": "https://www.deondernemer.nl/innovatie/ai-datalekken-chatgpt-tools-gevoelige-informatie-privacywaakhond-geletterdheid~ffe332a",
-    "quote": "De Autoriteit Persoonsgegevens waarschuwt dat werknemers gevoelige informatie invoeren in AI-tools zoals ChatGPT, wat leidt tot datalekken.",
-    "summary": "De Autoriteit Persoonsgegevens (AP) waarschuwt bedrijven dat medewerkers onbewust persoonsgegevens invoeren in AI-chattools zoals ChatGPT. Dit kan leiden tot ongewilde datalekken en schending van de AVG. Organisaties zijn verantwoordelijk voor het borgen van dataminimalisatie en governance rondom AI-gebruik.",
-    "relevanceBullets": [
-      "Werknemers voeren zonder controle persoonsgegevens en bedrijfsinformatie in AI-chattools in, wat direct leidt tot datalekken.",
-      "Benadrukt dat organisaties verantwoordelijkheid dragen voor governance en dataminimalisatie bij AI-chatgebruik onder de AVG."
-    ],
-    "tags": ["privacy", "data-leakage", "governance", "compliance"]
-  },
-  {
-    "slug": "gemeente-eindhoven-persoonsgegevens-openbare-ai-tools",
-    "title": "Gemeente Eindhoven stuurde persoonsgegevens naar openbare AI-tools",
-    "publishedAt": "2025-12-30",
-    "source": "Tweakers",
-    "language": "nl",
-    "originalUrl": "https://tweakers.net/nieuws/242822/gemeente-eindhoven-stuurde-persoonsgegevens-naar-openbare-ai-tools.html",
-    "quote": "Medewerkers uploaden duizenden documenten met persoonsgegevens naar AI-tools zoals ChatGPT en Claude.",
-    "summary": "Medewerkers van de gemeente Eindhoven hebben duizenden documenten met persoonsgegevens geüpload naar openbare AI-tools zoals ChatGPT en Claude. Het incident resulteerde in een datalek waarbij gevoelige informatie de beveiligde organisatieomgeving verliet. De casus illustreert hoe onvoldoende AI-governance binnen organisaties kan leiden tot grootschalige datalekken.",
-    "relevanceBullets": [
-      "Concrete casus waarin medewerkers gevoelige documenten en persoonsgegevens in AI-chattools invoeren.",
-      "Laat zien dat gebrek aan governance bij AI-chatgebruik leidt tot grootschalige datalekken binnen organisaties."
-    ],
-    "tags": ["data-leakage", "privacy", "governance"]
-  },
-  {
-    "slug": "average-organization-200-genai-data-policy-violations-monthly",
-    "title": "Average organization reporting over 200 GenAI data policy violations each month",
-    "publishedAt": "2026-02-10",
-    "source": "TechRadar",
+    "slug": "uk-firms-left-in-the-dark-workers-sharing-ai",
+    "title": "UK firms left in the dark over what workers are sharing with AI",
+    "publishedAt": "2026-05-01",
+    "source": "ITPro",
     "language": "en",
-    "originalUrl": "https://www.techradar.com/pro/security/average-organization-now-reporting-over-200-genai-related-data-policy-violations-each-month",
-    "quote": "Organizations report hundreds of incidents where employees input sensitive data into AI tools without approval.",
-    "summary": "A new report reveals that the average organization now experiences more than 200 GenAI-related data policy violations per month. Employees regularly enter sensitive data including source code and credentials into AI tools without organizational oversight. The findings expose a structural lack of governance and supervision around AI chat usage in enterprises.",
+    "originalUrl": "https://www.itpro.com/security/data-protection/uk-firms-left-in-the-dark-over-what-workers-are-sharing-with-ai",
+    "quote": "About 67% of organizations cannot track the information their staff shares with AI, and 35% of employees use unauthorized external platforms.",
+    "summary": "A recent survey shows that most organizations lack visibility into what employees share with AI tools like ChatGPT. The rise of shadow AI—unauthorized use of AI chat tools—creates significant risks for data leakage and compliance, with many companies unable to monitor or control sensitive information being exposed.",
     "relevanceBullets": [
-      "Werknemers voeren gevoelige data zoals broncode en credentials in AI-chattools in zonder controle.",
-      "Toont structureel gebrek aan governance en toezicht bij AI-chatgebruik binnen organisaties."
+      "Medewerkers gebruiken AI-tools buiten zicht van IT, waardoor gevoelige data ongemerkt wordt gedeeld.",
+      "Gebrek aan governance rond AI-chatgebruik leidt direct tot datalek- en compliance-risico's."
     ],
-    "tags": ["governance", "data-leakage", "shadow-ai"]
+    "tags": [
+      "shadow-ai",
+      "governance",
+      "data-leakage",
+      "compliance"
+    ]
   },
   {
-    "slug": "microsoft-office-bug-confidential-emails-copilot-ai",
-    "title": "Microsoft says Office bug exposed customers' confidential emails to Copilot AI",
-    "publishedAt": "2026-02-18",
-    "source": "TechCrunch",
-    "language": "en",
-    "originalUrl": "https://techcrunch.com/2026/02/18/microsoft-says-office-bug-exposed-customers-confidential-emails-to-copilot-ai/",
-    "quote": "A bug allowed Copilot to access and summarize confidential emails despite security controls.",
-    "summary": "A software bug in Microsoft Office caused Copilot AI to inadvertently access and summarize confidential customer emails, bypassing existing security controls. The incident demonstrates that even enterprise-grade AI integrations can expose sensitive business information when technical safeguards fail. It underscores the need for robust governance and continuous monitoring, even for officially approved AI tools.",
-    "relevanceBullets": [
-      "Laat zien dat AI-chatinterfaces zoals Copilot gevoelige bedrijfsinformatie kunnen verwerken ondanks bestaande beveiligingsmaatregelen.",
-      "Benadrukt dat zelfs gecontroleerde AI-tools risico vormen wanneer governance en technische beperkingen falen."
-    ],
-    "tags": ["security", "data-leakage", "governance"]
-  },
-  {
-    "slug": "chatbot-data-harvesting-sensitive-personal-info",
-    "title": "Chatbot data harvesting yields sensitive personal info",
-    "publishedAt": "2026-03-03",
-    "source": "The Register",
-    "language": "en",
-    "originalUrl": "https://www.theregister.com/2026/03/03/chatbot_data_harvesting_personal_info/",
-    "quote": "Sensitive personal and professional information is being extracted from chatbot interactions.",
-    "summary": "Research shows that sensitive personal and professional information is being extracted from AI chatbot interactions and can be harvested or misused. Users entering confidential data into AI tools may be unaware that their inputs can be retained or exposed beyond the intended session. This raises significant concerns about privacy, confidentiality, and the governance of AI chat tool usage in professional settings.",
-    "relevanceBullets": [
-      "Gevoelige informatie uit AI-chatgesprekken wordt verzameld en hergebruikt, wat risico's creëert voor vertrouwelijkheid.",
-      "Onderstreept dat invoer van data in AI-chattools kan leiden tot ongecontroleerde verspreiding van gevoelige informatie."
-    ],
-    "tags": ["privacy", "data-leakage", "compliance", "security"]
-  },
-  {
-    "slug": "smbs-ai-risk-invisible-workflow-change",
-    "title": "The risk for SMBs is not reckless use of AI, but invisible workflow change",
-    "publishedAt": "2026-03-12",
-    "source": "TechRadar",
-    "language": "en",
-    "originalUrl": "https://www.techradar.com/pro/the-risk-for-smbs-is-not-reckless-use-of-ai-but-invisible-workflow-change-legal-firms-are-falling-behind-when-it-comes-to-setting-rules-for-ai-use",
-    "quote": "Employees are entering contracts and confidential data into AI tools without clear policies.",
-    "summary": "The primary AI risk for small and medium-sized businesses is not deliberate misuse but invisible workflow changes that occur when employees handle contracts and confidential business data via AI tools without oversight. Legal firms in particular are lagging behind in establishing clear AI usage rules. The absence of an AI usage policy creates direct compliance and data leakage risks for these organizations.",
-    "relevanceBullets": [
-      "Werknemers voeren vertrouwelijke contracten en bedrijfsinformatie in AI-chattools in zonder toezicht.",
-      "Laat zien dat gebrek aan beleid rond AI-chatgebruik direct leidt tot compliance- en datalekrisico's."
-    ],
-    "tags": ["shadow-ai", "governance", "compliance", "data-leakage"]
-  },
-  {
-    "slug": "employees-sensitive-data-ai-tools-security-warnings",
-    "title": "Employees continue to input sensitive data into AI tools despite security warnings",
-    "publishedAt": "2026-04-05",
-    "source": "TechRadar",
-    "language": "en",
-    "originalUrl": "https://www.techradar.com/pro/security/employees-continue-to-input-sensitive-data-into-ai-tools-despite-security-warnings",
-    "quote": "Security experts warn that employees still enter confidential data into AI tools, creating ongoing compliance and data leakage risks.",
-    "summary": "Security researchers reveal that employees consistently enter sensitive and confidential data into AI tools even after receiving security warnings. This behavior creates ongoing compliance risks and data leakage vulnerabilities for organizations. The findings indicate that technical controls and awareness campaigns alone are insufficient to prevent unauthorized data sharing with AI tools.",
-    "relevanceBullets": [
-      "Bevestigt dat medewerkers ondanks waarschuwingen gevoelige informatie invoeren in AI-chattools, wat leidt tot structurele datalekrisico's.",
-      "Laat zien dat gebrek aan controle en bewustzijn rond AI-chatgebruik directe impact heeft op security en compliance."
-    ],
-    "tags": ["data-leakage", "security", "compliance", "governance"]
-  },
-  {
-    "slug": "samsung-bans-chatgpt-employees-leak-confidential-code",
-    "title": "Samsung bans ChatGPT after employees leak confidential code",
-    "publishedAt": "2026-04-02",
-    "source": "BBC News",
-    "language": "en",
-    "originalUrl": "https://www.bbc.com/news/technology-65239495",
-    "quote": "Samsung restricted the use of generative AI tools after employees uploaded sensitive source code to ChatGPT.",
-    "summary": "Samsung issued a ban on the use of generative AI tools internally after multiple employees uploaded sensitive source code to ChatGPT, resulting in a significant data breach. The incident highlights the risks of uncontrolled AI chat tool usage when employees handle proprietary intellectual property. Samsung's response underscores the need for organizations to implement strict policies and technical controls around AI tool access.",
-    "relevanceBullets": [
-      "Medewerkers voeren vertrouwelijke broncode in AI-chattools in, wat direct leidt tot ernstige datalekken en IP-risico's.",
-      "Toont dat organisaties maatregelen moeten nemen om ongecontroleerd AI-chatgebruik en dataverlies te voorkomen."
-    ],
-    "tags": ["data-leakage", "security", "governance"]
-  },
-  {
-    "slug": "hidden-security-risks-shadow-ai-enterprises",
-    "title": "The Hidden Security Risks of Shadow AI in Enterprises",
-    "publishedAt": "2026-04-09",
-    "source": "The Hacker News",
-    "language": "en",
-    "originalUrl": "https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html",
-    "quote": "Shadow AI exposes enterprises to uncontrolled data leakage: 55–68% of employees use unapproved AI tools, often uploading sensitive company data without any IT oversight.",
-    "summary": "The Hacker News reports that shadow AI—AI tools adopted by employees without IT approval—has become a systemic data security threat for enterprises in 2026. Between 55 and 68 percent of employees use unapproved AI tools, routinely uploading confidential documents, source code, and customer records to external platforms without organizational oversight. Conventional security controls prove largely ineffective against shadow AI, as encrypted sessions and rapid API integrations bypass firewalls and endpoint detection. Experts urge dedicated AI governance frameworks combining real-time monitoring, identity management, and employee education to close this growing risk.",
-    "relevanceBullets": [
-      "Bevestigt dat de meerderheid van werknemers AI-tools gebruikt buiten IT-toezicht, waarbij gevoelige bedrijfsdata ongecontroleerd wordt gedeeld met externe AI-platforms.",
-      "Toont aan dat traditionele beveiligingscontroles ontoereikend zijn voor shadow AI en dat organisaties specifieke governance-frameworks nodig hebben om datalekken te voorkomen."
-    ],
-    "tags": ["shadow-ai", "data-leakage", "governance", "security"]
-  },
-  {
-    "slug": "threat-actor-abuse-ai-accelerates-cyberattack-surface",
-    "title": "Threat Actor Abuse of AI Accelerates from Tool to Cyberattack Surface",
-    "publishedAt": "2026-04-02",
-    "source": "Microsoft Security Blog",
-    "language": "en",
-    "originalUrl": "https://www.microsoft.com/en-us/security/blog/2026/04/02/threat-actor-abuse-of-ai-accelerates-from-tool-to-cyberattack-surface/",
-    "quote": "AI is reducing friction across the attack lifecycle; helping threat actors research faster, write better lures, vibe code malware, and triage stolen data.",
-    "summary": "Microsoft's security team reports that threat actors—from nation-states to cybercrime groups—are now embedding generative AI throughout the full cyberattack lifecycle, from reconnaissance and phishing to malware development and post-compromise operations. AI-assisted phishing campaigns achieve click-through rates of 54%, a 450% increase over traditional approaches, by enabling precise personalization of lures. The Tycoon2FA subscription platform illustrates how AI lowers the barrier to entry for sophisticated identity theft at industrial scale. Microsoft warns that while attacks are not yet fully autonomous, the tempo, iteration speed, and scale of AI-enabled attacks have fundamentally upgraded the threat landscape.",
-    "relevanceBullets": [
-      "Toont aan dat AI door kwaadwillenden wordt ingezet om phishing en malware op te schalen, wat de aanvalsoppervlakte voor organisaties die AI-chattools gebruiken direct vergroot.",
-      "Benadrukt dat AI-gerelateerde dreigingen de noodzaak voor governance en bewaking van AI-gebruik binnen organisaties verder versterken om dataverlies en identiteitsdiefstal te voorkomen."
-    ],
-    "tags": ["security", "attack-surface", "governance"]
-  },
-  {
-    "slug": "unpacking-ai-security-2026-agentic-era",
-    "title": "Unpacking AI Security in 2026: From Experimentation to the Agentic Era",
-    "publishedAt": "2026-04-10",
-    "source": "The Register",
-    "language": "en",
-    "originalUrl": "https://www.theregister.com/2026/04/10/unpacking_ai_security_2026/",
-    "quote": "A single vulnerability in an AI pipeline can now lead to automated data exfiltration, systemic reputational damage, and heavy regulatory penalties.",
-    "summary": "The Register examines how enterprise AI has shifted from isolated pilots in 2025 to large-scale autonomous deployment in 2026, dramatically expanding the security attack surface. Agentic AI systems—which execute tasks independently rather than merely advising—introduce new vulnerability categories that conventional security frameworks are ill-equipped to address. The article highlights risks from AI supply chains including external plugins and datasets, alongside a global regulatory pivot from voluntary guidelines to enforceable compliance laws. Security leaders are urged to adopt trust-by-design governance and proactive anomaly detection before a single vulnerability in an AI pipeline triggers cascading data and regulatory consequences.",
-    "relevanceBullets": [
-      "Laat zien dat autonoom handelende AI-agents een nieuw aanvalsoppervlak creëren waarbij één kwetsbaarheid kan leiden tot geautomatiseerde data-exfiltratie en zware boetes.",
-      "Onderstreept dat organisaties AI-governance moeten verankeren in hun beveiligingsstrategie nu regelgeving wereldwijd afdwingbaar wordt."
-    ],
-    "tags": ["security", "governance", "attack-surface", "compliance"]
-  },
-  {
-    "slug": "tipping-point-ai-work-gallup-survey-us-employees",
-    "title": "Is this the tipping point for AI at work? New Gallup survey finds half of all US employees now use it",
-    "publishedAt": "2026-04-16",
+    "slug": "uk-firms-workers-sharing-data-ai-tools",
+    "title": "Organizations need to stop workarounds and regain control: Report finds many firms don't know what their workers are sharing with AI tools",
+    "publishedAt": "2026-05-01",
     "source": "TechRadar Pro",
     "language": "en",
-    "originalUrl": "https://www.techradar.com/pro/is-this-the-tipping-point-for-ai-at-work-new-gallup-survey-finds-half-of-all-us-employees-now-use-it-in-some-way",
-    "quote": "A new Gallup survey reports that half of US employees now use AI in some form at work, signaling a major shift in day-to-day workplace behavior.",
-    "summary": "A Gallup survey, covered by TechRadar Pro, indicates that AI usage has reached mainstream adoption in US workplaces, with about half of employees now using it in some way. The article also points to unresolved concerns around uneven adoption, job security, and unclear organizational outcomes. This combination of rapid uptake and limited oversight highlights the governance pressure organizations face as AI use scales.",
+    "originalUrl": "https://www.techradar.com/pro/organizations-need-to-stop-workarounds-and-regain-control-report-finds-many-firms-dont-know-what-their-workers-are-sharing-with-ai-tools",
+    "quote": "Two-thirds of companies admit they cannot track if employees are using approved AI tools, creating critical visibility issues.",
+    "summary": "Een nieuw SailPoint-onderzoek laat zien dat veel organisaties geen zicht hebben op welke data medewerkers delen met AI-tools zoals ChatGPT, Gemini en Claude. Het rapport wijst op een sterke toename van shadow AI, waarbij medewerkers ongecontroleerd externe AI-tools gebruiken buiten IT-governance en securitycontroles.",
     "relevanceBullets": [
-      "De snelle, brede adoptie van AI-tools door medewerkers loopt vooruit op duidelijke governancekaders binnen organisaties.",
-      "Toont dat organisaties naast productiviteitswinst ook risico's rond toezicht, beleid en verantwoord gebruik moeten beheersen."
+      "Werknemers gebruiken AI-chattools buiten toezicht van IT, waardoor gevoelige bedrijfsdata ongecontroleerd gedeeld wordt.",
+      "Laat zien dat organisaties governance en zichtbaarheid nodig hebben om datalekken via AI-chatgebruik te voorkomen."
     ],
-    "tags": ["shadow-ai", "governance", "compliance"]
-  },
-  {
-    "slug": "tech-layoffs-ai-work-reliability-governance-risks",
-    "title": "Tech companies are cutting jobs and betting on AI — but risks remain",
-    "publishedAt": "2026-04-17",
-    "source": "The Guardian",
-    "language": "en",
-    "originalUrl": "https://www.theguardian.com/technology/2026/apr/06/tech-layoffs-ai-work",
-    "quote": "Companies are accelerating AI use in daily work, while concerns persist about reliability and replacing human judgment too quickly.",
-    "summary": "The Guardian describes how organizations are increasing AI use in everyday workflows while still facing unresolved concerns about output quality and overreliance. The article highlights that employees can be pushed to depend on tools that remain imperfect or insufficiently understood. This creates governance and accountability risks when human review and policy controls are not consistently applied.",
-    "relevanceBullets": [
-      "Laat zien dat druk op medewerkers om AI-output te gebruiken zonder voldoende menselijke controle kan leiden tot kwaliteits- en beslisrisico's.",
-      "Onderstreept dat organisaties governance en duidelijke werkafspraken nodig hebben om overmatig vertrouwen op AI-tools te beperken."
-    ],
-    "tags": ["governance", "shadow-ai", "compliance"]
-  },
-  {
-    "slug": "wall-street-banks-roll-out-ai-tools-safety-pressure",
-    "title": "Wall Street banks are rapidly rolling out AI tools to employees — and facing pressure to prove they are safe and effective",
-    "publishedAt": "2026-04-19",
-    "source": "Business Insider",
-    "language": "en",
-    "originalUrl": "https://www.businessinsider.com/wall-street-banks-ai-strategy-jpmorgan-goldman-citi-bofa-2026",
-    "quote": "Major banks are scaling AI tools across their workforce while scrutiny rises around safety, oversight, and compliance.",
-    "summary": "Business Insider reports that large banks are deploying AI tools broadly to employees and are under pressure to demonstrate safe and effective operation. The rollout raises concerns about whether governance and control mechanisms can keep pace with adoption at enterprise scale. In regulated sectors, weak oversight of internal AI use can quickly become an operational and compliance risk.",
-    "relevanceBullets": [
-      "Toont dat grootschalige inzet van AI-tools door medewerkers directe eisen stelt aan toezicht, validatie en risicobeheersing.",
-      "Voor gereguleerde organisaties benadrukt dit dat onvoldoende AI-governance kan uitmonden in compliance- en auditproblemen."
-    ],
-    "tags": ["governance", "compliance", "shadow-ai"]
+    "tags": [
+      "shadow-ai",
+      "data-leakage",
+      "governance",
+      "compliance"
+    ]
   },
   {
     "slug": "shadow-ai-agent-problem-enterprise-environments",
@@ -222,7 +52,11 @@
       "Toont aan dat de meerderheid van organisaties onbekende AI-agents heeft draaien die buiten governance en toezicht vallen, met risico op ongecontroleerde datatoegang en datalekken.",
       "Benadrukt dat operationele zichtbaarheid niet volstaat en dat organisaties assurance-niveau governance nodig hebben om shadow AI-agents en bijbehorende veiligheidsrisico's te beheersen."
     ],
-    "tags": ["shadow-ai", "governance", "security"]
+    "tags": [
+      "shadow-ai",
+      "governance",
+      "security"
+    ]
   },
   {
     "slug": "shadow-ai-openclaw-corporate-data-risk",
@@ -237,21 +71,283 @@
       "Medewerkers voeren klantgegevens en broncode in AI-chattools in, waardoor gevoelige data buiten de organisatie terechtkomt.",
       "Toont dat gebrek aan controle op AI-chatgebruik direct leidt tot datalek- en compliance-risico's, wat PseudoAI adresseert."
     ],
-    "tags": ["shadow-ai", "data-leakage", "governance", "compliance"]
+    "tags": [
+      "shadow-ai",
+      "data-leakage",
+      "governance",
+      "compliance"
+    ]
   },
   {
-    "slug": "uk-firms-left-in-the-dark-workers-sharing-ai",
-    "title": "UK firms left in the dark over what workers are sharing with AI",
-    "publishedAt": "2026-05-01",
-    "source": "ITPro",
+    "slug": "wall-street-banks-roll-out-ai-tools-safety-pressure",
+    "title": "Wall Street banks are rapidly rolling out AI tools to employees — and facing pressure to prove they are safe and effective",
+    "publishedAt": "2026-04-19",
+    "source": "Business Insider",
     "language": "en",
-    "originalUrl": "https://www.itpro.com/security/data-protection/uk-firms-left-in-the-dark-over-what-workers-are-sharing-with-ai",
-    "quote": "About 67% of organizations cannot track the information their staff shares with AI, and 35% of employees use unauthorized external platforms.",
-    "summary": "A recent survey shows that most organizations lack visibility into what employees share with AI tools like ChatGPT. The rise of shadow AI—unauthorized use of AI chat tools—creates significant risks for data leakage and compliance, with many companies unable to monitor or control sensitive information being exposed.",
+    "originalUrl": "https://www.businessinsider.com/wall-street-banks-ai-strategy-jpmorgan-goldman-citi-bofa-2026",
+    "quote": "Major banks are scaling AI tools across their workforce while scrutiny rises around safety, oversight, and compliance.",
+    "summary": "Business Insider reports that large banks are deploying AI tools broadly to employees and are under pressure to demonstrate safe and effective operation. The rollout raises concerns about whether governance and control mechanisms can keep pace with adoption at enterprise scale. In regulated sectors, weak oversight of internal AI use can quickly become an operational and compliance risk.",
     "relevanceBullets": [
-      "Medewerkers gebruiken AI-tools buiten zicht van IT, waardoor gevoelige data ongemerkt wordt gedeeld.",
-      "Gebrek aan governance rond AI-chatgebruik leidt direct tot datalek- en compliance-risico's."
+      "Toont dat grootschalige inzet van AI-tools door medewerkers directe eisen stelt aan toezicht, validatie en risicobeheersing.",
+      "Voor gereguleerde organisaties benadrukt dit dat onvoldoende AI-governance kan uitmonden in compliance- en auditproblemen."
     ],
-    "tags": ["shadow-ai", "governance", "data-leakage", "compliance"]
+    "tags": [
+      "governance",
+      "compliance",
+      "shadow-ai"
+    ]
+  },
+  {
+    "slug": "tech-layoffs-ai-work-reliability-governance-risks",
+    "title": "Tech companies are cutting jobs and betting on AI — but risks remain",
+    "publishedAt": "2026-04-17",
+    "source": "The Guardian",
+    "language": "en",
+    "originalUrl": "https://www.theguardian.com/technology/2026/apr/06/tech-layoffs-ai-work",
+    "quote": "Companies are accelerating AI use in daily work, while concerns persist about reliability and replacing human judgment too quickly.",
+    "summary": "The Guardian describes how organizations are increasing AI use in everyday workflows while still facing unresolved concerns about output quality and overreliance. The article highlights that employees can be pushed to depend on tools that remain imperfect or insufficiently understood. This creates governance and accountability risks when human review and policy controls are not consistently applied.",
+    "relevanceBullets": [
+      "Laat zien dat druk op medewerkers om AI-output te gebruiken zonder voldoende menselijke controle kan leiden tot kwaliteits- en beslisrisico's.",
+      "Onderstreept dat organisaties governance en duidelijke werkafspraken nodig hebben om overmatig vertrouwen op AI-tools te beperken."
+    ],
+    "tags": [
+      "governance",
+      "shadow-ai",
+      "compliance"
+    ]
+  },
+  {
+    "slug": "tipping-point-ai-work-gallup-survey-us-employees",
+    "title": "Is this the tipping point for AI at work? New Gallup survey finds half of all US employees now use it",
+    "publishedAt": "2026-04-16",
+    "source": "TechRadar Pro",
+    "language": "en",
+    "originalUrl": "https://www.techradar.com/pro/is-this-the-tipping-point-for-ai-at-work-new-gallup-survey-finds-half-of-all-us-employees-now-use-it-in-some-way",
+    "quote": "A new Gallup survey reports that half of US employees now use AI in some form at work, signaling a major shift in day-to-day workplace behavior.",
+    "summary": "A Gallup survey, covered by TechRadar Pro, indicates that AI usage has reached mainstream adoption in US workplaces, with about half of employees now using it in some way. The article also points to unresolved concerns around uneven adoption, job security, and unclear organizational outcomes. This combination of rapid uptake and limited oversight highlights the governance pressure organizations face as AI use scales.",
+    "relevanceBullets": [
+      "De snelle, brede adoptie van AI-tools door medewerkers loopt vooruit op duidelijke governancekaders binnen organisaties.",
+      "Toont dat organisaties naast productiviteitswinst ook risico's rond toezicht, beleid en verantwoord gebruik moeten beheersen."
+    ],
+    "tags": [
+      "shadow-ai",
+      "governance",
+      "compliance"
+    ]
+  },
+  {
+    "slug": "unpacking-ai-security-2026-agentic-era",
+    "title": "Unpacking AI Security in 2026: From Experimentation to the Agentic Era",
+    "publishedAt": "2026-04-10",
+    "source": "The Register",
+    "language": "en",
+    "originalUrl": "https://www.theregister.com/2026/04/10/unpacking_ai_security_2026/",
+    "quote": "A single vulnerability in an AI pipeline can now lead to automated data exfiltration, systemic reputational damage, and heavy regulatory penalties.",
+    "summary": "The Register examines how enterprise AI has shifted from isolated pilots in 2025 to large-scale autonomous deployment in 2026, dramatically expanding the security attack surface. Agentic AI systems—which execute tasks independently rather than merely advising—introduce new vulnerability categories that conventional security frameworks are ill-equipped to address. The article highlights risks from AI supply chains including external plugins and datasets, alongside a global regulatory pivot from voluntary guidelines to enforceable compliance laws. Security leaders are urged to adopt trust-by-design governance and proactive anomaly detection before a single vulnerability in an AI pipeline triggers cascading data and regulatory consequences.",
+    "relevanceBullets": [
+      "Laat zien dat autonoom handelende AI-agents een nieuw aanvalsoppervlak creëren waarbij één kwetsbaarheid kan leiden tot geautomatiseerde data-exfiltratie en zware boetes.",
+      "Onderstreept dat organisaties AI-governance moeten verankeren in hun beveiligingsstrategie nu regelgeving wereldwijd afdwingbaar wordt."
+    ],
+    "tags": [
+      "security",
+      "governance",
+      "attack-surface",
+      "compliance"
+    ]
+  },
+  {
+    "slug": "hidden-security-risks-shadow-ai-enterprises",
+    "title": "The Hidden Security Risks of Shadow AI in Enterprises",
+    "publishedAt": "2026-04-09",
+    "source": "The Hacker News",
+    "language": "en",
+    "originalUrl": "https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html",
+    "quote": "Shadow AI exposes enterprises to uncontrolled data leakage: 55–68% of employees use unapproved AI tools, often uploading sensitive company data without any IT oversight.",
+    "summary": "The Hacker News reports that shadow AI—AI tools adopted by employees without IT approval—has become a systemic data security threat for enterprises in 2026. Between 55 and 68 percent of employees use unapproved AI tools, routinely uploading confidential documents, source code, and customer records to external platforms without organizational oversight. Conventional security controls prove largely ineffective against shadow AI, as encrypted sessions and rapid API integrations bypass firewalls and endpoint detection. Experts urge dedicated AI governance frameworks combining real-time monitoring, identity management, and employee education to close this growing risk.",
+    "relevanceBullets": [
+      "Bevestigt dat de meerderheid van werknemers AI-tools gebruikt buiten IT-toezicht, waarbij gevoelige bedrijfsdata ongecontroleerd wordt gedeeld met externe AI-platforms.",
+      "Toont aan dat traditionele beveiligingscontroles ontoereikend zijn voor shadow AI en dat organisaties specifieke governance-frameworks nodig hebben om datalekken te voorkomen."
+    ],
+    "tags": [
+      "shadow-ai",
+      "data-leakage",
+      "governance",
+      "security"
+    ]
+  },
+  {
+    "slug": "employees-sensitive-data-ai-tools-security-warnings",
+    "title": "Employees continue to input sensitive data into AI tools despite security warnings",
+    "publishedAt": "2026-04-05",
+    "source": "TechRadar",
+    "language": "en",
+    "originalUrl": "https://www.techradar.com/pro/security/employees-continue-to-input-sensitive-data-into-ai-tools-despite-security-warnings",
+    "quote": "Security experts warn that employees still enter confidential data into AI tools, creating ongoing compliance and data leakage risks.",
+    "summary": "Security researchers reveal that employees consistently enter sensitive and confidential data into AI tools even after receiving security warnings. This behavior creates ongoing compliance risks and data leakage vulnerabilities for organizations. The findings indicate that technical controls and awareness campaigns alone are insufficient to prevent unauthorized data sharing with AI tools.",
+    "relevanceBullets": [
+      "Bevestigt dat medewerkers ondanks waarschuwingen gevoelige informatie invoeren in AI-chattools, wat leidt tot structurele datalekrisico's.",
+      "Laat zien dat gebrek aan controle en bewustzijn rond AI-chatgebruik directe impact heeft op security en compliance."
+    ],
+    "tags": [
+      "data-leakage",
+      "security",
+      "compliance",
+      "governance"
+    ]
+  },
+  {
+    "slug": "samsung-bans-chatgpt-employees-leak-confidential-code",
+    "title": "Samsung bans ChatGPT after employees leak confidential code",
+    "publishedAt": "2026-04-02",
+    "source": "BBC News",
+    "language": "en",
+    "originalUrl": "https://www.bbc.com/news/technology-65239495",
+    "quote": "Samsung restricted the use of generative AI tools after employees uploaded sensitive source code to ChatGPT.",
+    "summary": "Samsung issued a ban on the use of generative AI tools internally after multiple employees uploaded sensitive source code to ChatGPT, resulting in a significant data breach. The incident highlights the risks of uncontrolled AI chat tool usage when employees handle proprietary intellectual property. Samsung's response underscores the need for organizations to implement strict policies and technical controls around AI tool access.",
+    "relevanceBullets": [
+      "Medewerkers voeren vertrouwelijke broncode in AI-chattools in, wat direct leidt tot ernstige datalekken en IP-risico's.",
+      "Toont dat organisaties maatregelen moeten nemen om ongecontroleerd AI-chatgebruik en dataverlies te voorkomen."
+    ],
+    "tags": [
+      "data-leakage",
+      "security",
+      "governance"
+    ]
+  },
+  {
+    "slug": "threat-actor-abuse-ai-accelerates-cyberattack-surface",
+    "title": "Threat Actor Abuse of AI Accelerates from Tool to Cyberattack Surface",
+    "publishedAt": "2026-04-02",
+    "source": "Microsoft Security Blog",
+    "language": "en",
+    "originalUrl": "https://www.microsoft.com/en-us/security/blog/2026/04/02/threat-actor-abuse-of-ai-accelerates-from-tool-to-cyberattack-surface/",
+    "quote": "AI is reducing friction across the attack lifecycle; helping threat actors research faster, write better lures, vibe code malware, and triage stolen data.",
+    "summary": "Microsoft's security team reports that threat actors—from nation-states to cybercrime groups—are now embedding generative AI throughout the full cyberattack lifecycle, from reconnaissance and phishing to malware development and post-compromise operations. AI-assisted phishing campaigns achieve click-through rates of 54%, a 450% increase over traditional approaches, by enabling precise personalization of lures. The Tycoon2FA subscription platform illustrates how AI lowers the barrier to entry for sophisticated identity theft at industrial scale. Microsoft warns that while attacks are not yet fully autonomous, the tempo, iteration speed, and scale of AI-enabled attacks have fundamentally upgraded the threat landscape.",
+    "relevanceBullets": [
+      "Toont aan dat AI door kwaadwillenden wordt ingezet om phishing en malware op te schalen, wat de aanvalsoppervlakte voor organisaties die AI-chattools gebruiken direct vergroot.",
+      "Benadrukt dat AI-gerelateerde dreigingen de noodzaak voor governance en bewaking van AI-gebruik binnen organisaties verder versterken om dataverlies en identiteitsdiefstal te voorkomen."
+    ],
+    "tags": [
+      "security",
+      "attack-surface",
+      "governance"
+    ]
+  },
+  {
+    "slug": "smbs-ai-risk-invisible-workflow-change",
+    "title": "The risk for SMBs is not reckless use of AI, but invisible workflow change",
+    "publishedAt": "2026-03-12",
+    "source": "TechRadar",
+    "language": "en",
+    "originalUrl": "https://www.techradar.com/pro/the-risk-for-smbs-is-not-reckless-use-of-ai-but-invisible-workflow-change-legal-firms-are-falling-behind-when-it-comes-to-setting-rules-for-ai-use",
+    "quote": "Employees are entering contracts and confidential data into AI tools without clear policies.",
+    "summary": "The primary AI risk for small and medium-sized businesses is not deliberate misuse but invisible workflow changes that occur when employees handle contracts and confidential business data via AI tools without oversight. Legal firms in particular are lagging behind in establishing clear AI usage rules. The absence of an AI usage policy creates direct compliance and data leakage risks for these organizations.",
+    "relevanceBullets": [
+      "Werknemers voeren vertrouwelijke contracten en bedrijfsinformatie in AI-chattools in zonder toezicht.",
+      "Laat zien dat gebrek aan beleid rond AI-chatgebruik direct leidt tot compliance- en datalekrisico's."
+    ],
+    "tags": [
+      "shadow-ai",
+      "governance",
+      "compliance",
+      "data-leakage"
+    ]
+  },
+  {
+    "slug": "chatbot-data-harvesting-sensitive-personal-info",
+    "title": "Chatbot data harvesting yields sensitive personal info",
+    "publishedAt": "2026-03-03",
+    "source": "The Register",
+    "language": "en",
+    "originalUrl": "https://www.theregister.com/2026/03/03/chatbot_data_harvesting_personal_info/",
+    "quote": "Sensitive personal and professional information is being extracted from chatbot interactions.",
+    "summary": "Research shows that sensitive personal and professional information is being extracted from AI chatbot interactions and can be harvested or misused. Users entering confidential data into AI tools may be unaware that their inputs can be retained or exposed beyond the intended session. This raises significant concerns about privacy, confidentiality, and the governance of AI chat tool usage in professional settings.",
+    "relevanceBullets": [
+      "Gevoelige informatie uit AI-chatgesprekken wordt verzameld en hergebruikt, wat risico's creëert voor vertrouwelijkheid.",
+      "Onderstreept dat invoer van data in AI-chattools kan leiden tot ongecontroleerde verspreiding van gevoelige informatie."
+    ],
+    "tags": [
+      "privacy",
+      "data-leakage",
+      "compliance",
+      "security"
+    ]
+  },
+  {
+    "slug": "microsoft-office-bug-confidential-emails-copilot-ai",
+    "title": "Microsoft says Office bug exposed customers' confidential emails to Copilot AI",
+    "publishedAt": "2026-02-18",
+    "source": "TechCrunch",
+    "language": "en",
+    "originalUrl": "https://techcrunch.com/2026/02/18/microsoft-says-office-bug-exposed-customers-confidential-emails-to-copilot-ai/",
+    "quote": "A bug allowed Copilot to access and summarize confidential emails despite security controls.",
+    "summary": "A software bug in Microsoft Office caused Copilot AI to inadvertently access and summarize confidential customer emails, bypassing existing security controls. The incident demonstrates that even enterprise-grade AI integrations can expose sensitive business information when technical safeguards fail. It underscores the need for robust governance and continuous monitoring, even for officially approved AI tools.",
+    "relevanceBullets": [
+      "Laat zien dat AI-chatinterfaces zoals Copilot gevoelige bedrijfsinformatie kunnen verwerken ondanks bestaande beveiligingsmaatregelen.",
+      "Benadrukt dat zelfs gecontroleerde AI-tools risico vormen wanneer governance en technische beperkingen falen."
+    ],
+    "tags": [
+      "security",
+      "data-leakage",
+      "governance"
+    ]
+  },
+  {
+    "slug": "average-organization-200-genai-data-policy-violations-monthly",
+    "title": "Average organization reporting over 200 GenAI data policy violations each month",
+    "publishedAt": "2026-02-10",
+    "source": "TechRadar",
+    "language": "en",
+    "originalUrl": "https://www.techradar.com/pro/security/average-organization-now-reporting-over-200-genai-related-data-policy-violations-each-month",
+    "quote": "Organizations report hundreds of incidents where employees input sensitive data into AI tools without approval.",
+    "summary": "A new report reveals that the average organization now experiences more than 200 GenAI-related data policy violations per month. Employees regularly enter sensitive data including source code and credentials into AI tools without organizational oversight. The findings expose a structural lack of governance and supervision around AI chat usage in enterprises.",
+    "relevanceBullets": [
+      "Werknemers voeren gevoelige data zoals broncode en credentials in AI-chattools in zonder controle.",
+      "Toont structureel gebrek aan governance en toezicht bij AI-chatgebruik binnen organisaties."
+    ],
+    "tags": [
+      "governance",
+      "data-leakage",
+      "shadow-ai"
+    ]
+  },
+  {
+    "slug": "gemeente-eindhoven-persoonsgegevens-openbare-ai-tools",
+    "title": "Gemeente Eindhoven stuurde persoonsgegevens naar openbare AI-tools",
+    "publishedAt": "2025-12-30",
+    "source": "Tweakers",
+    "language": "nl",
+    "originalUrl": "https://tweakers.net/nieuws/242822/gemeente-eindhoven-stuurde-persoonsgegevens-naar-openbare-ai-tools.html",
+    "quote": "Medewerkers uploaden duizenden documenten met persoonsgegevens naar AI-tools zoals ChatGPT en Claude.",
+    "summary": "Medewerkers van de gemeente Eindhoven hebben duizenden documenten met persoonsgegevens geüpload naar openbare AI-tools zoals ChatGPT en Claude. Het incident resulteerde in een datalek waarbij gevoelige informatie de beveiligde organisatieomgeving verliet. De casus illustreert hoe onvoldoende AI-governance binnen organisaties kan leiden tot grootschalige datalekken.",
+    "relevanceBullets": [
+      "Concrete casus waarin medewerkers gevoelige documenten en persoonsgegevens in AI-chattools invoeren.",
+      "Laat zien dat gebrek aan governance bij AI-chatgebruik leidt tot grootschalige datalekken binnen organisaties."
+    ],
+    "tags": [
+      "data-leakage",
+      "privacy",
+      "governance"
+    ]
+  },
+  {
+    "slug": "tientallen-datalekken-ai-gebruik-werknemers",
+    "title": "Tientallen datalekken door AI-gebruik werknemers",
+    "publishedAt": "2025-12-27",
+    "source": "De Ondernemer",
+    "language": "nl",
+    "originalUrl": "https://www.deondernemer.nl/innovatie/ai-datalekken-chatgpt-tools-gevoelige-informatie-privacywaakhond-geletterdheid~ffe332a",
+    "quote": "De Autoriteit Persoonsgegevens waarschuwt dat werknemers gevoelige informatie invoeren in AI-tools zoals ChatGPT, wat leidt tot datalekken.",
+    "summary": "De Autoriteit Persoonsgegevens (AP) waarschuwt bedrijven dat medewerkers onbewust persoonsgegevens invoeren in AI-chattools zoals ChatGPT. Dit kan leiden tot ongewilde datalekken en schending van de AVG. Organisaties zijn verantwoordelijk voor het borgen van dataminimalisatie en governance rondom AI-gebruik.",
+    "relevanceBullets": [
+      "Werknemers voeren zonder controle persoonsgegevens en bedrijfsinformatie in AI-chattools in, wat direct leidt tot datalekken.",
+      "Benadrukt dat organisaties verantwoordelijkheid dragen voor governance en dataminimalisatie bij AI-chatgebruik onder de AVG."
+    ],
+    "tags": [
+      "privacy",
+      "data-leakage",
+      "governance",
+      "compliance"
+    ]
   }
 ]
