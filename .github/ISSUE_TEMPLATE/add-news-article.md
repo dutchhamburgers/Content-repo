@@ -1,109 +1,146 @@
 ---
-name: ➕ Add new news article
-about: Add a new curated article to news.json
-title: "Add news article: "
+name: ➕ Insert provided news.json entry
+about: Insert a user-provided news article entry into news.json without editorial changes
+title: "Insert news entry: "
 labels: ["news"]
 assignees: []
 ---
 
 ## Description
 
-Add a new curated news article to `news.json` in the Content-repo.
+Insert the user-provided JSON entry into `news.json`.
 
-This must follow the official JSON schema (`news.schema.json`) and editorial guidelines.
+Copilot must treat the JSON below as the **only source of truth**.
 
----
-
-## Goal
-
-Add a new news item that:
-
-- Validates successfully against `news.schema.json`
-- Follows editorial standards
-- Includes exactly 2 relevance bullets
-- Uses proper kebab-case slug
-- Does NOT include copyrighted full text
+Copilot must **NOT** search, select, replace, rewrite, enrich, or generate news content.
 
 ---
 
-## Article Information
+## ⚠️ Critical instruction for Copilot
 
-Please provide the following:
+Use **ONLY** the JSON provided in this issue.
 
-- **Title:**
-- **Source:**
-- **Original URL:**
-- **Publication Date (YYYY-MM-DD):**
-- **Short Quote (max ~200 chars):**
-- **Summary (2–4 sentences, neutral, own words):**
-- **Relevance Bullet 1:**
-- **Relevance Bullet 2:**
-- **Tags (optional, from allowed list):**
+**Copilot MAY:**
+- validate the provided JSON against `news.schema.json`
+- insert the provided JSON entry into `news.json`
+- sort `news.json` by `publishedAt` descending after inserting
+- fix JSON formatting only when this does not change content
+
+**Copilot MUST NOT:**
+- search for news articles
+- select alternative articles
+- replace the provided article with another
+- add extra articles beyond what is provided
+- invent or fill in missing fields
+- rewrite `title`, `source`, `originalUrl`, `quote`, `summary`, `relevanceBullets`, or `tags`
+- generate fallback content
+- modify existing article content
+
+**If the provided JSON is invalid, incomplete, duplicate, or schema-invalid:**
+- **stop immediately**
+- report the validation error
+- do **not** modify `news.json`
+- do **not** add alternative content
+
+---
+
+## Provided JSON entry
+
+Paste the **exact** JSON object below. Do not modify it.
+
+```json
+{
+  "slug": "",
+  "title": "",
+  "publishedAt": "YYYY-MM-DD",
+  "source": "",
+  "language": "nl",
+  "originalUrl": "",
+  "quote": "",
+  "summary": "",
+  "relevanceBullets": [
+    "",
+    ""
+  ],
+  "tags": []
+}
+```
 
 ---
 
 ## Required Workflow
 
-Copilot must follow these steps:
+Copilot must follow these steps **in order**:
 
-### 1️⃣ Create Branch
+### 1️⃣ Validate the provided JSON
+
+- Parse the JSON object above.
+- If the JSON is not valid or is missing required fields: **stop and report the error**.
+
+### 2️⃣ Validate against `news.schema.json`
+
+- Run schema validation on the provided entry.
+- If validation fails: **stop and report the schema errors**.
+
+### 3️⃣ Check for duplicates in existing `news.json`
+
+Check all of the following:
+- same `slug`
+- same `originalUrl`
+- same `title`
+- same underlying article / event / report / narrative
+
+If a duplicate is found: **stop and report the duplicate**. Do not add the entry.
+
+### 4️⃣ Create branch
 
 Create a new branch from `main`:
 
-
+```
 news/add-<slug>
+```
 
+### 5️⃣ Insert entry into `news.json`
 
-Slug must:
-- be lowercase
-- use kebab-case
-- contain only `a-z`, `0-9`, `-`
-- be unique
+- Append the provided JSON entry to the array.
+- Do **not** modify any existing items.
+- Ensure valid JSON (no trailing commas).
 
----
+### 6️⃣ Sort `news.json` by `publishedAt` descending
 
-### 2️⃣ Update news.json
+- Sort all items so the newest article is first.
+- Do **not** change the content of any item.
 
-- Add the new item to `news.json`
-- Ensure valid JSON (no trailing commas)
-- Keep array structure intact
-- Do NOT modify existing items
+### 7️⃣ Run schema validation
 
----
+- Confirm `news.schema.json` validation passes on the updated `news.json`.
+- If it fails: **stop, revert, and report the error**.
 
-### 3️⃣ Validate Against Schema
-
-Ensure that:
-
-- `news.schema.json` validation passes
-- GitHub Action “Validate news.json” succeeds
-- Exactly 2 `relevanceBullets`
-- No additional properties are added
-
----
-
-### 4️⃣ Open Pull Request
+### 8️⃣ Open Pull Request
 
 Create PR to `main` with:
 
-Title:
+**Title:** `Insert news entry: <slug>`
 
-Add news article: <Article Title>
-
-
-Description:
-- Short explanation of why this article is relevant for pseudoAI
+**Description:**
+- Confirmation that the provided JSON was used as-is
 - Confirmation that schema validation passed
+- Confirmation that no duplicates were found
+- Confirmation that `news.json` is sorted by `publishedAt` descending
 
 ---
 
 ## Acceptance Criteria
 
-- [ ] Branch name follows `news/add-<slug>`
-- [ ] `news.json` updated correctly
+- [ ] Only the provided JSON entry is used — no alternative articles
+- [ ] No content is rewritten or enriched
+- [ ] No extra articles are added
+- [ ] Duplicate checks performed (slug, originalUrl, title, narrative)
+- [ ] `news.json` is sorted by `publishedAt` descending
 - [ ] Schema validation passes (GitHub Action green)
+- [ ] Branch name follows `news/add-<slug>`
 - [ ] PR opened to `main`
-- [ ] No unrelated changes included
+- [ ] PR contains no unrelated changes
 
 ---
 
