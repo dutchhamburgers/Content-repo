@@ -255,18 +255,18 @@
     "tags": ["shadow-ai", "governance", "data-leakage", "compliance"]
   },
   {
-    "slug": "ai-boms-track-shadow-ai-agents-bots",
-    "title": "AI-BOMs replace SBOMs as way to track AI agents and bots",
-    "publishedAt": "2026-05-04",
-    "source": "The Register",
+    "slug": "uk-firms-workers-sharing-data-ai-tools",
+    "title": "Organizations need to stop workarounds and regain control: Report finds many firms don't know what their workers are sharing with AI tools",
+    "publishedAt": "2026-05-01",
+    "source": "TechRadar Pro",
     "language": "en",
-    "originalUrl": "https://www.theregister.com/security/2026/05/04/ai-boms-replace-sboms-as-way-to-track-ai-agents-and-bots/",
-    "quote": "Industry experts say AI-BOMs can give organizations visibility into models, agents, datasets, and prompts that are otherwise hard to track.",
-    "summary": "The Register reports that organizations are exploring AI bills of materials to improve visibility into the growing number of models, agents, datasets, and prompts used across the enterprise. The article argues that traditional software inventory approaches do not adequately capture unsanctioned AI tools or autonomous agents. It frames AI-BOMs as a governance mechanism to reduce security and oversight gaps created by shadow AI.",
+    "originalUrl": "https://www.techradar.com/pro/organizations-need-to-stop-workarounds-and-regain-control-report-finds-many-firms-dont-know-what-their-workers-are-sharing-with-ai-tools",
+    "quote": "Two-thirds of companies admit they cannot track if employees are using approved AI tools, creating critical visibility issues.",
+    "summary": "Een nieuw SailPoint-onderzoek laat zien dat veel organisaties geen zicht hebben op welke data medewerkers delen met AI-tools zoals ChatGPT, Gemini en Claude. Het rapport wijst op een sterke toename van shadow AI, waarbij medewerkers ongecontroleerd externe AI-tools gebruiken buiten IT-governance en securitycontroles.",
     "relevanceBullets": [
-      "Laat zien dat organisaties nieuwe inventarisatie- en governance-mechanismen nodig hebben om shadow AI-agents en ongeautoriseerde tools zichtbaar te maken.",
-      "Onderstreept dat beperkte zichtbaarheid op modellen, prompts en datasets direct samenhangt met security- en compliance-risico's."
+      "Werknemers gebruiken AI-chattools buiten toezicht van IT, waardoor gevoelige bedrijfsdata ongecontroleerd gedeeld wordt.",
+      "Laat zien dat organisaties governance en zichtbaarheid nodig hebben om datalekken via AI-chatgebruik te voorkomen."
     ],
-    "tags": ["shadow-ai", "governance", "security", "compliance"]
+    "tags": ["shadow-ai", "data-leakage", "governance", "compliance"]
   }
 ]
