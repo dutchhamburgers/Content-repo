@@ -1,0 +1,17 @@
+{
+  "name": "content-repo",
+  "private": true,
+  "scripts": {
+    "dev": "node admin/faq-editor/server/dev-server.mjs",
+    "build": "vite build --config admin/faq-editor/vite.config.mjs",
+    "test": "node --test scripts/validate-news.test.js scripts/add-news-entry.test.js admin/faq-editor/server/faq-store.test.js"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.0.2",
+    "vite": "8.0.13"
+  }
+}

@@ -1,9 +1,9 @@
 # PseudoAI – News Content Repository
 
-This repository contains the curated news feed used on the PseudoAI Sales website.
+This repository contains the curated content assets used by PseudoAI, including the news feed for the Sales website and the shared FAQ content.
 
-It is a **content-only repository**.  
-No application code, no build system, no runtime logic.
+It is primarily a **content repository**.  
+The production-facing source-of-truth files stay in Git, with only small local helper tooling for content maintenance.
 
 The Sales website fetches `news.json` directly via CDN.
 
@@ -13,10 +13,40 @@ The Sales website fetches `news.json` directly via CDN.
 
 
 /news.json
+/faq/faq.json
 /README.md
 
 
 `news.json` is the single source of truth for the “In het nieuws” section.
+`faq/faq.json` is the single source of truth for the FAQ content.
+
+---
+
+## 🛠 Local FAQ editor
+
+This repository now also includes a **local-only** FAQ editor for developers and content editors.
+
+- It is **not** a production admin panel
+- It is **not** an external CMS
+- It uses `faq/faq.json` as the source of truth
+- It writes changes directly back to `faq/faq.json`
+
+### Start locally
+
+```bash
+npm install
+npm run dev
+```
+
+Then open the local URL shown in the terminal.
+
+### What it does
+
+- Load FAQ items from `faq/faq.json`
+- Filter items by category
+- Add, edit and delete FAQ items
+- Validate duplicate IDs, required fields and `visibleOn`
+- Save the updated JSON back to disk through a small local API
 
 ---
 
@@ -349,9 +379,9 @@ API keys
 
 Secrets
 
-Backend code
+Production backend code
 
-This is strictly a curated metadata feed.
+The production outputs remain curated metadata, with only small local helper tooling in this repo for content editing.
 
 🧠 Purpose
 
@@ -364,5 +394,3 @@ That unmanaged AI use creates compliance and data risks
 That organizations need a controlled AI workflow
 
 Maintained by: PseudoAI
-
-
