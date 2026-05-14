@@ -71,6 +71,9 @@ describe('readFaqFile / writeFaqFile', () => {
 
     const reread = readFaqFile(filePath);
     assert.deepEqual(reread.items.map((item) => item.id), ['faq-test-2', 'faq-test-1']);
+
+    const raw = fs.readFileSync(filePath, 'utf8');
+    assert.ok(raw.indexOf('"order": 1') < raw.indexOf('"isActive": false'));
   });
 
   test('exports the supported visibleOn values', () => {

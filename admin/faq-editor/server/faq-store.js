@@ -95,7 +95,15 @@ function normalizeFaqPayload(payload, now = new Date().toISOString()) {
   return {
     version: payload.version,
     updatedAt: now,
-    items: [...payload.items].sort((left, right) => left.order - right.order),
+    items: [...payload.items].sort((left, right) => left.order - right.order).map((item) => ({
+      id: item.id,
+      category: item.category,
+      question: item.question,
+      answer: item.answer,
+      visibleOn: item.visibleOn,
+      order: item.order,
+      isActive: item.isActive,
+    })),
   };
 }
 
