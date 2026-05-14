@@ -3,111 +3,344 @@
   "updatedAt": "2026-05-14T00:00:00Z",
   "items": [
     {
-      "id": "faq-ai-privacy-001",
+      "id": "faq-ai-privacy-1",
       "category": "AI & Privacy",
       "question": "Wat doet PseudoAI precies?",
-      "answer": "PseudoAI is een platform dat organisaties helpt om AI gecontroleerd en veilig in te zetten. In plaats van medewerkers op eigen houtje AI-tools te laten gebruiken, biedt PseudoAI één centrale, door IT-beheerde omgeving. Zo voorkom je shadow AI, datalekkage en compliance-risico's.",
-      "visibleOn": ["sales", "webapp"],
+      "answer": "PseudoAI helpt organisaties om gevoelige persoonsgegevens te beschermen wanneer AI-tools zoals ChatGPT, Copilot of Gemini worden gebruikt. Het platform vervangt gevoelige gegevens tijdelijk door placeholders (pseudonimisering) voordat informatie naar een AI-model wordt gestuurd. Nadat het AI-antwoord is ontvangen, worden deze placeholders automatisch teruggezet naar de oorspronkelijke gegevens. Zo kunnen medewerkers AI veilig gebruiken zonder onnodig gevoelige persoonsgegevens extern te delen.",
+      "visibleOn": [
+        "sales"
+      ],
       "order": 1,
       "isActive": true
     },
     {
-      "id": "faq-ai-privacy-002",
+      "id": "faq-ai-privacy-2a",
       "category": "AI & Privacy",
-      "question": "Hoe gaat PseudoAI om met onze bedrijfsdata?",
-      "answer": "PseudoAI verwerkt geen bedrijfsdata buiten de afgesproken, beveiligde omgeving. Prompts en antwoorden worden niet gebruikt om AI-modellen bij te trainen. Alle verwerking vindt plaats binnen de contractueel vastgelegde grenzen, conform AVG/GDPR.",
-      "visibleOn": ["sales", "webapp"],
+      "question": "Wat is het verschil tussen pseudonimiseren en anonimiseren?",
+      "answer": "Pseudonimiseren betekent dat persoonsgegevens worden vervangen door tijdelijke labels of placeholders. De gegevens kunnen later weer worden terugvertaald als iemand toegang heeft tot de koppeltabel of sleutel. Zonder die aanvullende informatie zijn de gegevens niet direct naar een persoon te herleiden.\n\nAnonimiseren betekent dat persoonsgegevens onomkeerbaar worden verwerkt, zodat deze niet meer naar een individu kunnen worden herleid. Bij correcte anonimisering bestaat er geen sleutel of koppeltabel waarmee de oorspronkelijke gegevens kunnen worden teruggehaald.",
+      "visibleOn": [
+        "sales"
+      ],
       "order": 2,
       "isActive": true
     },
     {
-      "id": "faq-ai-privacy-003",
+      "id": "faq-ai-privacy-2b",
       "category": "AI & Privacy",
-      "question": "Slaat PseudoAI onze gesprekken of prompts op?",
-      "answer": "Gesprekken en prompts worden uitsluitend opgeslagen voor de functionaliteit van de applicatie (zoals gespreksgeschiedenis voor de gebruiker zelf). Ze worden niet gedeeld met derden en niet gebruikt voor modeltraining. Klanten kunnen de bewaartermijn zelf instellen in de beheeromgeving.",
-      "visibleOn": ["sales", "webapp"],
+      "question": "Waarom gebruikt PseudoAI pseudonimiseren i.p.v. anonimiseren?",
+      "answer": "PseudoAI gebruikt pseudonimisering omdat dit privacybescherming combineert met bruikbaarheid voor AI-systemen.\n\nGevoelige persoonsgegevens worden vervangen door leesbare placeholders, zoals [NAAM_1] of [BEDRIJF_2]. Hierdoor blijft de context van de tekst behouden, zodat AI-tools zoals ChatGPT, Copilot en Gemini de inhoud goed kunnen verwerken.\n\nDe koppeling tussen placeholders en de oorspronkelijke gegevens blijft alleen beschikbaar binnen de beveiligde omgeving van de organisatie. Zonder die aanvullende informatie zijn de placeholders niet direct naar personen of organisaties te herleiden.\n\nVolledige anonimisering wordt niet gebruikt, omdat de oorspronkelijke gegevens dan niet meer kunnen worden teruggezet na verwerking door de AI.",
+      "visibleOn": [
+        "sales"
+      ],
       "order": 3,
       "isActive": true
     },
     {
-      "id": "faq-governance-001",
-      "category": "Governance & Compliance",
-      "question": "Hoe helpt PseudoAI bij het voorkomen van shadow AI?",
-      "answer": "PseudoAI biedt een organisatiebrede, door IT-beheerde AI-werkplek. Medewerkers krijgen toegang tot goedgekeurde AI-tools binnen één platform. Doordat er een aantrekkelijk en functioneel alternatief is, neemt de prikkel om eigen, onbeheerde tools te gebruiken sterk af.",
-      "visibleOn": ["sales", "webapp"],
+      "id": "faq-ai-privacy-2",
+      "category": "AI & Privacy",
+      "question": "Waarom is pseudonimiseren nodig bij gebruik van AI-tools?",
+      "answer": "AI-tools zoals ChatGPT, Copilot en Gemini verwerken ingevoerde tekst vaak op externe servers. Wanneer die tekst persoonsgegevens bevat, verlaten deze gegevens mogelijk de directe controle van uw organisatie. Onder de AVG mogen persoonsgegevens alleen worden verwerkt wanneer hiervoor doelbinding is en passende beveiligingsmaatregelen aanwezig zijn.\n\nPseudonimisering helpt om gevoelige persoonsgegevens vóór verzending te vervangen door placeholders, zodat gegevens niet naar personen te herleiden zijn tijdens verwerking door de AI-tool.\n\nOrganisaties blijven daarbij altijd zelf verantwoordelijk voor het zorgvuldig verwerken van persoonsgegevens en het naleven van de AVG.",
+      "visibleOn": [
+        "sales"
+      ],
       "order": 4,
       "isActive": true
     },
     {
-      "id": "faq-governance-002",
-      "category": "Governance & Compliance",
-      "question": "Is PseudoAI AVG/GDPR-compliant?",
-      "answer": "Ja. PseudoAI is ontworpen met privacy by design als uitgangspunt. De verwerking van persoonsgegevens voldoet aan de AVG/GDPR. We bieden een verwerkersovereenkomst (DPA) aan als onderdeel van het contract.",
-      "visibleOn": ["sales", "webapp"],
+      "id": "faq-ai-privacy-3",
+      "category": "AI & Privacy",
+      "question": "Verlaten mijn persoonsgegevens de organisatie als ik PseudoAI gebruik?",
+      "answer": "PseudoAI vervangt gevoelige persoonsgegevens door placeholders voordat informatie naar een AI-provider wordt gestuurd. Alleen de gepseudonimiseerde tekst wordt extern verwerkt.\n\nDe koppeling tussen placeholders en de oorspronkelijke gegevens blijft uitsluitend beschikbaar binnen de sessie en omgeving van uw organisatie en wordt niet meegestuurd naar de AI-provider.\n\nHierdoor krijgen externe AI-systemen niet rechtstreeks toegang tot de originele persoonsgegevens.",
+      "visibleOn": [
+        "sales"
+      ],
       "order": 5,
       "isActive": true
     },
     {
-      "id": "faq-governance-003",
-      "category": "Governance & Compliance",
-      "question": "Kan ik als beheerder zien welke AI-tools medewerkers gebruiken?",
-      "answer": "Ja. De beheeromgeving biedt inzicht in gebruik per gebruiker, team en periode. Je kunt zien welke modellen en functionaliteiten gebruikt worden. Dit maakt audits en beleidshandhaving eenvoudig.",
-      "visibleOn": ["sales", "webapp"],
+      "id": "faq-ai-privacy-4",
+      "category": "AI & Privacy",
+      "question": "Is PseudoAI AVG/GDPR-compliant?",
+      "answer": "PseudoAI is ontworpen om organisaties te helpen AI-tools te gebruiken binnen de kaders van de AVG/GDPR. Door gevoelige persoonsgegevens vóór verzending te pseudonimiseren, helpt PseudoAI het risico op ongewenste verwerking van persoonsgegevens door externe AI-systemen te verkleinen.\n\nPseudoAI vervangt echter geen volledig privacy- of compliancebeleid. Organisaties blijven zelf verantwoordelijk voor onder andere DPIA’s, grondslagen, doelbinding, interne governance en het correct omgaan met persoonsgegevens binnen hun eigen processen.\n\nOmdat persoonsgegevens vóór verzending worden vervangen door placeholders, ontvangen AI-tools in principe geen direct herleidbare persoonsgegevens.",
+      "visibleOn": [
+        "sales"
+      ],
       "order": 6,
       "isActive": true
     },
     {
-      "id": "faq-werking-001",
-      "category": "Werking",
-      "question": "Welke AI-modellen zijn beschikbaar in PseudoAI?",
-      "answer": "PseudoAI ondersteunt de meest gebruikte grote taalmodellen (LLMs). De beschikbare modellen zijn instelbaar door de organisatiebeheerder, zodat je precies kunt bepalen welke modellen medewerkers mogen gebruiken.",
-      "visibleOn": ["sales", "webapp"],
+      "id": "faq-ai-privacy-5",
+      "category": "AI & Privacy",
+      "question": "Welke soorten persoonsgegevens herkent PseudoAI?",
+      "answer": "PseudoAI kan verschillende soorten persoonsgegevens herkennen, waaronder namen, adressen, e-mailadressen, telefoonnummers, BSN’s, IBAN-nummers en andere mogelijk gevoelige gegevens in tekst.\n\nDe detectie combineert patroonherkenning met context-gedreven taaltechnologie. Omdat taal en context complex zijn, blijft handmatige controle door de gebruiker belangrijk.",
+      "visibleOn": [
+        "sales"
+      ],
       "order": 7,
       "isActive": true
     },
     {
-      "id": "faq-werking-002",
-      "category": "Werking",
-      "question": "Kunnen medewerkers PseudoAI gebruiken zonder technische kennis?",
-      "answer": "Ja. PseudoAI heeft een eenvoudige, intuïtieve interface die geen technische achtergrond vereist. Medewerkers kunnen direct aan de slag met AI-assistentie voor dagelijkse taken.",
-      "visibleOn": ["sales", "webapp"],
+      "id": "faq-ai-privacy-6",
+      "category": "AI & Privacy",
+      "question": "Slaat PseudoAI mijn teksten of gegevens op?",
+      "answer": "PseudoAI is ontworpen om zo min mogelijk gevoelige gegevens te verwerken of op te slaan.\n\nDe pseudonimisering en de tijdelijke koppeling tussen placeholders en oorspronkelijke gegevens vinden plaats binnen de sessie en omgeving van de gebruiker. Welke gegevens eventueel worden gelogd of opgeslagen, hangt af van de gekozen inrichting, beveiligingsinstellingen en het beleid van de organisatie.\n\nOrganisaties behouden daarmee controle over hun eigen gegevensverwerking en governance.",
+      "visibleOn": [
+        "sales"
+      ],
       "order": 8,
       "isActive": true
     },
     {
-      "id": "faq-implementatie-001",
-      "category": "Implementatie",
-      "question": "Hoe snel kan PseudoAI worden uitgerold in onze organisatie?",
-      "answer": "Een standaard implementatie is doorgaans binnen enkele dagen operationeel. We begeleiden de technische inrichting en bieden onboarding-materiaal voor beheerders en eindgebruikers.",
-      "visibleOn": ["sales"],
+      "id": "faq-tools-1",
+      "category": "Copilot, ChatGPT en andere AI-tools",
+      "question": "Werkt PseudoAI samen met Microsoft Copilot?",
+      "answer": "Ja. PseudoAI kan worden gebruikt in combinatie met AI-oplossingen zoals Microsoft Copilot, ChatGPT en Gemini.\n\nDe exacte integratiemogelijkheden hangen af van de gekozen AI-diensten, technische architectuur en security-eisen van de organisatie.",
+      "visibleOn": [
+        "sales"
+      ],
       "order": 9,
       "isActive": true
     },
     {
-      "id": "faq-implementatie-002",
-      "category": "Implementatie",
-      "question": "Integreert PseudoAI met bestaande tools zoals Microsoft 365 of Slack?",
-      "answer": "PseudoAI biedt integratiemogelijkheden met veelgebruikte werkplekoplossingen. De exacte integraties zijn afhankelijk van het gekozen abonnement. Neem contact op voor een overzicht van beschikbare koppelingen.",
-      "visibleOn": ["sales"],
+      "id": "faq-tools-2",
+      "category": "Copilot, ChatGPT en andere AI-tools",
+      "question": "Kan ik PseudoAI gebruiken met ChatGPT?",
+      "answer": "Ja. PseudoAI is juist ontworpen om veilig samen te werken met AI-tools zoals ChatGPT.\n\nPseudoAI pseudonimiseert gevoelige persoonsgegevens voordat informatie naar ChatGPT of andere AI-modellen wordt gestuurd. Hierdoor kunnen organisaties AI-functionaliteit gebruiken met meer controle over privacy en gegevensbescherming.",
+      "visibleOn": [
+        "sales"
+      ],
       "order": 10,
       "isActive": true
     },
     {
-      "id": "faq-prijzen-001",
-      "category": "Prijzen & Abonnementen",
-      "question": "Wat kost PseudoAI?",
-      "answer": "De prijs van PseudoAI is afhankelijk van het aantal gebruikers en het gekozen abonnement. Neem contact op via de website voor een offerte op maat.",
-      "visibleOn": ["sales"],
+      "id": "faq-tools-3",
+      "category": "Copilot, ChatGPT en andere AI-tools",
+      "question": "Werkt PseudoAI ook met Google Gemini of andere AI-assistenten?",
+      "answer": "Ja. PseudoAI is onafhankelijk van AI-tools: het pseudonimiseert tekst ongeacht welke AI-assistent u daarna gebruikt. Of het nu Gemini, Claude, Mistral of een andere tool is, het principe blijft hetzelfde: pseudonimiseer vóór invoer, de-pseudonimiseer na ontvangst.",
+      "visibleOn": [
+        "sales"
+      ],
       "order": 11,
       "isActive": true
     },
     {
-      "id": "faq-prijzen-002",
-      "category": "Prijzen & Abonnementen",
-      "question": "Is er een proefperiode of demo beschikbaar?",
-      "answer": "Ja. We bieden de mogelijkheid om PseudoAI eerst te ervaren via een demo of proefperiode. Neem contact op om dit in te plannen.",
-      "visibleOn": ["sales"],
+      "id": "faq-tools-4",
+      "category": "Copilot, ChatGPT en andere AI-tools",
+      "question": "Moet ik mijn AI-abonnement opzeggen als ik PseudoAI gebruik?",
+      "answer": "Nee, dat is niet noodzakelijk. In veel situaties is het niet logisch om zowel losse AI-chatlicenties als een organisatiebrede AI-API (pay-per-use) te betalen.\n\nPseudoAI kan functioneren als centraal voorportaal voor AI-diensten zoals ChatGPT. Gebruikers werken dan via PseudoAI, terwijl de AI-verwerking via API-koppelingen verloopt in plaats van via de standaard chatapplicatie.\n\nOrganisaties betalen hierbij doorgaans een vaste vergoeding voor PseudoAI en daarnaast alleen voor daadwerkelijk AI-gebruik bij de gekozen provider.\n\nWelke licenties nodig zijn, hangt af van de gekozen inrichting en het gebruik binnen de organisatie.",
+      "visibleOn": [
+        "sales"
+      ],
       "order": 12,
+      "isActive": true
+    },
+    {
+      "id": "faq-tools-4b",
+      "category": "Copilot, ChatGPT en andere AI-tools",
+      "question": "Maar als kosten niet doorslaggevend zijn, kunnen PseudoAI en bijv Chatgpt naast elkaar gebruikt worden?",
+      "answer": "Ja, dat kan. PseudoAI en AI-chatapplicaties zoals ChatGPT kunnen naast elkaar worden gebruikt.\n\nSommige organisaties kiezen ervoor om PseudoAI te gebruiken voor werkzaamheden waarbij privacy, compliance en gecontroleerde verwerking van persoonsgegevens belangrijk zijn, terwijl medewerkers daarnaast rechtstreeks gebruik blijven maken van standaard AI-chatapplicaties voor algemene of niet-gevoelige taken.\n\nVanuit security- en compliance-oogpunt is het doorgaans veiliger om AI-gebruik zoveel mogelijk via PseudoAI te laten verlopen. Wanneer medewerkers rechtstreeks met AI-chatapplicaties werken, heeft de organisatie minder controle over het delen van gevoelige persoonsgegevens of bedrijfsinformatie.\n\nWelke inrichting het meest geschikt is, hangt af van het beveiligingsbeleid, de use-cases en de gewenste werkwijze binnen de organisatie.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 13,
+      "isActive": true
+    },
+    {
+      "id": "faq-tools-5",
+      "category": "Copilot, ChatGPT en andere AI-tools",
+      "question": "Wat is het verschil tussen PseudoAI en de privacymodus van ChatGPT?",
+      "answer": "PseudoAI en privacyinstellingen van AI-providers lossen verschillende vraagstukken op.\n\nPrivacyinstellingen van een AI-provider gaan meestal over hoe gegevens door de provider worden opgeslagen, gebruikt of ingezet voor modelverbetering. PseudoAI richt zich juist op het beperken van de hoeveelheid direct herleidbare persoonsgegevens die überhaupt naar een extern AI-systeem worden verzonden.\n\nDoor persoonsgegevens vooraf te pseudonimiseren, helpt PseudoAI organisaties meer controle te houden over gevoelige gegevens tijdens het gebruik van AI-tools.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 14,
+      "isActive": true
+    },
+    {
+      "id": "faq-tools-6",
+      "category": "Copilot, ChatGPT en andere AI-tools",
+      "question": "Kan PseudoAI ook worden gebruikt bij interne AI-modellen van onze organisatie?",
+      "answer": "Ja. Hoewel PseudoAI primair is ontworpen voor het veilig gebruiken van externe AI-tools zoals ChatGPT, Copilot en Gemini, kan het ook worden toegepast bij interne AI-modellen.\n\nBij interne modellen is pseudonimisering vaak minder noodzakelijk omdat de gegevens de organisatie niet verlaten. Toch kan PseudoAI een waardevolle extra beveiligingslaag bieden door te helpen voorkomen dat medewerkers onnodig gevoelige persoonsgegevens of bedrijfsinformatie in AI-prompts opnemen.\n\nDaarnaast kan PseudoAI organisaties ondersteunen bij het standaardiseren van veilig AI-gebruik en interne compliance-richtlijnen.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 15,
+      "isActive": true
+    },
+    {
+      "id": "faq-security-1",
+      "category": "Security & Compliance",
+      "question": "Hoe zorgt PseudoAI voor de beveiliging van mijn data?",
+      "answer": "PseudoAI is ontworpen volgens het principe van minimale gegevensdeling. Gevoelige persoonsgegevens worden eerst gepseudonimiseerd voordat informatie naar externe AI-systemen wordt gestuurd.\n\nDe verwerking van detectie en pseudonimisering vindt plaats binnen de browser en omgeving van de gebruiker. Daarnaast kunnen organisaties aanvullende beveiligingsmaatregelen toepassen via hun eigen IT- en securitybeleid.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 16,
+      "isActive": true
+    },
+    {
+      "id": "faq-security-3",
+      "category": "Security & Compliance",
+      "question": "Kan PseudoAI worden gebruikt in sectoren met strenge compliancevereisten?",
+      "answer": "Ja. PseudoAI kan organisaties ondersteunen in sectoren waar zorgvuldig omgaan met persoonsgegevens en vertrouwelijke informatie belangrijk is, zoals overheid, zorg, juridische dienstverlening en financiële dienstverlening.\n\nPseudoAI helpt risico’s rondom het delen van persoonsgegevens met externe AI-tools te beperken, maar organisaties blijven altijd zelf verantwoordelijk voor naleving van toepasselijke wet- en regelgeving.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 17,
+      "isActive": true
+    },
+    {
+      "id": "faq-security-2",
+      "category": "Security & Compliance",
+      "question": "Voldoet PseudoAI aan de NIS2-richtlijn?",
+      "answer": "PseudoAI kan organisaties ondersteunen bij maatregelen rondom informatiebeveiliging en het beperken van risico’s op datalekken, wat kan bijdragen aan bredere NIS2-doelstellingen.\n\nPseudoAI is echter geen vervanging voor een volledig security- of complianceprogramma. Organisaties blijven zelf verantwoordelijk voor hun informatiebeveiligingsbeleid, governance, risicobeheer en naleving van toepasselijke wet- en regelgeving, waaronder NIS2.\n\nDe uiteindelijke beoordeling van NIS2-compliance ligt daarom bij de organisatie zelf en haar security-, risk- en complianceverantwoordelijken.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 18,
+      "isActive": true
+    },
+    {
+      "id": "faq-security-4",
+      "category": "Security & Compliance",
+      "question": "Wordt PseudoAI zelf geauditeerd of gecertificeerd?",
+      "answer": "De beschikbare audit-, compliance- en certificeringsmogelijkheden hangen af van de gekozen inrichting en de ontwikkelfase van het platform.\n\nOrganisaties met specifieke security- of compliance-eisen kunnen contact opnemen voor de meest actuele informatie over beveiligingsmaatregelen, processen en eventuele certificeringstrajecten.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 19,
+      "isActive": true
+    },
+    {
+      "id": "faq-security-6",
+      "category": "Security & Compliance",
+      "question": "Hoe gaat PseudoAI zelf om met de AVG/GDPR als aanbieder?",
+      "answer": "PseudoAI is ontworpen met privacy en gegevensminimalisatie als uitgangspunt. Het platform probeert te voorkomen dat direct herleidbare persoonsgegevens onnodig naar externe AI-systemen worden verzonden.\n\nAfhankelijk van de gekozen inrichting en het gebruik binnen de organisatie kunnen verschillende privacy- en complianceafspraken van toepassing zijn. Organisaties blijven zelf verantwoordelijk voor hun eigen AVG/GDPR-verplichtingen en interne governance.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 20,
+      "isActive": true
+    },
+    {
+      "id": "faq-security-5",
+      "category": "Security & Compliance",
+      "question": "Wat gebeurt er als een medewerker PseudoAI omzeilt en toch persoonsgegevens in ChatGPT invoert?",
+      "answer": "PseudoAI helpt organisaties om gevoelige persoonsgegevens veiliger met AI-tools te verwerken, maar organisaties blijven zelf verantwoordelijk voor het afdwingen van hun AI-beleid.\n\nOrganisaties kunnen het gebruik van externe AI-tools zoals ChatGPT technisch beperken of blokkeren via hun eigen IT- en securitymaatregelen. PseudoAI kan hierbij functioneren als gecontroleerd alternatief voor veilig AI-gebruik binnen de organisatie.\n\nDaarnaast adviseren wij om technische maatregelen te combineren met duidelijke interne richtlijnen, AI-gebruiksbeleid en bewustwordingstraining voor medewerkers.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 21,
+      "isActive": true
+    },
+    {
+      "id": "faq-impl-1",
+      "category": "Implementatie",
+      "question": "Hoe snel kan PseudoAI worden uitgerold binnen onze organisatie?",
+      "answer": "PseudoAI is een browsergebaseerde applicatie, maar wordt wel specifiek binnen de IT-omgeving van de organisatie geïmplementeerd. Er is daarom geen aparte installatie op individuele werkstations nodig.\n\nIn veel gevallen kan een organisatie binnen korte tijd operationeel zijn, afhankelijk van de omvang en technische requirements van de omgeving.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 22,
+      "isActive": true
+    },
+    {
+      "id": "faq-impl-2",
+      "category": "Implementatie",
+      "question": "Is er een IT-afdeling nodig voor de implementatie van PseudoAI?",
+      "answer": "Ja, in de meeste gevallen is betrokkenheid van de IT-afdeling wenselijk of noodzakelijk.\n\nPseudoAI is browsergebaseerd en vereist geen installatie op individuele werkstations, maar de applicatie wordt wel binnen de IT-omgeving van de organisatie ingericht. Afhankelijk van de gewenste configuratie kunnen zaken zoals authenticatie, netwerktoegang, securitybeleid en koppelingen met AI-providers of interne systemen moeten worden afgestemd.\n\nHet dagelijkse beheer en gebruikersbeheer kunnen vervolgens via een centraal beheerpaneel worden uitgevoerd.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 23,
+      "isActive": true
+    },
+    {
+      "id": "faq-impl-4",
+      "category": "Implementatie",
+      "question": "Hoe ziet de onboarding van nieuwe medewerkers eruit?",
+      "answer": "Nieuwe medewerkers kunnen doorgaans snel starten met PseudoAI via de browsergebaseerde werkomgeving van de organisatie.\n\nVoor veilig en verantwoord AI-gebruik adviseren wij organisaties om onboarding te combineren met duidelijke richtlijnen, bewustwording en interne afspraken over het gebruik van AI-tools en persoonsgegevens.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 24,
+      "isActive": true
+    },
+    {
+      "id": "faq-impl-5",
+      "category": "Implementatie",
+      "question": "Kan PseudoAI worden geïntegreerd in onze bestaande werkplek of intranet?",
+      "answer": "Ja. PseudoAI is een browsergebaseerde toepassing die via het intranet of de digitale werkomgeving van de organisatie beschikbaar kan worden gemaakt.\n\nMedewerkers kunnen PseudoAI daardoor eenvoudig openen via een interne link, zonder aparte installatie op hun werkstation.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 25,
+      "isActive": true
+    },
+    {
+      "id": "faq-tech-1",
+      "category": "Detectie en technologie",
+      "question": "Hoe detecteert PseudoAI persoonsgegevens in een tekst?",
+      "answer": "PseudoAI detecteert persoonsgegevens met een combinatie van patroonherkenning en taaltechnologie.\n\nHierbij worden onder andere vaste patronen gebruikt voor gegevens zoals e-mailadressen, telefoonnummers, BSN’s en IBAN-nummers, aangevuld met context-gedreven-technieken om namen, adressen en andere gevoelige entiteiten in tekst te herkennen.\n\nDe verwerking vindt plaats binnen de browser en omgeving van de gebruiker voordat gegevens naar een externe AI-tool worden verzonden.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 26,
+      "isActive": true
+    },
+    {
+      "id": "faq-tech-2",
+      "category": "Detectie en technologie",
+      "question": "Hoe nauwkeurig is de detectie van persoonsgegevens?",
+      "answer": "PseudoAI is ontworpen om persoonsgegevens zo betrouwbaar mogelijk te herkennen en het risico op gemiste gevoelige gegevens te beperken.\n\nIn de praktijk worden veel voorkomende persoonsgegevens in Nederlandse teksten doorgaans correct herkend, zoals namen, adressen, e-mailadressen, telefoonnummers, BSN’s en IBAN-nummers.\n\nTegelijkertijd is het niet mogelijk om 100% garantie te geven op volledige detectie. Taal is complex en contextafhankelijk: persoonsgegevens kunnen op veel verschillende manieren worden geschreven, afgekort of indirect worden benoemd. Daarnaast kunnen sommige woorden zowel een persoonsnaam als een gewone term zijn.\n\nDaarom blijft handmatige controle belangrijk, zodat eventueel niet-gedetecteerde persoonsgegevens alsnog kunnen worden gepseudonimiseerd voordat de tekst wordt verzonden naar een AI-tool.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 27,
+      "isActive": true
+    },
+    {
+      "id": "faq-tech-3",
+      "category": "Detectie en technologie",
+      "question": "Wat gebeurt er als PseudoAI een persoonsgegeven mist?",
+      "answer": "Hoewel PseudoAI is ontworpen om persoonsgegevens zo betrouwbaar mogelijk te herkennen, kan geen enkele detectietechnologie 100% garantie bieden.\n\nDaarom blijft handmatige controle belangrijk. Gebruikers kunnen controleren of gevoelige persoonsgegevens correct zijn gepseudonimiseerd voordat informatie naar een AI-tool wordt verzonden.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 28,
+      "isActive": true
+    },
+    {
+      "id": "faq-tech-4",
+      "category": "Detectie en technologie",
+      "question": "Ondersteunt PseudoAI ook andere talen dan Nederlands?",
+      "answer": "Ja. PseudoAI kan ook worden gebruikt met andere talen dan Nederlands.\n\nDe nauwkeurigheid van detectie en pseudonimisering kan per taal verschillen, afhankelijk van de gebruikte taalmodellen, context en soorten persoonsgegevens in de tekst.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 29,
+      "isActive": true
+    },
+    {
+      "id": "faq-tech-5",
+      "category": "Detectie en technologie",
+      "question": "Wordt de detectielogica van PseudoAI continu verbeterd?",
+      "answer": "Ja. PseudoAI wordt doorlopend verbeterd om de herkenning van persoonsgegevens en de gebruikservaring verder te optimaliseren.\n\nDaarbij staat privacybescherming centraal en wordt zorgvuldig gekeken naar gegevensminimalisatie en veilige verwerking van informatie.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 30,
+      "isActive": true
+    },
+    {
+      "id": "faq-tech-6",
+      "category": "Detectie en technologie",
+      "question": "Hoe werkt de de-pseudonimisatie na ontvangst van het AI-antwoord?",
+      "answer": "Tijdens de sessie bewaart PseudoAI lokaal een tijdelijke koppeling tussen placeholders en de oorspronkelijke gegevens.\n\nWanneer het AI-antwoord terugkomt in PseudoAI, worden de placeholders automatisch vervangen door de originele waarden zodat de tekst weer leesbaar en bruikbaar wordt.\n\nDeze koppeling blijft binnen de browser en omgeving van de gebruiker en wordt niet meegestuurd naar de AI-provider.",
+      "visibleOn": [
+        "sales"
+      ],
+      "order": 31,
       "isActive": true
     }
   ]
