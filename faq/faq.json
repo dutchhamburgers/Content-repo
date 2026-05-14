@@ -342,6 +342,72 @@
       ],
       "order": 31,
       "isActive": true
+    },
+    {
+      "id": "faq-webapp-1",
+      "category": "Werkwijze",
+      "question": "Wat is het verschil tussen detecteren en maskeren?",
+      "answer": "Detecteren betekent dat PseudoAI mogelijke persoonsgegevens of gevoelige gegevens in een tekst probeert te herkennen. Maskeren betekent dat deze gegevens vervolgens worden vervangen door placeholders voordat de tekst naar een AI-tool wordt gestuurd. Niet elke detectie hoeft automatisch gemaskeerd te worden; afhankelijk van de workflow kan de gebruiker nog controle uitvoeren voordat gegevens daadwerkelijk worden vervangen.",
+      "visibleOn": [
+        "webapp"
+      ],
+      "order": 32,
+      "isActive": true
+    },
+    {
+      "id": "faq-webapp-2",
+      "category": "Werkwijze",
+      "question": "Hoe lees ik de highlights in stap 2?",
+      "answer": "In stap 2 markeert PseudoAI onderdelen van de tekst die mogelijk persoonsgegevens of gevoelige informatie bevatten. De highlights helpen gebruikers controleren welke gegevens zijn gedetecteerd voordat de tekst verder wordt verwerkt. Gebruikers kunnen hiermee sneller beoordelen of aanvullende controle of masking nodig is.",
+      "visibleOn": [
+        "webapp"
+      ],
+      "order": 33,
+      "isActive": true
+    },
+    {
+      "id": "faq-webapp-3",
+      "category": "Werkwijze",
+      "question": "Wat betekent ‘alleen voor mij maskeren’?",
+      "answer": "De optie ‘alleen voor mij maskeren’ betekent dat de masking en de tijdelijke koppeling tussen placeholders en oorspronkelijke gegevens alleen zichtbaar en bruikbaar blijven binnen de sessie van de huidige gebruiker. Hierdoor kunnen andere gebruikers of externe AI-systemen de oorspronkelijke persoonsgegevens niet rechtstreeks zien.",
+      "visibleOn": [
+        "webapp"
+      ],
+      "order": 34,
+      "isActive": true
+    },
+    {
+      "id": "faq-webapp-4",
+      "category": "Werkwijze",
+      "question": "Wat zijn Smart date calculations?",
+      "answer": "Smart date calculations helpen om relatieve of gevoelige datumverwijzingen slim te verwerken tijdens AI-gebruik. Hierdoor kan context in teksten behouden blijven zonder dat exacte datums altijd direct zichtbaar hoeven te blijven voor externe AI-systemen.",
+      "visibleOn": [
+        "webapp"
+      ],
+      "order": 35,
+      "isActive": true
+    },
+    {
+      "id": "faq-webapp-5",
+      "category": "Werkwijze",
+      "question": "Waarom zie ik soms ‘niet berekend’ in het eindresultaat?",
+      "answer": "‘Niet berekend’ betekent meestal dat een bepaalde verwerking, detectie of berekening niet volledig kon worden uitgevoerd binnen de huidige sessie of context. Dit kan bijvoorbeeld ontstaan door ontbrekende invoer, een ongeldige selectie of een verwerking die bewust niet automatisch is uitgevoerd.",
+      "visibleOn": [
+        "webapp"
+      ],
+      "order": 36,
+      "isActive": true
+    },
+    {
+      "id": "faq-webapp-6",
+      "category": "Support",
+      "question": "Waar vind ik support of contactpersonen?",
+      "answer": "Support- en contactinformatie kan door organisaties binnen de PseudoAI omgeving beschikbaar worden gemaakt. Afhankelijk van de inrichting kan dit bijvoorbeeld via een beheerportaal, interne servicedesk of aangewezen contactpersonen verlopen.",
+      "visibleOn": [
+        "webapp"
+      ],
+      "order": 37,
+      "isActive": true
     }
   ]
 }
