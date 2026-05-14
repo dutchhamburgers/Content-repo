@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-14T00:00:00Z",
+  "items": [
+    {
+      "id": "faq-ai-privacy-001",
+      "category": "AI & Privacy",
+      "question": "Wat doet PseudoAI precies?",
+      "answer": "PseudoAI is een platform dat organisaties helpt om AI gecontroleerd en veilig in te zetten. In plaats van medewerkers op eigen houtje AI-tools te laten gebruiken, biedt PseudoAI één centrale, door IT-beheerde omgeving. Zo voorkom je shadow AI, datalekkage en compliance-risico's.",
+      "visibleOn": ["sales", "webapp"],
+      "order": 1,
+      "isActive": true
+    },
+    {
+      "id": "faq-ai-privacy-002",
+      "category": "AI & Privacy",
+      "question": "Hoe gaat PseudoAI om met onze bedrijfsdata?",
+      "answer": "PseudoAI verwerkt geen bedrijfsdata buiten de afgesproken, beveiligde omgeving. Prompts en antwoorden worden niet gebruikt om AI-modellen bij te trainen. Alle verwerking vindt plaats binnen de contractueel vastgelegde grenzen, conform AVG/GDPR.",
+      "visibleOn": ["sales", "webapp"],
+      "order": 2,
+      "isActive": true
+    },
+    {
+      "id": "faq-ai-privacy-003",
+      "category": "AI & Privacy",
+      "question": "Slaat PseudoAI onze gesprekken of prompts op?",
+      "answer": "Gesprekken en prompts worden uitsluitend opgeslagen voor de functionaliteit van de applicatie (zoals gespreksgeschiedenis voor de gebruiker zelf). Ze worden niet gedeeld met derden en niet gebruikt voor modeltraining. Klanten kunnen de bewaartermijn zelf instellen in de beheeromgeving.",
+      "visibleOn": ["sales", "webapp"],
+      "order": 3,
+      "isActive": true
+    },
+    {
+      "id": "faq-governance-001",
+      "category": "Governance & Compliance",
+      "question": "Hoe helpt PseudoAI bij het voorkomen van shadow AI?",
+      "answer": "PseudoAI biedt een organisatiebrede, door IT-beheerde AI-werkplek. Medewerkers krijgen toegang tot goedgekeurde AI-tools binnen één platform. Doordat er een aantrekkelijk en functioneel alternatief is, neemt de prikkel om eigen, onbeheerde tools te gebruiken sterk af.",
+      "visibleOn": ["sales", "webapp"],
+      "order": 4,
+      "isActive": true
+    },
+    {
+      "id": "faq-governance-002",
+      "category": "Governance & Compliance",
+      "question": "Is PseudoAI AVG/GDPR-compliant?",
+      "answer": "Ja. PseudoAI is ontworpen met privacy by design als uitgangspunt. De verwerking van persoonsgegevens voldoet aan de AVG/GDPR. We bieden een verwerkersovereenkomst (DPA) aan als onderdeel van het contract.",
+      "visibleOn": ["sales", "webapp"],
+      "order": 5,
+      "isActive": true
+    },
+    {
+      "id": "faq-governance-003",
+      "category": "Governance & Compliance",
+      "question": "Kan ik als beheerder zien welke AI-tools medewerkers gebruiken?",
+      "answer": "Ja. De beheeromgeving biedt inzicht in gebruik per gebruiker, team en periode. Je kunt zien welke modellen en functionaliteiten gebruikt worden. Dit maakt audits en beleidshandhaving eenvoudig.",
+      "visibleOn": ["sales", "webapp"],
+      "order": 6,
+      "isActive": true
+    },
+    {
+      "id": "faq-werking-001",
+      "category": "Werking",
+      "question": "Welke AI-modellen zijn beschikbaar in PseudoAI?",
+      "answer": "PseudoAI ondersteunt de meest gebruikte grote taalmodellen (LLMs). De beschikbare modellen zijn instelbaar door de organisatiebeheerder, zodat je precies kunt bepalen welke modellen medewerkers mogen gebruiken.",
+      "visibleOn": ["sales", "webapp"],
+      "order": 7,
+      "isActive": true
+    },
+    {
+      "id": "faq-werking-002",
+      "category": "Werking",
+      "question": "Kunnen medewerkers PseudoAI gebruiken zonder technische kennis?",
+      "answer": "Ja. PseudoAI heeft een eenvoudige, intuïtieve interface die geen technische achtergrond vereist. Medewerkers kunnen direct aan de slag met AI-assistentie voor dagelijkse taken.",
+      "visibleOn": ["sales", "webapp"],
+      "order": 8,
+      "isActive": true
+    },
+    {
+      "id": "faq-implementatie-001",
+      "category": "Implementatie",
+      "question": "Hoe snel kan PseudoAI worden uitgerold in onze organisatie?",
+      "answer": "Een standaard implementatie is doorgaans binnen enkele dagen operationeel. We begeleiden de technische inrichting en bieden onboarding-materiaal voor beheerders en eindgebruikers.",
+      "visibleOn": ["sales"],
+      "order": 9,
+      "isActive": true
+    },
+    {
+      "id": "faq-implementatie-002",
+      "category": "Implementatie",
+      "question": "Integreert PseudoAI met bestaande tools zoals Microsoft 365 of Slack?",
+      "answer": "PseudoAI biedt integratiemogelijkheden met veelgebruikte werkplekoplossingen. De exacte integraties zijn afhankelijk van het gekozen abonnement. Neem contact op voor een overzicht van beschikbare koppelingen.",
+      "visibleOn": ["sales"],
+      "order": 10,
+      "isActive": true
+    },
+    {
+      "id": "faq-prijzen-001",
+      "category": "Prijzen & Abonnementen",
+      "question": "Wat kost PseudoAI?",
+      "answer": "De prijs van PseudoAI is afhankelijk van het aantal gebruikers en het gekozen abonnement. Neem contact op via de website voor een offerte op maat.",
+      "visibleOn": ["sales"],
+      "order": 11,
+      "isActive": true
+    },
+    {
+      "id": "faq-prijzen-002",
+      "category": "Prijzen & Abonnementen",
+      "question": "Is er een proefperiode of demo beschikbaar?",
+      "answer": "Ja. We bieden de mogelijkheid om PseudoAI eerst te ervaren via een demo of proefperiode. Neem contact op om dit in te plannen.",
+      "visibleOn": ["sales"],
+      "order": 12,
+      "isActive": true
+    }
+  ]
+}
