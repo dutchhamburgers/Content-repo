@@ -303,7 +303,7 @@ export default function App() {
                   />
                 </label>
 
-                <label className="full-width">
+                <label className="full-width field-question">
                   Vraag
                   <input
                     value={selectedItem.question}
@@ -311,7 +311,7 @@ export default function App() {
                   />
                 </label>
 
-                <label className="full-width">
+                <label className="field-answer">
                   Antwoord
                   <textarea
                     rows="8"
@@ -320,43 +320,47 @@ export default function App() {
                   />
                 </label>
 
-                <label>
-                  Order
-                  <input
-                    type="number"
-                    value={selectedItem.order}
-                    onChange={(event) => updateSelectedItem({ order: event.target.value })}
-                  />
-                </label>
+                <div className="editor-controls">
+                  <label className="field-order">
+                    Order
+                    <input
+                      type="number"
+                      value={selectedItem.order}
+                      onChange={(event) => updateSelectedItem({ order: event.target.value })}
+                    />
+                  </label>
 
-                <fieldset>
-                  <legend>visibleOn</legend>
-                  {allowedVisibleOn.map((target) => (
-                    <label key={target} className="checkbox">
-                      <input
-                        type="checkbox"
-                        checked={selectedItem.visibleOn.includes(target)}
-                        onChange={(event) =>
-                          updateSelectedItem({
-                            visibleOn: event.target.checked
-                              ? [...selectedItem.visibleOn, target]
-                              : selectedItem.visibleOn.filter((value) => value !== target),
-                          })
-                        }
-                      />
-                      {target}
-                    </label>
-                  ))}
-                </fieldset>
+                  <fieldset className="field-visible-on">
+                    <legend>visibleOn</legend>
+                    <div className="checkbox-row">
+                      {allowedVisibleOn.map((target) => (
+                        <label key={target} className="checkbox">
+                          <input
+                            type="checkbox"
+                            checked={selectedItem.visibleOn.includes(target)}
+                            onChange={(event) =>
+                              updateSelectedItem({
+                                visibleOn: event.target.checked
+                                  ? [...selectedItem.visibleOn, target]
+                                  : selectedItem.visibleOn.filter((value) => value !== target),
+                              })
+                            }
+                          />
+                          {target}
+                        </label>
+                      ))}
+                    </div>
+                  </fieldset>
 
-                <label className="checkbox">
-                  <input
-                    type="checkbox"
-                    checked={selectedItem.isActive}
-                    onChange={(event) => updateSelectedItem({ isActive: event.target.checked })}
-                  />
-                  Item is actief
-                </label>
+                  <label className="checkbox field-active">
+                    <input
+                      type="checkbox"
+                      checked={selectedItem.isActive}
+                      onChange={(event) => updateSelectedItem({ isActive: event.target.checked })}
+                    />
+                    Item is actief
+                  </label>
+                </div>
               </div>
 
               {selectedErrors.length > 0 && (
