@@ -27,6 +27,8 @@ button {
 
 .page {
   padding: 24px;
+  max-width: 1800px;
+  margin: 0 auto;
 }
 
 .page-header,
@@ -51,6 +53,7 @@ button {
 
 .layout {
   align-items: flex-start;
+  gap: 20px;
 }
 
 .panel {
@@ -62,11 +65,13 @@ button {
 }
 
 .panel:first-child {
-  flex: 1.2;
+  flex: 0 1 46%;
+  min-width: 0;
 }
 
 .editor {
-  flex: 1;
+  flex: 1 1 54%;
+  min-width: 0;
 }
 
 .actions {
@@ -139,6 +144,36 @@ fieldset {
   flex-basis: 100%;
 }
 
+.editor-form-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(240px, 0.9fr);
+  gap: 20px;
+  align-items: start;
+}
+
+.form-grid-main {
+  align-content: start;
+}
+
+.editor-sidebar {
+  display: grid;
+  gap: 16px;
+  align-self: start;
+}
+
+.answer-field textarea {
+  min-height: 20rem;
+  resize: vertical;
+}
+
+.toggle-field {
+  min-height: 48px;
+  padding: 12px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
 input,
 textarea,
 select {
@@ -160,10 +195,12 @@ fieldset {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 10px;
 }
 
 .checkbox input {
   width: auto;
+  margin: 0;
 }
 
 .preview {
@@ -181,4 +218,45 @@ fieldset {
   background: #f9fafb;
   border-radius: 8px;
   padding: 12px;
+}
+
+@media (max-width: 1200px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .panel:first-child,
+  .editor {
+    width: 100%;
+    flex-basis: auto;
+  }
+}
+
+@media (max-width: 860px) {
+  .page {
+    padding: 16px;
+  }
+
+  .page-header,
+  .toolbar,
+  .editor-header,
+  .form-grid,
+  .editor-form-layout {
+    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+
+  .page-header,
+  .toolbar,
+  .editor-header {
+    align-items: stretch;
+  }
+
+  .actions {
+    width: 100%;
+  }
+
+  .actions button {
+    flex: 1;
+  }
 }
