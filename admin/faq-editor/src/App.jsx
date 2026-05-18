@@ -286,42 +286,25 @@ export default function App() {
                 <button type="button" className="danger" onClick={handleDeleteItem}>Verwijder item</button>
               </div>
 
-              <div className="form-grid">
-                <label>
-                  ID
-                  <input
-                    value={selectedItem.id}
-                    onChange={(event) => updateSelectedItem({ id: event.target.value })}
-                  />
-                </label>
+              <div className="editor-form-layout">
+                <div className="form-grid form-grid-main">
+                  <label>
+                    ID
+                    <input
+                      value={selectedItem.id}
+                      onChange={(event) => updateSelectedItem({ id: event.target.value })}
+                    />
+                  </label>
 
-                <label>
-                  Categorie
-                  <input
-                    value={selectedItem.category}
-                    onChange={(event) => updateSelectedItem({ category: event.target.value })}
-                  />
-                </label>
+                  <label>
+                    Categorie
+                    <input
+                      value={selectedItem.category}
+                      onChange={(event) => updateSelectedItem({ category: event.target.value })}
+                    />
+                  </label>
 
-                <label className="full-width field-question">
-                  Vraag
-                  <input
-                    value={selectedItem.question}
-                    onChange={(event) => updateSelectedItem({ question: event.target.value })}
-                  />
-                </label>
-
-                <label className="field-answer">
-                  Antwoord
-                  <textarea
-                    rows="8"
-                    value={selectedItem.answer}
-                    onChange={(event) => updateSelectedItem({ answer: event.target.value })}
-                  />
-                </label>
-
-                <div className="editor-controls">
-                  <label className="field-order">
+                  <label>
                     Order
                     <input
                       type="number"
@@ -330,29 +313,46 @@ export default function App() {
                     />
                   </label>
 
-                  <fieldset className="field-visible-on">
+                  <label className="full-width">
+                    Vraag
+                    <input
+                      value={selectedItem.question}
+                      onChange={(event) => updateSelectedItem({ question: event.target.value })}
+                    />
+                  </label>
+
+                  <label className="full-width answer-field">
+                    Antwoord
+                    <textarea
+                      rows="12"
+                      value={selectedItem.answer}
+                      onChange={(event) => updateSelectedItem({ answer: event.target.value })}
+                    />
+                  </label>
+                </div>
+
+                <aside className="editor-sidebar">
+                  <fieldset>
                     <legend>visibleOn</legend>
-                    <div className="checkbox-row">
-                      {allowedVisibleOn.map((target) => (
-                        <label key={target} className="checkbox">
-                          <input
-                            type="checkbox"
-                            checked={selectedItem.visibleOn.includes(target)}
-                            onChange={(event) =>
-                              updateSelectedItem({
-                                visibleOn: event.target.checked
-                                  ? [...selectedItem.visibleOn, target]
-                                  : selectedItem.visibleOn.filter((value) => value !== target),
-                              })
-                            }
-                          />
-                          {target}
-                        </label>
-                      ))}
-                    </div>
+                    {allowedVisibleOn.map((target) => (
+                      <label key={target} className="checkbox">
+                        <input
+                          type="checkbox"
+                          checked={selectedItem.visibleOn.includes(target)}
+                          onChange={(event) =>
+                            updateSelectedItem({
+                              visibleOn: event.target.checked
+                                ? [...selectedItem.visibleOn, target]
+                                : selectedItem.visibleOn.filter((value) => value !== target),
+                            })
+                          }
+                        />
+                        {target}
+                      </label>
+                    ))}
                   </fieldset>
 
-                  <label className="checkbox field-active">
+                  <label className="checkbox toggle-field">
                     <input
                       type="checkbox"
                       checked={selectedItem.isActive}
@@ -360,7 +360,7 @@ export default function App() {
                     />
                     Item is actief
                   </label>
-                </div>
+                </aside>
               </div>
 
               {selectedErrors.length > 0 && (
