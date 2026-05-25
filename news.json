@@ -1,5 +1,25 @@
 [
   {
+    "slug": "shadow-ai-surges-workplace",
+    "title": "Shadow AI surges in the workplace",
+    "publishedAt": "2026-05-19",
+    "source": "The Register",
+    "language": "en",
+    "originalUrl": "https://www.theregister.com/ai-ml/2026/05/19/shadow-ai-surges-in-the-workplace/5242868",
+    "quote": "Verizon reported that 28 percent of data loss prevention policy violations involved employees entering source code into an AI tool.",
+    "summary": "A recent report highlighted rapid growth of shadow AI usage inside organizations. Employees increasingly use external AI chat tools such as ChatGPT, Gemini and Claude through personal accounts, often outside IT governance. Verizon research cited in the article showed significant data loss prevention violations caused by staff uploading source code, documents and proprietary research into generative AI systems.",
+    "relevanceBullets": [
+      "Medewerkers voeren broncode en documenten in AI-tools in zonder toezicht van IT.",
+      "Shadow AI vergroot risico op uitlekken van bedrijfsgegevens en intellectueel eigendom."
+    ],
+    "tags": [
+      "shadow-ai",
+      "data-leakage",
+      "compliance",
+      "governance"
+    ]
+  },
+  {
     "slug": "gartner-genai-broken-cybersecurity-awareness",
     "title": "Gartner: GenAI has broken traditional cybersecurity awareness - what comes next?",
     "publishedAt": "2026-05-12",
