@@ -216,45 +216,6 @@
     ]
   },
   {
-    "slug": "employees-sensitive-data-ai-tools-security-warnings",
-    "title": "Employees continue to input sensitive data into AI tools despite security warnings",
-    "publishedAt": "2026-04-05",
-    "source": "TechRadar",
-    "language": "en",
-    "originalUrl": "https://www.techradar.com/pro/security/employees-continue-to-input-sensitive-data-into-ai-tools-despite-security-warnings",
-    "quote": "Security experts warn that employees still enter confidential data into AI tools, creating ongoing compliance and data leakage risks.",
-    "summary": "Security researchers reveal that employees consistently enter sensitive and confidential data into AI tools even after receiving security warnings. This behavior creates ongoing compliance risks and data leakage vulnerabilities for organizations. The findings indicate that technical controls and awareness campaigns alone are insufficient to prevent unauthorized data sharing with AI tools.",
-    "relevanceBullets": [
-      "Bevestigt dat medewerkers ondanks waarschuwingen gevoelige informatie invoeren in AI-chattools, wat leidt tot structurele datalekrisico's.",
-      "Laat zien dat gebrek aan controle en bewustzijn rond AI-chatgebruik directe impact heeft op security en compliance."
-    ],
-    "tags": [
-      "data-leakage",
-      "security",
-      "compliance",
-      "governance"
-    ]
-  },
-  {
-    "slug": "samsung-bans-chatgpt-employees-leak-confidential-code",
-    "title": "Samsung bans ChatGPT after employees leak confidential code",
-    "publishedAt": "2026-04-02",
-    "source": "BBC News",
-    "language": "en",
-    "originalUrl": "https://www.bbc.com/news/technology-65239495",
-    "quote": "Samsung restricted the use of generative AI tools after employees uploaded sensitive source code to ChatGPT.",
-    "summary": "Samsung issued a ban on the use of generative AI tools internally after multiple employees uploaded sensitive source code to ChatGPT, resulting in a significant data breach. The incident highlights the risks of uncontrolled AI chat tool usage when employees handle proprietary intellectual property. Samsung's response underscores the need for organizations to implement strict policies and technical controls around AI tool access.",
-    "relevanceBullets": [
-      "Medewerkers voeren vertrouwelijke broncode in AI-chattools in, wat direct leidt tot ernstige datalekken en IP-risico's.",
-      "Toont dat organisaties maatregelen moeten nemen om ongecontroleerd AI-chatgebruik en dataverlies te voorkomen."
-    ],
-    "tags": [
-      "data-leakage",
-      "security",
-      "governance"
-    ]
-  },
-  {
     "slug": "threat-actor-abuse-ai-accelerates-cyberattack-surface",
     "title": "Threat Actor Abuse of AI Accelerates from Tool to Cyberattack Surface",
     "publishedAt": "2026-04-02",
