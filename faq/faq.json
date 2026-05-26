@@ -355,17 +355,6 @@
       "isActive": true
     },
     {
-      "id": "faq-webapp-2",
-      "category": "Werkwijze",
-      "question": "Hoe lees ik de highlights in stap 2?",
-      "answer": "In stap 2 markeert PseudoAI onderdelen van de tekst die mogelijk persoonsgegevens of gevoelige informatie bevatten. De highlights helpen gebruikers controleren welke gegevens zijn gedetecteerd voordat de tekst verder wordt verwerkt. Gebruikers kunnen hiermee sneller beoordelen of aanvullende controle of masking nodig is.",
-      "visibleOn": [
-        "webapp"
-      ],
-      "order": 33,
-      "isActive": true
-    },
-    {
       "id": "faq-webapp-3",
       "category": "Werkwijze",
       "question": "Wat betekent ‘alleen voor mij maskeren’?",
