@@ -1,5 +1,25 @@
 [
   {
+    "slug": "organizations-pouring-money-ai-employees-personal-accounts",
+    "title": "Every organization is pouring money into AI right now — and almost none of them know what their people are actually doing with it",
+    "publishedAt": "2026-05-26",
+    "source": "TechRadar",
+    "language": "en",
+    "originalUrl": "https://www.techradar.com/pro/every-organization-is-pouring-money-into-ai-right-now-and-almost-none-of-them-know-what-their-people-are-actually-doing-with-it-study-reveals-employees-are-using-their-personal-ai-accounts-at-work-raising-a-whole-host-of-issues",
+    "quote": "Employees are using their personal AI accounts at work, raising a whole host of issues for organizations that have little visibility into what data is being shared.",
+    "summary": "A new study reveals that organizations are investing heavily in AI while lacking visibility into how employees actually use it. Employees increasingly rely on personal AI accounts for work tasks, introducing data sharing risks that IT and compliance teams cannot track. The research highlights a growing gap between AI investment and governance maturity, with serious risks of data leakage and loss of intellectual property.",
+    "relevanceBullets": [
+      "Medewerkers gebruiken persoonlijke AI-accounts voor werk waardoor organisaties zicht verliezen op welke gegevens worden gedeeld.",
+      "Laat zien dat AI-adoptie sneller groeit dan governance en toezicht, met risico op datalekken en verlies van intellectueel eigendom."
+    ],
+    "tags": [
+      "shadow-ai",
+      "governance",
+      "data-leakage",
+      "byoai"
+    ]
+  },
+  {
     "slug": "shadow-ai-surges-workplace",
     "title": "Shadow AI surges in the workplace",
     "publishedAt": "2026-05-19",
