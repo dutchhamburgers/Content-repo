@@ -1,5 +1,25 @@
 [
   {
+    "slug": "waarschuwing-personeel-ai-kans-op-datalek-groot",
+    "title": "Waarschuwing voor personeel dat met AI aan de slag gaat: 'Kans op datalek groot'",
+    "publishedAt": "2026-06-08",
+    "source": "NOS Nieuwsuur",
+    "language": "nl",
+    "originalUrl": "https://nos.nl/nieuwsuur/artikel/2617591-waarschuwing-voor-personeel-dat-met-ai-aan-de-slag-gaat-kans-op-datalek-groot",
+    "quote": "Persoonsgegevens, bedrijfsgeheimen of vertrouwelijke dossiers kunnen zo ongemerkt in openbare AI-systemen terechtkomen.",
+    "summary": "NOS Nieuwsuur waarschuwt dat het gebruik van AI-tools zoals ChatGPT, Gemini en Claude op de werkvloer snel toeneemt, terwijl duidelijke regels vaak ontbreken. Daardoor hebben organisaties weinig zicht op welke informatie medewerkers invoeren in publieke AI-systemen. Het artikel noemt concrete risico's rond persoonsgegevens, bedrijfsgeheimen en vertrouwelijke dossiers, en verwijst naar onder meer de casus bij de gemeente Eindhoven waarbij documenten met persoonsgegevens naar externe AI-tools werden geüpload. De Nederlandse context maakt duidelijk dat shadow AI niet alleen een productiviteitsvraagstuk is, maar een concreet datalek-, privacy- en governance-risico.",
+    "relevanceBullets": [
+      "Nederlandse nieuwscontext waarin het risico op datalekken door AI-gebruik van personeel expliciet centraal staat.",
+      "Onderstreept dat organisaties zicht, beleid en controle nodig hebben op welke gegevens medewerkers invoeren in publieke AI-tools."
+    ],
+    "tags": [
+      "shadow-ai",
+      "data-leakage",
+      "privacy",
+      "governance"
+    ]
+  },
+  {
     "slug": "organizations-pouring-money-ai-employees-personal-accounts",
     "title": "Every organization is pouring money into AI right now — and almost none of them know what their people are actually doing with it",
     "publishedAt": "2026-05-26",
@@ -42,15 +62,15 @@
   {
     "slug": "gartner-genai-broken-cybersecurity-awareness",
     "title": "Gartner: GenAI has broken traditional cybersecurity awareness - what comes next?",
-    "publishedAt": "2026-05-12",
+    "publishedAt": "2026-05-11",
     "source": "TechRadar Pro",
     "language": "en",
     "originalUrl": "https://www.techradar.com/pro/gartner-genai-has-broken-traditional-cybersecurity-awareness-what-comes-next",
     "quote": "A Gartner survey revealed that 57% of employees use personal GenAI accounts for work, and 33% have inputted sensitive data into public AI platforms.",
-    "summary": "TechRadar bespreekt nieuw Gartner-onderzoek waaruit blijkt dat traditionele security awareness-programma's tekortschieten door de snelle adoptie van generatieve AI op de werkvloer. Werknemers gebruiken persoonlijke AI-accounts voor werkdoeleinden en voeren daarbij regelmatig gevoelige data in publieke AI-platforms in, buiten toezicht van IT en governance.",
+    "summary": "TechRadar Pro bespreekt Gartner's 2025 Cybersecurity Innovations in AI Risk Management and Use Survey, waaruit blijkt dat traditionele security awareness-programma's tekortschieten door de snelle adoptie van generatieve AI op de werkvloer. Volgens het onderzoek gebruikt meer dan 57% van de medewerkers persoonlijke GenAI-accounts voor werk en geeft 33% toe gevoelige werkgerelateerde informatie in publieke of niet-goedgekeurde GenAI-tools te hebben ingevoerd. Deze ontwikkeling vergroot het risico op datalekken, verlies van intellectueel eigendom en compliance-problemen, terwijl veel organisaties onvoldoende zicht hebben op hoe medewerkers AI daadwerkelijk gebruiken.",
     "relevanceBullets": [
-      "Werknemers gebruiken persoonlijke AI-chataccounts voor werk en voeren daarbij gevoelige bedrijfsinformatie in publieke AI-tools in.",
-      "Laat zien dat traditionele awareness en governance onvoldoende zijn om shadow AI en datalekrisico's te beheersen."
+      "Gartner rapporteert dat meer dan 57% van medewerkers persoonlijke GenAI-accounts gebruikt voor werk en dat 33% gevoelige werkgerelateerde informatie invoert in publieke of niet-goedgekeurde GenAI-tools.",
+      "Laat zien dat traditionele security awareness niet meer volstaat en dat organisaties aanvullende AI-governance nodig hebben om datalekken en compliance-risico's te beperken."
     ],
     "tags": [
       "shadow-ai",
