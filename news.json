@@ -1,5 +1,25 @@
 [
   {
+    "slug": "schaduw-ai-geeft-datalekken-waarschuwt-edps",
+    "title": "'Schaduw-AI' geeft datalekken, waarschuwt Europese privacytoezichthouder",
+    "publishedAt": "2026-06-16",
+    "source": "Tweakers",
+    "language": "nl",
+    "originalUrl": "https://tweakers.net/nieuws/249164/schaduw-ai-geeft-datalekken-waarschuwt-europese-privacytoezichthouder.html",
+    "quote": "Deze 'schaduw-AI' kan leiden tot datalekken en schending van wetten en regels.",
+    "summary": "Tweakers bericht over een waarschuwing van de EDPS voor ongeautoriseerd AI-gebruik door werknemers. Zulke schaduw-AI kan leiden tot datalekken, overtreding van privacyregels en operationele verstoringen die organisaties mogelijk niet opmerken. Het artikel sluit direct aan op governance, compliance en gecontroleerde AI-adoptie.",
+    "relevanceBullets": [
+      "Raakt exact de kern van PseudoAI: medewerkers gebruiken AI-tools buiten toezicht van IT en kunnen daarmee gevoelige data lekken.",
+      "Onderbouwt de noodzaak van beleid, monitoring en veilige alternatieven voor ongecontroleerd AI-gebruik."
+    ],
+    "tags": [
+      "shadow-ai",
+      "data-leakage",
+      "governance",
+      "compliance"
+    ]
+  },
+  {
     "slug": "waarschuwing-personeel-ai-kans-op-datalek-groot",
     "title": "Waarschuwing voor personeel dat met AI aan de slag gaat: 'Kans op datalek groot'",
     "publishedAt": "2026-06-08",
@@ -60,26 +80,6 @@
     ]
   },
   {
-    "slug": "gartner-genai-broken-cybersecurity-awareness",
-    "title": "Gartner: GenAI has broken traditional cybersecurity awareness - what comes next?",
-    "publishedAt": "2026-05-11",
-    "source": "TechRadar Pro",
-    "language": "en",
-    "originalUrl": "https://www.techradar.com/pro/gartner-genai-has-broken-traditional-cybersecurity-awareness-what-comes-next",
-    "quote": "A Gartner survey revealed that 57% of employees use personal GenAI accounts for work, and 33% have inputted sensitive data into public AI platforms.",
-    "summary": "TechRadar Pro bespreekt Gartner's 2025 Cybersecurity Innovations in AI Risk Management and Use Survey, waaruit blijkt dat traditionele security awareness-programma's tekortschieten door de snelle adoptie van generatieve AI op de werkvloer. Volgens het onderzoek gebruikt meer dan 57% van de medewerkers persoonlijke GenAI-accounts voor werk en geeft 33% toe gevoelige werkgerelateerde informatie in publieke of niet-goedgekeurde GenAI-tools te hebben ingevoerd. Deze ontwikkeling vergroot het risico op datalekken, verlies van intellectueel eigendom en compliance-problemen, terwijl veel organisaties onvoldoende zicht hebben op hoe medewerkers AI daadwerkelijk gebruiken.",
-    "relevanceBullets": [
-      "Gartner rapporteert dat meer dan 57% van medewerkers persoonlijke GenAI-accounts gebruikt voor werk en dat 33% gevoelige werkgerelateerde informatie invoert in publieke of niet-goedgekeurde GenAI-tools.",
-      "Laat zien dat traditionele security awareness niet meer volstaat en dat organisaties aanvullende AI-governance nodig hebben om datalekken en compliance-risico's te beperken."
-    ],
-    "tags": [
-      "shadow-ai",
-      "data-leakage",
-      "governance",
-      "security"
-    ]
-  },
-  {
     "slug": "unauthorized-ai-tools-workplace-concerns",
     "title": "Nearly 2 in 5 workers use unauthorized AI tools at work - here's why companies are concerned",
     "publishedAt": "2026-05-12",
@@ -97,6 +97,26 @@
       "data-leakage",
       "compliance",
       "governance"
+    ]
+  },
+  {
+    "slug": "gartner-genai-broken-cybersecurity-awareness",
+    "title": "Gartner: GenAI has broken traditional cybersecurity awareness - what comes next?",
+    "publishedAt": "2026-05-11",
+    "source": "TechRadar Pro",
+    "language": "en",
+    "originalUrl": "https://www.techradar.com/pro/gartner-genai-has-broken-traditional-cybersecurity-awareness-what-comes-next",
+    "quote": "A Gartner survey revealed that 57% of employees use personal GenAI accounts for work, and 33% have inputted sensitive data into public AI platforms.",
+    "summary": "TechRadar Pro bespreekt Gartner's 2025 Cybersecurity Innovations in AI Risk Management and Use Survey, waaruit blijkt dat traditionele security awareness-programma's tekortschieten door de snelle adoptie van generatieve AI op de werkvloer. Volgens het onderzoek gebruikt meer dan 57% van de medewerkers persoonlijke GenAI-accounts voor werk en geeft 33% toe gevoelige werkgerelateerde informatie in publieke of niet-goedgekeurde GenAI-tools te hebben ingevoerd. Deze ontwikkeling vergroot het risico op datalekken, verlies van intellectueel eigendom en compliance-problemen, terwijl veel organisaties onvoldoende zicht hebben op hoe medewerkers AI daadwerkelijk gebruiken.",
+    "relevanceBullets": [
+      "Gartner rapporteert dat meer dan 57% van medewerkers persoonlijke GenAI-accounts gebruikt voor werk en dat 33% gevoelige werkgerelateerde informatie invoert in publieke of niet-goedgekeurde GenAI-tools.",
+      "Laat zien dat traditionele security awareness niet meer volstaat en dat organisaties aanvullende AI-governance nodig hebben om datalekken en compliance-risico's te beperken."
+    ],
+    "tags": [
+      "shadow-ai",
+      "data-leakage",
+      "governance",
+      "security"
     ]
   },
   {
