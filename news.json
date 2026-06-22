@@ -1,5 +1,26 @@
 [
   {
+    "slug": "employees-sabotage-ai-rollouts-shadow-ai-risk",
+    "title": "How to prevent employees from sabotaging AI rollouts",
+    "publishedAt": "2026-06-18",
+    "source": "ITPro",
+    "language": "en",
+    "originalUrl": "https://www.itpro.com/technology/artificial-intelligence/how-to-prevent-employees-from-sabotaging-ai-rollouts",
+    "quote": "workers have even resorted to uploading sensitive company data into unapproved tools",
+    "summary": "ITPro bespreekt onderzoek van Writer en Workplace Intelligence naar sabotage van AI-rollouts door werknemers in de UK, VS en Europa. Het artikel noemt voorbeelden zoals het negeren van AI-richtlijnen, het weigeren van trainingen en in extreme gevallen het uploaden van gevoelige bedrijfsdata naar niet-goedgekeurde tools. De analyse koppelt dit expliciet aan shadow AI, datalekken, een grotere attack surface en de noodzaak van governance die medewerkers helpt om goedgekeurde AI-tools veilig te gebruiken.",
+    "relevanceBullets": [
+      "Werknemers wijken uit naar ongeautoriseerde AI-tools en kunnen daarbij gevoelige bedrijfsdata uploaden.",
+      "Onderstreept dat slechte AI-governance shadow AI versterkt en zo datalekken en securityrisico's vergroot."
+    ],
+    "tags": [
+      "shadow-ai",
+      "data-leakage",
+      "governance",
+      "security",
+      "compliance"
+    ]
+  },
+  {
     "slug": "schaduw-ai-geeft-datalekken-waarschuwt-edps",
     "title": "'Schaduw-AI' geeft datalekken, waarschuwt Europese privacytoezichthouder",
     "publishedAt": "2026-06-16",
