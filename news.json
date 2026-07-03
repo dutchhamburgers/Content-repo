@@ -1,5 +1,25 @@
 [
   {
+    "slug": "aleid-wolfsen-chatbots-personal-data-never-back",
+    "title": "Vertrekkend AP-voorzitter waarschuwt voor ongecontroleerd delen van persoonsgegevens met AI-chatbots",
+    "publishedAt": "2026-06-29",
+    "source": "Trouw",
+    "language": "nl",
+    "originalUrl": "https://www.trouw.nl/duurzaamheid-economie/vertrekkend-ap-baas-aleid-wolfsen-mensen-gooien-hun-hele-leven-in-chatbots-en-krijgen-het-nooit-meer-terug~b0669c23/",
+    "quote": "Mensen gooien hun hele hebben en houden in die chatbots, maar die gegevens krijg je er nooit meer uit.",
+    "summary": "Dit is een betaald artikel van Trouw. In een uitgebreid interview blikt de vertrekkende voorzitter van de Autoriteit Persoonsgegevens, Aleid Wolfsen, terug op tien jaar toezicht op gegevensbescherming en de snelle opkomst van kunstmatige intelligentie. Hij stelt dat data de grondstof vormen voor AI en waarschuwt dat veel mensen zich onvoldoende realiseren welke persoonsgegevens en vertrouwelijke informatie zij invoeren in AI-chatbots. Volgens Wolfsen verliezen gebruikers de regie zodra deze gegevens bij externe AI-diensten terechtkomen, terwijl de maatschappelijke en economische waarde van data juist steeds groter wordt. Daarnaast benadrukt hij dat Europa moet blijven investeren in eigen cloud-, software- en AI-capaciteit en dat bescherming van persoonsgegevens en fundamentele rechten leidend moet blijven bij de verdere ontwikkeling en toepassing van AI.",
+    "relevanceBullets": [
+      "Gebruikers delen regelmatig persoonsgegevens, documenten en andere vertrouwelijke informatie met AI-chatbots zonder zich volledig bewust te zijn van de gevolgen.",
+      "Het interview onderstreept dat organisaties vooraf moeten bepalen welke informatie überhaupt richting AI mag worden verwerkt, met dataclassificatie, gegevensbescherming en governance als randvoorwaarden."
+    ],
+    "tags": [
+      "privacy",
+      "data-leakage",
+      "governance",
+      "compliance"
+    ]
+  },
+  {
     "slug": "employees-sabotage-ai-rollouts-shadow-ai-risk",
     "title": "How to prevent employees from sabotaging AI rollouts",
     "publishedAt": "2026-06-18",
@@ -180,23 +200,24 @@
     ]
   },
   {
-    "slug": "shadow-ai-openclaw-corporate-data-risk",
+    "slug": "shadow-ai-openclaw-agents-corporate-data-risk",
     "title": "Shadow AI and agents like OpenClaw are hijacking corporate data too easily",
     "publishedAt": "2026-04-27",
     "source": "TechRadar",
     "language": "en",
     "originalUrl": "https://www.techradar.com/pro/shadow-ai-and-agents-like-openclaw-are-hijacking-corporate-data-too-easily",
-    "quote": "When someone pastes a customer list into a free-tier chatbot or feeds proprietary code into an LLM to debug it faster, that data enters a system the organization has no control over.",
-    "summary": "Het artikel beschrijft hoe medewerkers binnen organisaties AI-chattools gebruiken zonder toezicht en daarbij gevoelige bedrijfsdata invoeren, zoals klantlijsten en broncode. Dit leidt tot verlies van controle over data, compliance-risico's en mogelijke datalekken doordat data buiten de organisatieomgeving terechtkomt.",
+    "quote": "that data enters a system the organization has no control over",
+    "summary": "TechRadar analyseert hoe shadow AI verder gaat dan klassieke shadow IT doordat AI-tools data niet alleen opslaan, maar ook verwerken en soms behouden. Het artikel noemt voorbeelden zoals klantlijsten in gratis chatbots en broncode in LLM's. Daarnaast bespreekt het risico's van agentic AI, waaronder OpenClaw-extensies die data naar aanvallers konden sturen, en benadrukt het dat organisaties AI-interacties moeten behandelen als datatransfers met DLP, classificatie en zichtbaarheid.",
     "relevanceBullets": [
-      "Medewerkers voeren klantgegevens en broncode in AI-chattools in, waardoor gevoelige data buiten de organisatie terechtkomt.",
-      "Toont dat gebrek aan controle op AI-chatgebruik direct leidt tot datalek- en compliance-risico's, wat PseudoAI adresseert."
+      "Medewerkers kunnen klantlijsten, broncode en documenten invoeren in AI-tools buiten controle van de organisatie.",
+      "AI-agents vergroten het risico doordat zij met gebruikersrechten e-mail, bestanden en systemen kunnen benaderen."
     ],
     "tags": [
       "shadow-ai",
+      "attack-surface",
       "data-leakage",
-      "governance",
-      "compliance"
+      "security",
+      "governance"
     ]
   },
   {
