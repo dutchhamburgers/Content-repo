@@ -1,5 +1,70 @@
 [
   {
+    "slug": "gemeenten-lekken-persoonsgegevens-bsn-nos",
+    "title": "Gemeenten lekken nog steeds persoonsgegevens van inwoners, zelfs BSN's",
+    "publishedAt": "2026-07-08",
+    "source": "NOS",
+    "language": "nl",
+    "originalUrl": "https://nos.nl/artikel/2623302-gemeenten-lekken-nog-steeds-persoonsgegevens-van-inwoners-zelfs-bsn-s",
+    "quote": "Voor het onderzoek gebruikte de NOS een lokaal gehost AI-model, zodat de verzamelde persoonsgegevens niet naar een externe AI-dienst hoefden te worden gestuurd.",
+    "summary": "Uit onderzoek van de NOS blijkt dat Nederlandse gemeenten nog steeds documenten publiceren waarin persoonsgegevens, waaronder burgerservicenummers (BSN's), onvoldoende zijn afgeschermd. Het onderzoek laat zien dat dataminimalisatie en correcte anonimisering in de praktijk nog vaak tekortschieten. De NOS gebruikte voor de analyse een lokaal gehost AI-model om de privacy van betrokkenen te beschermen.",
+    "relevanceBullets": [
+      "Toont het belang van dataminimalisatie vóór verwerking met AI.",
+      "Praktijkvoorbeeld van privacyvriendelijk AI-gebruik met een lokaal model."
+    ],
+    "tags": [
+      "privacy",
+      "persoonsgegevens",
+      "bsn",
+      "data-leakage",
+      "government",
+      "data-minimisation"
+    ]
+  },
+  {
+    "slug": "ap-ai-vergroot-gevaren-cyberaanvallen",
+    "title": "AI vergroot gevaren van cyberaanvallen",
+    "publishedAt": "2026-07-08",
+    "source": "Autoriteit Persoonsgegevens",
+    "language": "nl",
+    "originalUrl": "https://autoriteitpersoonsgegevens.nl/actueel/ai-vergroot-gevaren-van-cyberaanvallen",
+    "quote": "De snelle groei van artificiële intelligentie (AI) vergroot de gevaren van cyberaanvallen.",
+    "summary": "De Autoriteit Persoonsgegevens waarschuwt dat AI phishingaanvallen realistischer en grootschaliger maakt, waardoor datalekken vaker voorkomen. Organisaties worden opgeroepen hun digitale weerbaarheid te versterken om persoonsgegevens beter te beschermen tegen AI-gedreven cybercriminaliteit.",
+    "relevanceBullets": [
+      "AI vergroot de kans op phishing en datalekken.",
+      "Benadrukt het belang van bescherming van persoonsgegevens vóór AI-verwerking."
+    ],
+    "tags": [
+      "ai",
+      "privacy",
+      "security",
+      "data-leakage",
+      "phishing",
+      "governance"
+    ]
+  },
+  {
+    "slug": "ncsc-cyberbeveiligingswet-15-augustus",
+    "title": "Cyberbeveiligingswet treedt op 15 augustus in werking",
+    "publishedAt": "2026-07-07",
+    "source": "NCSC",
+    "language": "nl",
+    "originalUrl": "https://www.ncsc.nl/nieuws/de-cyberbeveiligingswet-in-laatste-fase-van-vaststelling",
+    "quote": "",
+    "summary": "Het Nationaal Cyber Security Centrum kondigt aan dat de Cyberbeveiligingswet op 15 augustus in werking treedt. De wet implementeert de NIS2-richtlijn en stelt strengere eisen aan risicobeheersing, governance en informatiebeveiliging voor duizenden Nederlandse organisaties.",
+    "relevanceBullets": [
+      "Nieuwe governance-eisen versterken de bescherming van organisatiegegevens.",
+      "Relevant voor organisaties die AI veilig en compliant willen inzetten."
+    ],
+    "tags": [
+      "governance",
+      "security",
+      "nis2",
+      "compliance",
+      "government"
+    ]
+  },
+  {
     "slug": "aleid-wolfsen-chatbots-personal-data-never-back",
     "title": "Vertrekkend AP-voorzitter waarschuwt voor ongecontroleerd delen van persoonsgegevens met AI-chatbots",
     "publishedAt": "2026-06-29",
