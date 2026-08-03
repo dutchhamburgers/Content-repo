@@ -44,6 +44,25 @@
     ]
   },
   {
+    "slug": "edpb-anonimisering-webscraping-generatieve-ai",
+    "title": "EDPB werpt licht op anonimisering en webscraping voor generatieve AI en keurt definitieve versie van richtlijnen voor blockchain goed",
+    "publishedAt": "2026-07-08",
+    "source": "European Data Protection Board",
+    "language": "nl",
+    "originalUrl": "https://www.edpb.europa.eu/news/edpb-sheds-light-on-anonymisation-and-web-scraping-for-generative-ai-and-adopts-final-version_nl",
+    "quote": "In de richtsnoeren wordt ook advies gegeven over de maatregelen die de verwerkingsverantwoordelijke moet nemen om te voldoen aan het beginsel van minimale gegevensverwerking.",
+    "summary": "De EDPB heeft richtsnoeren vastgesteld over anonimisering en webscraping in de context van generatieve AI. Organisaties krijgen een praktisch kader om te beoordelen of gegevens daadwerkelijk anoniem zijn, onder meer op basis van recordisolatie, koppelbaarheid en gevolgtrekking. De richtsnoeren besteden daarnaast aandacht aan doelbinding, dataminimalisatie en maatregelen om de verzameling en verspreiding van bijzondere persoonsgegevens te voorkomen.",
+    "relevanceBullets": [
+      "De EDPB maakt concreet dat organisaties vóór AI-verwerking maatregelen moeten nemen om persoonsgegevens tot het noodzakelijke minimum te beperken.",
+      "Het anonimiseringskader helpt beoordelen of identificerende informatie voldoende is verwijderd voordat gegevens voor generatieve AI worden gebruikt."
+    ],
+    "tags": [
+      "privacy",
+      "compliance",
+      "governance"
+    ]
+  },
+  {
     "slug": "ncsc-cyberbeveiligingswet-15-augustus",
     "title": "Cyberbeveiligingswet treedt op 15 augustus in werking",
     "publishedAt": "2026-07-07",
