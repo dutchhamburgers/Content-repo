@@ -1,5 +1,45 @@
 [
   {
+    "slug": "approved-ai-applications-data-governance-risk",
+    "title": "Approved applications can also fall prey to shadow AI perils",
+    "publishedAt": "2026-08-21",
+    "source": "No Jitter",
+    "language": "en",
+    "originalUrl": "https://www.nojitter.com/ai-automation/approved-applications-can-also-fall-prey-to-shadow-ai-perils",
+    "quote": "Simply approving AI does not automatically mean that AI is governed.",
+    "summary": "No Jitter beschrijft waarom goedkeuring van een AI-applicatie op zichzelf onvoldoende bescherming biedt voor bedrijfsgegevens. Ook binnen goedgekeurde systemen kunnen gevoelige gegevens worden opgehaald, gecombineerd, samengevat en naar andere systemen worden doorgestuurd zonder dat organisaties de volledige gegevensstroom overzien. Het artikel noemt duidelijk afgebakende datasets en synthetische of geanonimiseerde data als manieren om AI veilig te laten gebruiken.",
+    "relevanceBullets": [
+      "Raakt direct aan de PseudoAI-boodschap dat een goedgekeurde AI-tool niet automatisch betekent dat alle ingevoerde gegevens noodzakelijk of verantwoord zijn.",
+      "Noemt expliciet het beperken van datasets en het gebruik van geanonimiseerde data als praktische bescherming vóór en tijdens AI-verwerking."
+    ],
+    "tags": [
+      "shadow-ai",
+      "privacy",
+      "governance",
+      "data-leakage"
+    ]
+  },
+  {
+    "slug": "sra-misuse-ai-client-confidentiality",
+    "title": "Misuse of AI",
+    "publishedAt": "2026-08-17",
+    "source": "Solicitors Regulation Authority",
+    "language": "en",
+    "originalUrl": "https://news.sra.org.uk/solicitors/guidance/misuse-ai/",
+    "quote": "Instances of confidential client information being entered into public AI tools, risking potential breaches of confidentiality and wider data protection requirements.",
+    "summary": "De Britse Solicitors Regulation Authority waarschuwt advocatenkantoren expliciet voor het invoeren van persoonsgegevens en vertrouwelijke cliëntinformatie in AI-systemen. Zowel gratis als betaalde AI-tools kunnen volgens de toezichthouder onvoldoende waarborgen bieden voor vertrouwelijkheid. Cliëntgegevens mogen alleen in AI-systemen worden ingevoerd wanneer passende contractuele, technische en organisatorische maatregelen aanwezig zijn.",
+    "relevanceBullets": [
+      "Een professionele toezichthouder constateert concreet dat vertrouwelijke cliëntinformatie in publieke AI-tools terechtkomt.",
+      "De waarschuwing ondersteunt rechtstreeks de noodzaak om vóór verzending te bepalen welke persoonsgegevens en vertrouwelijke informatie een AI-toepassing daadwerkelijk nodig heeft."
+    ],
+    "tags": [
+      "privacy",
+      "compliance",
+      "governance",
+      "data-leakage"
+    ]
+  },
+  {
     "slug": "gemeenten-lekken-persoonsgegevens-bsn-nos",
     "title": "Gemeenten lekken nog steeds persoonsgegevens van inwoners, zelfs BSN's",
     "publishedAt": "2026-07-08",
@@ -14,11 +54,7 @@
     ],
     "tags": [
       "privacy",
-      "persoonsgegevens",
-      "bsn",
-      "data-leakage",
-      "government",
-      "data-minimisation"
+      "data-leakage"
     ]
   },
   {
@@ -35,11 +71,9 @@
       "Benadrukt het belang van bescherming van persoonsgegevens vóór AI-verwerking."
     ],
     "tags": [
-      "ai",
       "privacy",
       "security",
       "data-leakage",
-      "phishing",
       "governance"
     ]
   },
@@ -78,9 +112,7 @@
     "tags": [
       "governance",
       "security",
-      "nis2",
-      "compliance",
-      "government"
+      "compliance"
     ]
   },
   {
