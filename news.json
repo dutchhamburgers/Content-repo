@@ -54,11 +54,7 @@
     ],
     "tags": [
       "privacy",
-      "persoonsgegevens",
-      "bsn",
-      "data-leakage",
-      "government",
-      "data-minimisation"
+      "data-leakage"
     ]
   },
   {
@@ -75,11 +71,9 @@
       "Benadrukt het belang van bescherming van persoonsgegevens vóór AI-verwerking."
     ],
     "tags": [
-      "ai",
       "privacy",
       "security",
       "data-leakage",
-      "phishing",
       "governance"
     ]
   },
@@ -118,9 +112,7 @@
     "tags": [
       "governance",
       "security",
-      "nis2",
-      "compliance",
-      "government"
+      "compliance"
     ]
   },
   {
