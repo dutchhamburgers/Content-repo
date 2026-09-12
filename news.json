@@ -1,5 +1,64 @@
 [
   {
+    "slug": "thomson-reuters-shadow-ai-sensitive-information",
+    "title": "Corporate Inaction on AI Casts a Long Shadow",
+    "publishedAt": "2026-09-03",
+    "source": "Thomson Reuters Institute",
+    "language": "en",
+    "originalUrl": "https://www.thomsonreuters.com/en-us/posts/innovation/corporate-inaction-on-ai-casts-a-long-shadow/",
+    "quote": "proprietary or sensitive information that should not be shared on external servers",
+    "summary": "Thomson Reuters Institute beschrijft hoe shadow AI ontstaat wanneer organisaties achterblijven met formele AI-adoptie. Volgens het Future of Professionals Report 2026 gebruikt 36% van professionals in corporate tax, legal en compliance AI-tools die hun organisatie niet heeft goedgekeurd. Het artikel koppelt dit rechtstreeks aan information leakage, compliance-risico's en het verwerken van bedrijfseigen of gevoelige informatie via externe AI-diensten.",
+    "relevanceBullets": [
+      "Juist juridische, fiscale en compliancefuncties gebruiken ongeautoriseerde AI, terwijl zij veel vertrouwelijke en gereguleerde informatie verwerken.",
+      "Het artikel benoemt expliciet dat bedrijfseigen en gevoelige informatie niet ongecontroleerd op externe AI-servers thuishoort."
+    ],
+    "tags": [
+      "shadow-ai",
+      "data-leakage",
+      "governance",
+      "compliance"
+    ]
+  },
+  {
+    "slug": "techradar-shadow-ai-eu-ai-act-data-control",
+    "title": "Shadow AI is a security problem, but the EU AI Act makes it a legal one",
+    "publishedAt": "2026-08-31",
+    "source": "TechRadar",
+    "language": "en",
+    "originalUrl": "https://www.techradar.com/pro/shadow-ai-is-a-security-problem-but-the-eu-ai-act-makes-it-a-legal-one",
+    "quote": "Policies prohibiting sensitive data sharing with unapproved tools are not technical controls",
+    "summary": "TechRadar beschrijft shadow AI als zowel een security- als complianceprobleem. Het artikel noemt concrete situaties waarin medewerkers cliëntcontracten, financiële prognoses en HR-gegevens in AI-tools invoeren en benadrukt dat beleid alleen onvoldoende is zodra informatie de organisatie al heeft verlaten. Effectieve controle moet daarom plaatsvinden op het moment dat gevoelige gegevens richting een extern AI-systeem bewegen.",
+    "relevanceBullets": [
+      "Laat concreet zien dat medewerkers volledige contracten, forecasts en HR-data naar AI-tools sturen zonder dat IT de gegevensstroom beheerst.",
+      "Ondersteunt de kern van PseudoAI: gevoelige informatie moet vóór verzending worden gecontroleerd, omdat ingrijpen nadat de data is verstuurd te laat is."
+    ],
+    "tags": [
+      "shadow-ai",
+      "data-leakage",
+      "governance",
+      "compliance"
+    ]
+  },
+  {
+    "slug": "pcpd-agentic-ai-data-minimisation-guidance",
+    "title": "Artificial Intelligence: Model Personal Data Protection Framework — Protecting Personal Data Privacy in the Use of Agentic AI",
+    "publishedAt": "2026-08-25",
+    "source": "Office of the Privacy Commissioner for Personal Data (Hong Kong)",
+    "language": "en",
+    "originalUrl": "https://www.pcpd.org.hk/english/resources_centre/publications/files/pcpd_use_of_agentic_ai.pdf",
+    "quote": "Organisations should adhere to this data minimisation principle",
+    "summary": "De Hongkongse privacytoezichthouder PCPD publiceert richtlijnen voor organisaties die agentic AI inzetten. De richtlijn verlangt dat persoonsgegevens noodzakelijk en niet bovenmatig zijn, dat informatie en systemen per doel worden afgeschermd en dat AI-agenten alleen de minimale toegangsrechten krijgen die nodig zijn. Daarnaast adviseert PCPD onder meer privacy by design, bewaartermijnen, continue risicoanalyses en technische guardrails om persoonsgegevens te beschermen.",
+    "relevanceBullets": [
+      "Maakt dataminimalisatie vóór agentic AI expliciet: persoonsgegevens mogen niet willekeurig of alleen voor mogelijk toekomstig gebruik worden verzameld.",
+      "Verlangt ringfencing en minimale toegangsrechten, zodat een AI-agent alleen informatie kan bereiken die voor de specifieke taak noodzakelijk is."
+    ],
+    "tags": [
+      "privacy",
+      "governance",
+      "compliance"
+    ]
+  },
+  {
     "slug": "approved-ai-applications-data-governance-risk",
     "title": "Approved applications can also fall prey to shadow AI perils",
     "publishedAt": "2026-08-21",
