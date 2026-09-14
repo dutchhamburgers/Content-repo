@@ -1,5 +1,25 @@
 [
   {
+    "slug": "ncsc-hidden-risks-shadow-ai",
+    "title": "The hidden risks of shadow AI",
+    "publishedAt": "2026-09-07",
+    "source": "National Cyber Security Centre",
+    "language": "en",
+    "originalUrl": "https://www.ncsc.gov.uk/blogs/the-hidden-risks-of-shadow-ai",
+    "quote": "Employees who transfer sensitive or proprietary information to consumer AI services will likely reduce the organisation's visibility and control over that information.",
+    "summary": "Het Britse National Cyber Security Centre waarschuwt organisaties voor het gebruik van niet-goedgekeurde AI-tools door medewerkers. Wanneer medewerkers gevoelige bedrijfs- of klantinformatie naar consumenten-AI sturen, kan die informatie buiten bestaande beveiligings- en governance-afspraken worden opgeslagen, bewaard of gebruikt. De NCSC adviseert organisaties veilige, goedgekeurde alternatieven te bieden en bewustzijn te creëren over welke gegevens met AI worden gedeeld.",
+    "relevanceBullets": [
+      "Laat concreet zien dat gevoelige bedrijfs- en klantinformatie via medewerkers buiten de gecontroleerde organisatieomgeving bij AI-diensten kan belanden.",
+      "Ondersteunt de noodzaak om vóór AI-gebruik te bepalen welke informatie daadwerkelijk mag worden gedeeld en welke gegevens moeten worden afgeschermd."
+    ],
+    "tags": [
+      "shadow-ai",
+      "privacy",
+      "data-leakage",
+      "governance"
+    ]
+  },
+  {
     "slug": "thomson-reuters-shadow-ai-sensitive-information",
     "title": "Corporate Inaction on AI Casts a Long Shadow",
     "publishedAt": "2026-09-03",
