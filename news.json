@@ -1,5 +1,25 @@
 [
   {
+    "slug": "privacy-filter-enterprise-generative-ai",
+    "title": "Privacy Filter: A critical control for enterprise Generative AI",
+    "publishedAt": "2026-09-29",
+    "source": "Express Computer",
+    "language": "en",
+    "originalUrl": "https://www.expresscomputer.in/guest-blogs/privacy-filter-a-critical-control-for-enterprise-generative-ai/139316/",
+    "quote": "Actions including redaction, masking, and tokenization can then be applied before information leaves the organisation.",
+    "summary": "Express Computer publiceert een analyse van Gartner-analist Stefan Dumitrescu over het beschermen van gevoelige informatie bij generatieve AI. Hij adviseert organisaties een modelonafhankelijk privacyfilter in het gegevenspad te plaatsen dat persoonsgegevens, credentials, bedrijfsgeheimen en andere vertrouwelijke informatie detecteert en vóór verzending kan redacteren, maskeren of tokeniseren. Daarmee blijven privacyregels onder controle van de organisatie, onafhankelijk van de gebruikte AI-provider.",
+    "relevanceBullets": [
+      "Beschrijft vrijwel exact de PseudoAI-benadering: gevoelige gegevens detecteren en redacteren, maskeren of tokeniseren voordat zij naar een AI-model gaan.",
+      "Onderbouwt dat organisaties niet uitsluitend op privacymaatregelen van AI-providers moeten vertrouwen, maar zelf een controlelaag vóór AI nodig hebben."
+    ],
+    "tags": [
+      "privacy",
+      "data-leakage",
+      "governance",
+      "compliance"
+    ]
+  },
+  {
     "slug": "ncsc-hidden-risks-shadow-ai",
     "title": "The hidden risks of shadow AI",
     "publishedAt": "2026-09-07",
