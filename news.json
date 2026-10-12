@@ -1,5 +1,44 @@
 [
   {
+    "slug": "healthcare-unauthorized-ai-agents-patient-data",
+    "title": "Health care's emerging risk: unauthorized AI agents",
+    "publishedAt": "2026-10-05",
+    "source": "Axios",
+    "language": "en",
+    "originalUrl": "https://www.axios.com/2026/10/05/ai-agents-hospital-risks",
+    "quote": "health care organizations need to know what they can access, what they're allowed to do",
+    "summary": "Axios beschrijft de toenemende inzet van AI-agenten binnen zorgorganisaties en de bijbehorende risico's voor patiëntgegevens. Volgens onderzoek onder 250 functionarissen op het gebied van zorgbeveiliging en AI-strategie geeft 72% aan dat AI-tools of agenten zonder formele IT-goedkeuring worden ingezet. AI-agenten krijgen mogelijk toegang tot patiëntdossiers, financiële systemen en communicatieplatforms. Beveiligingsexperts benadrukken daarom het belang van beperkte toegangsrechten, duidelijke bevoegdheden en toezicht op gegevensverwerking.",
+    "relevanceBullets": [
+      "Laat zien waarom AI-agenten uitsluitend toegang moeten krijgen tot persoonsgegevens die noodzakelijk zijn voor hun specifieke werkzaamheden.",
+      "Onderstreept dat controle op de gegevens die AI kan benaderen essentieel is om onnodige verwerking van patiëntinformatie te voorkomen."
+    ],
+    "tags": [
+      "shadow-ai",
+      "privacy",
+      "governance",
+      "data-leakage"
+    ]
+  },
+  {
+    "slug": "computable-werknemers-prive-ai-werk-2026",
+    "title": "Helft werknemers gebruikt privé-ai voor werk",
+    "publishedAt": "2026-10-02",
+    "source": "Computable",
+    "language": "nl",
+    "originalUrl": "https://www.computable.nl/2026/10/02/helft-werknemers-gebruikt-prive-ai-voor-werk/",
+    "quote": "Werknemers zijn terughoudender met het delen van persoonlijke informatie dan met informatie uit hun werkomgeving.",
+    "summary": "Computable bericht over het Cybersecurity gedragsonderzoek Alert Online 2026. Daaruit blijkt dat 49% van de werknemers privé-AI-accounts of apps voor werk gebruikt en 35% AI inzet zonder toestemming of medeweten van de organisatie. Slechts 39% weet welke AI-tools binnen de organisatie zijn toegestaan. Het onderzoek signaleert bovendien dat werknemers terughoudender zijn met privégegevens dan met informatie uit hun werkomgeving.",
+    "relevanceBullets": [
+      "Het Nederlandse onderzoek laat zien dat werkinformatie via privé-AI-accounts buiten het formele toezicht van organisaties kan worden verwerkt.",
+      "Ondersteunt de noodzaak om medewerkers automatisch te helpen gevoelige informatie te herkennen en te beperken voordat zij AI gebruiken."
+    ],
+    "tags": [
+      "shadow-ai",
+      "privacy",
+      "governance"
+    ]
+  },
+  {
     "slug": "privacy-filter-enterprise-generative-ai",
     "title": "Privacy Filter: A critical control for enterprise Generative AI",
     "publishedAt": "2026-09-29",
