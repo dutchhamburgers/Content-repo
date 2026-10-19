@@ -1,5 +1,45 @@
 [
   {
+    "slug": "cisco-ai-security-paradox-shadow-ai-blind-spot",
+    "title": "The AI Security Paradox – How Shadow AI Became the Enterprise’s Biggest Blind Spot",
+    "publishedAt": "2026-10-14",
+    "source": "Cisco Blogs",
+    "language": "en",
+    "originalUrl": "https://blogs.cisco.com/ai/the-ai-security-paradox-how-shadow-ai-became-the-enterprises-biggest-blind-spot",
+    "quote": "Data protection also has to move closer to the AI interaction itself.",
+    "summary": "Cisco beschrijft hoe medewerkers generatieve AI gebruiken buiten het zicht van securityteams. Het artikel verwijst naar onderzoek waaruit blijkt dat 47% van de GenAI-gebruikers persoonlijke AI-applicaties gebruikt en organisaties gemiddeld 223 AI-gerelateerde overtredingen van databeleid per maand registreren. Cisco pleit voor zichtbaarheid en beheersing van gegevensstromen op browser-, API-, endpoint- en applicatieniveau, zonder productief AI-gebruik onnodig te blokkeren.",
+    "relevanceBullets": [
+      "Concrete onderzoeksresultaten maken duidelijk hoe vaak gevoelige bedrijfsinformatie buiten gecontroleerde AI-kanalen terecht kan komen.",
+      "Cisco bepleit gegevensbescherming dicht op de AI-interactie: een directe aanleiding om informatie vóór verzending te beoordelen en te minimaliseren."
+    ],
+    "tags": [
+      "shadow-ai",
+      "data-leakage",
+      "security",
+      "governance"
+    ]
+  },
+  {
+    "slug": "csa-dlp-ai-era-data-loss-after-the-fact-2026",
+    "title": "New Cloud Security Alliance Survey Finds Data Loss Prevention (DLP) Often Detects Data Loss Only After It Happens",
+    "publishedAt": "2026-10-13",
+    "source": "Cloud Security Alliance",
+    "language": "en",
+    "originalUrl": "https://cloudsecurityalliance.org/press-releases/2026/10/13/new-cloud-security-alliance-survey-finds-data-loss-prevention-dlp-often-detects-data-loss-only-after-it-happens",
+    "quote": "only 16% said DLP blocked their most significant incident before data left the organization.",
+    "summary": "De Cloud Security Alliance publiceert een onderzoek onder 433 IT- en securityprofessionals naar de effectiviteit van Data Loss Prevention in het AI-tijdperk. Van de respondenten meldde 73% minstens één bevestigd incident met gegevensverlies in de voorgaande 24 maanden. Slechts 16% zei dat DLP het ernstigste incident voorkwam voordat gegevens de organisatie verlieten; 29% kan routinematig rapporteren welke gevoelige gegevens naar generatieve AI gaan. Het onderzoek is uitgevoerd met en gefinancierd door DLP-leverancier Jazz.",
+    "relevanceBullets": [
+      "De gemeten beperkingen in DLP-zichtbaarheid en preventie tonen waarom controle op gevoelige gegevens richting generatieve AI cruciaal is.",
+      "Dataminimalisatie vóór AI kan bestaande DLP-maatregelen aanvullen door de hoeveelheid gevoelige informatie die überhaupt wordt verzonden te verkleinen."
+    ],
+    "tags": [
+      "data-leakage",
+      "security",
+      "governance",
+      "privacy"
+    ]
+  },
+  {
     "slug": "healthcare-unauthorized-ai-agents-patient-data",
     "title": "Health care's emerging risk: unauthorized AI agents",
     "publishedAt": "2026-10-05",
