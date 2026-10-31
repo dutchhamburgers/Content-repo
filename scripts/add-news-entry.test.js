@@ -149,6 +149,11 @@ describe('validateEntry', () => {
     assert.ok(errors.some((e) => e.includes('"unknown-tag"')));
   });
 
+  test('data-protection tag is allowed', () => {
+    const errors = validateEntry(validEntry({ tags: ['data-protection'] }));
+    assert.deepEqual(errors, []);
+  });
+
   test('duplicate tags return error', () => {
     const errors = validateEntry(validEntry({ tags: ['governance', 'governance'] }));
     assert.ok(errors.some((e) => e.includes('duplicate')));

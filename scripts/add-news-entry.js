@@ -117,6 +117,7 @@ function validateEntry(entry) {
     'privacy',
     'compliance',
     'data-leakage',
+    'data-protection',
     'byoai',
     'attack-surface',
     'shadow-it',
