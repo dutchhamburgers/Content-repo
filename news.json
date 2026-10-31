@@ -1,5 +1,66 @@
 [
   {
+    "slug": "302-ai-data-breach-17-million-files-exposed",
+    "title": "Security breach at AI aggregator exposes over 18 million files, including some very embarrassing chat records",
+    "publishedAt": "2026-10-22",
+    "source": "TechRadar",
+    "language": "en",
+    "originalUrl": "https://www.techradar.com/pro/security/security-breach-at-ai-aggregator-exposes-over-18-million-files-including-some-very-embarrassing-chat-records",
+    "quote": "don't share sensitive data with public AI",
+    "summary": "Beveiligingsonderzoekers van Cybernews ontdekten dat AI-platform 302.ai ongeveer 22,7 TB aan gegevens publiek toegankelijk had gemaakt via een onbeveiligde Azure-opslagomgeving. Het betrof 17,6 miljoen bestanden, waaronder meer dan 144.000 AI-chatlogs met prompts, antwoorden en metadata. De blootgestelde informatie omvatte persoonsgegevens zoals namen, geboortedata, adressen en contactgegevens, maar ook vertrouwelijke bedrijfsdocumenten en klantgesprekken. Het platform biedt toegang tot verschillende AI-modellen, waaronder ChatGPT, Claude en Gemini. Het probleem werd op 2 augustus 2026 ontdekt en was op 8 september verholpen. Er is geen bewijs dat kwaadwillenden de gegevens daadwerkelijk hebben gedownload. Het incident illustreert dat ook tussenliggende AI-platforms gevoelige informatie kunnen opslaan en onbedoeld openbaar maken.",
+    "relevanceBullets": [
+      "AI-platforms die toegang bieden tot verschillende taalmodellen vormen een extra schakel in de gegevensverwerking. Vertrouwelijke informatie kan daardoor terechtkomen bij partijen waarmee organisaties geen directe afspraken hebben gemaakt.",
+      "Onderbouwt het belang van PseudoAI: gevoelige informatie herkennen en pseudonimiseren voordat documenten of prompts naar externe AI-systemen worden verzonden, zodat de impact van eventuele datalekken wordt beperkt."
+    ],
+    "tags": [
+      "privacy",
+      "data-leakage",
+      "security",
+      "shadow-ai",
+      "governance"
+    ]
+  },
+  {
+    "slug": "meta-muse-ghostshares-private-conversations-exposed",
+    "title": "Meta Muse exposes users’ personal and business secrets when they share conversations",
+    "publishedAt": "2026-10-20",
+    "source": "Ars Technica",
+    "language": "en",
+    "originalUrl": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+    "quote": "It took one query.",
+    "summary": "Beveiligingsonderzoekers van Claroc ontdekten dat circa 6.800 gedeelde links van Meta's AI-assistent Muse via openbare DNS-gegevens konden worden achterhaald. In een steekproef van enkele honderden gedeelde pagina's vonden zij vertrouwelijke bedrijfsinformatie en persoonsgegevens, waaronder interne omzetrapportages, leningaanvragen, financiële gegevens en personeelsplanningen. Het probleem ontstond doordat Muse gesprekstitels opnam in publiek vindbare subdomeinnamen. Hierdoor konden onbevoegden gedeelde inhoud relatief eenvoudig ontdekken, zonder de oorspronkelijke deellink te ontvangen. Meta heeft de deelfunctionaliteit tijdelijk uitgeschakeld en maatregelen genomen om de toegankelijkheid van eerder gedeelde informatie te beperken. Het incident laat zien dat ook reguliere deelfuncties van AI-platforms tot onbedoelde openbaarmaking kunnen leiden.",
+    "relevanceBullets": [
+      "Een ontwerpfout in de deelfunctionaliteit van een AI-assistent maakte vertrouwelijke bedrijfsinformatie en persoonsgegevens toegankelijk voor onbevoegden, zonder dat daarvoor een traditionele cyberaanval nodig was.",
+      "Onderstreept het belang van gegevensminimalisatie voordat informatie met AI wordt gedeeld. Daarnaast toont het incident dat organisaties ook AI-resultaten en gedeelde documenten moeten beschermen."
+    ],
+    "tags": [
+      "privacy",
+      "data-leakage",
+      "security",
+      "governance"
+    ]
+  },
+  {
+    "slug": "chatgpt-locked-chats-privacy-limitations",
+    "title": "ChatGPT now lets you lock your chats",
+    "publishedAt": "2026-10-20",
+    "source": "TechCrunch",
+    "language": "en",
+    "originalUrl": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+    "quote": "it doesn’t address concerns about how sensitive information is stored or handled",
+    "summary": "OpenAI introduceerde op 20 oktober 2026 de functie Locked Chats voor ChatGPT. Gebruikers kunnen hiermee afzonderlijke gesprekken afschermen met een viercijferige pincode of, op ondersteunde apparaten, biometrische authenticatie. Afgeschermde gesprekken verdwijnen uit de reguliere chatgeschiedenis en zoekresultaten. De maatregel beschermt vooral tegen ongewenste inzage door anderen die toegang hebben tot hetzelfde apparaat of scherm. OpenAI benadrukt echter dat Locked Chats geen end-to-end-encryptie toevoegt en niets verandert aan de bewaartermijnen, instellingen voor modelverbetering of bestaande verplichtingen rond gegevensverwerking. De inhoud wordt nog steeds door OpenAI verwerkt. De nieuwe functie biedt daarmee aanvullende toegangsbeveiliging, maar voorkomt niet dat gebruikers gevoelige informatie met een extern AI-platform delen.",
+    "relevanceBullets": [
+      "Het afschermen van AI-gesprekken met een pincode beschermt tegen ongewenste inzage, maar verandert niets aan de verwerking van persoonsgegevens of bedrijfsvertrouwelijke informatie door de AI-aanbieder.",
+      "Maakt het onderscheid duidelijk tussen toegangsbeveiliging en gegevensbescherming. PseudoAI richt zich op het beperken van gevoelige informatie voordat deze met ChatGPT of andere AI-diensten wordt gedeeld."
+    ],
+    "tags": [
+      "privacy",
+      "security",
+      "data-protection",
+      "governance"
+    ]
+  },
+  {
     "slug": "cisco-ai-security-paradox-shadow-ai-blind-spot",
     "title": "The AI Security Paradox – How Shadow AI Became the Enterprise’s Biggest Blind Spot",
     "publishedAt": "2026-10-14",
